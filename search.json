@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "pages/team/index.html",
+    "href": "pages/team/index.html",
+    "title": "Meet the team",
+    "section": "",
+    "text": "Kacper Leśniara\n\n\nKacper Leśniara is very good\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPiotr Szymański\n\n\nPiotr Szymański is very good\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kraina Lab",
+    "section": "",
+    "text": "Welcome to the kraina research group!\n\n\n\nCol1\nCol2\nCol3"
+  },
+  {
+    "objectID": "pages/geospatial/index.html",
+    "href": "pages/geospatial/index.html",
+    "title": "Geospatial wow",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\n\nCode\nimport geopandas as gpd\nfrom srai.utils import geocode_to_region_gdf\n\ngdf = geocode_to_region_gdf(\"Wrocław, Poland\")\ngdf.explore()\n\n\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "pages/publications/index.html",
+    "href": "pages/publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "No matching items"
+  }
+]
