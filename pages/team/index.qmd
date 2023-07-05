@@ -1,0 +1,8 @@
+---
+title: "Meet the team"
+listing:
+    type: grid
+    contents: "**/*.qmd"
+css: styles.css
+---
+

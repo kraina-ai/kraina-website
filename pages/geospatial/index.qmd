@@ -1,0 +1,22 @@
+---
+title: "Geospatial"
+format:
+  html:
+    code-fold: true
+    code-tools: true
+jupyter: python3
+---
+
+For a demonstration of a line plot on a polar axis, see @fig-polar.
+
+
+```{python}
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import geopandas as gpd
+from srai.utils import geocode_to_region_gdf
+
+gdf = geocode_to_region_gdf("Wrocław, Poland")
+gdf.explore()
+```

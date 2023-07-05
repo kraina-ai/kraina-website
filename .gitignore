@@ -1,0 +1,8 @@
+/.quarto/
+_site
+quarto-test_files
+venv
+# site_libs
+cache
+_freeze
+docs/

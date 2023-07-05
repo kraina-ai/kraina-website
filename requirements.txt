@@ -1,0 +1,9 @@
+jupyter 
+matplotlib 
+plotly
+pandas
+geopandas
+matplotlib
+mapclassify
+keplergl
+srai[all]

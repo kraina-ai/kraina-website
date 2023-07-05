@@ -1,0 +1,76 @@
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+website:
+  title: "kraina"
+  description: "kraina is a geospatial research group at WUST"  
+  image: assets/kraina-logo.png
+  favicon: assets/kraina-logo.png
+  
+  navbar:
+    logo: assets/kraina-logo.png
+
+    left:
+      - href: index.qmd
+        icon: house
+        text: Home
+      - href: pages/geospatial
+        icon: map
+        text: Geospatial
+      - href: pages/news
+        icon: body-text
+        text: News 
+      - href: pages/team
+        icon: people
+        text: Team
+      - href: pages/publications
+        icon: files
+        text: Publications
+      - href: pages/contact
+        icon: chat-square
+        text: Contact
+
+    
+    # right:
+    #   # - icon: folder-symlink
+    #   #   href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
+    #   # - icon: twitter
+    #   #   href: https://twitter.com/MarvinSchmittML
+    #   # - icon: linkedin
+    #   #   href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
+    #   - icon: envelope
+    #     aria-label: email
+    #     href: "mailto:klesniara@kraina.ai"
+
+  # search: 
+  #   location: navbar
+  #   type: textbox
+  
+  page-footer: 
+    left: |
+      <span class="faux-block">&#169; 2023 KRAINA CC BY-SA 4.0</span>
+    # center: |
+    #   <span class="faux-block"><a href="https://github.com/srai-lab/srai">placeholder</a></span>
+    right: |
+      <span class="faux-block"><a href="https://github.com/srai-lab/srai">View source on GitHub</a></span>
+
+freeze: true
+
+editor: visual
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - styles.scss
+    toc: true
+
+
+

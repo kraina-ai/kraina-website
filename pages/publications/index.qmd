@@ -1,0 +1,6 @@
+---
+title: "Publications"
+listing:
+    type: default
+---
+
