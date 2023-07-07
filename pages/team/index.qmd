@@ -1,8 +1,31 @@
 ---
-title: "Meet the team"
+title: "Meet Kraina"
+subtitle: Pariatur adipisicing eiusmod dolor pariatur occaecat aliqua exercitation. 
 listing:
-    type: grid
-    contents: "**/*.qmd"
-css: styles.css
+    - id: head-listing
+      type: grid
+      contents: "head/**/*.qmd"
+      image-placeholder: placeholder.svg
+      image-height: 250px
+      fields: [image, title, subtitle, description]
+      grid-columns: 1
+      grid-item-align: center
+
+    - id: team-listing
+      type: grid
+      contents: "members/**/*.qmd"
+      image-placeholder: placeholder.svg
+      # image-height: 200px
+      fields: [image, title, subtitle, description]
+      grid-item-align: center
 ---
 
+## Head
+
+:::{#head-listing}
+:::
+
+## Members
+
+:::{#team-listing}
+:::

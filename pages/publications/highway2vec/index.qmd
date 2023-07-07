@@ -1,0 +1,19 @@
+---
+title: "Highway2Vec - Representing OpenStreetMap microregions with respect to their road network characteristics"
+author:
+    - Kacper Leśniara
+    - Piotr Szymański
+date: 2023-01-01
+categories:
+    - representation learning
+    - road network
+description: "Recent years brought advancements in using neural networks for representation learning of various language or visual phenomena. New methods freed data scientists from hand-crafting features for common tasks. Similarly, problems that require considering the spatial variable can benefit from pretrained map region representations instead of manually creating feature tables that one needs to prepare to solve a task. However, very few methods for map area representation exist, especially with respect to road network characteristics. In this paper, we propose a method for generating microregions' embeddings with respect to their road infrastructure characteristics. We base our representations on OpenStreetMap road networks in a selection of cities and use the H3 spatial index to allow reproducible and scalable representation learning. We obtained vector representations that detect how similar map hexagons are in the road networks they contain. Additionally, we observe that embeddings yield a latent space with meaningful arithmetic operations. Finally, clustering methods allowed us to draft a high-level typology of obtained representations. We are confident that this contribution will aid data scientists working on infrastructure-related prediction tasks with spatial variables."
+
+about:
+    template: jolla
+    links:
+      - text: arXiv
+        # icon: link
+        href: https://arxiv.org/abs/2304.13865
+---
+

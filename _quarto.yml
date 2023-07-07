@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 
-  preview: 
+  preview:
     port: 22222
     browser: true
     watch-inputs: true
@@ -10,10 +10,13 @@ project:
 
 website:
   title: "kraina"
-  description: "kraina is a geospatial research group at WUST"  
+  description: "kraina is a geospatial research group at WUST"
   image: assets/kraina-logo.png
   favicon: assets/kraina-logo.png
-  
+  site-url: "https://www.kraina.ai"
+  repo-url: https://github.com/kraina-ai/kraina-website
+  repo-actions: [edit, issue]
+
   navbar:
     logo: assets/kraina-logo.png
 
@@ -26,7 +29,7 @@ website:
         text: Geospatial
       - href: pages/news
         icon: body-text
-        text: News 
+        text: News
       - href: pages/team
         icon: people
         text: Team
@@ -37,7 +40,6 @@ website:
         icon: chat-square
         text: Contact
 
-    
     # right:
     #   # - icon: folder-symlink
     #   #   href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
@@ -49,28 +51,33 @@ website:
     #     aria-label: email
     #     href: "mailto:klesniara@kraina.ai"
 
-  # search: 
+  # search:
   #   location: navbar
   #   type: textbox
-  
-  page-footer: 
-    left: |
-      <span class="faux-block">&#169; 2023 KRAINA CC BY-SA 4.0</span>
+
+  page-footer:
+    # left: |
+    #   <span class="faux-block">&#169; 2023 KRAINA CC BY-SA 4.0</span>
     # center: |
     #   <span class="faux-block"><a href="https://github.com/srai-lab/srai">placeholder</a></span>
     right: |
-      <span class="faux-block"><a href="https://github.com/srai-lab/srai">View source on GitHub</a></span>
+      <span class="faux-block"><a href="https://github.com/kraina-ai/kraina-website">View source on GitHub</a></span>
 
-freeze: true
+# freeze: auto
+reader-mode: true
+execute:
+  enabled: true
 
-editor: visual
+editor:
+  render-on-save: true
 
 format:
   html:
-    theme: 
-      - cosmo
-      - styles.scss
-    toc: true
-
-
-
+    theme: # https://quarto.org/docs/output-formats/html-themes.html
+      light:
+        - cosmo
+        - styles.scss
+      # dark:
+      #   - cyborg
+      #   - styles.scss
+    # toc: true

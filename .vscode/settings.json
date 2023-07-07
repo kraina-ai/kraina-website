@@ -1,0 +1,7 @@
+{
+    "quarto.render.previewType": "external",
+    "quarto.render.renderOnSave": true,
+    "[quarto]": {
+        "editor.snippetSuggestions": "inline"
+    },
+}

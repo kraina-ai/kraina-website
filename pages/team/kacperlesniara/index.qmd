@@ -1,7 +1,0 @@
----
-title: "Kacper Leśniara"
-subtitle: MLOps Engineer
-description: Kacper Leśniara is very good
-image: avatar.jpg
----
-

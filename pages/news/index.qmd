@@ -1,4 +1,17 @@
 ---
 title: "News"
+subtitle: "asdasdas"
+description: "asdasssssssssss"
+listing:
+    id: news-listing
+    type: default
+    contents: "**/*.qmd"
+    categories: True
+    fields: [title, subtitle, author, description, date, image, reading-time]
+    image-placeholder: placeholder.svg
+    sort:
+        - "date desc"
 ---
 
+:::{#news-listing}
+:::

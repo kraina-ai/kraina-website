@@ -1,6 +1,20 @@
 ---
 title: "Publications"
+subtitle: "asdasdas"
+description: "asdasssssssssss"
 listing:
-    type: default
+    id: publications-listing
+    type: table
+    contents: "**/*.qmd"
+    table-hover: true
+    categories: false
+    fields: [image, date, title, author, categories]
+    image-placeholder: placeholder.svg
+    field-display-names:
+        author: "Authors"
+    sort:
+        - "date desc"
 ---
 
+:::{.column-screen-inset #publications-listing}
+:::

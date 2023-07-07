@@ -1,7 +1,0 @@
----
-title: "Piotr Szymański"
-subtitle: PhD
-description: Piotr Szymański is very good
-image: avatar.jpg
----
-
