@@ -13,7 +13,7 @@ website:
   description: "kraina is a geospatial research group at WUST"
   image: assets/kraina-logo.png
   favicon: assets/kraina-logo.png
-  site-url: "https://www.kraina.ai"
+  site-url: "https://kraina-ai.github.io/kraina-website/"
   repo-url: https://github.com/kraina-ai/kraina-website
   repo-actions: [edit, issue]
 
