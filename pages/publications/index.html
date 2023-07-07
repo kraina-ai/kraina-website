@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="asdasssssssssss">
 
 <title>kraina - Publications</title>
 <style>
@@ -65,20 +66,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-publications-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-publications-listing'] = new List('listing-publications-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -97,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -158,17 +159,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Publications</h1>
+<p class="subtitle lead">asdasdas</p>
 </div>
 
+<div>
+  <div class="description">
+    asdasssssssssss
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -181,18 +186,101 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-
+<div id="listing-publications-listing" class="column-screen-inset quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-publications-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-publications-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Authors
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
+
+<table class="quarto-listing-table table table-hover">
+<thead>
+<tr>
+<th>
+</th>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Authors</a>
+</th>
+<th>
+Categories
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="representation learning,road network" data-listing-date-sort="1672527600000" data-listing-file-modified-sort="1688739085885" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Highway2Vec - Representing OpenStreetMap microregions with respect to their road network characteristics" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-image"><img src="placeholder.svg" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Jan 1, 2023</span>
+</td>
+<td>
+<a href="../../pages/publications/highway2vec/index.html" class="title listing-title">Highway2Vec - Representing OpenStreetMap microregions with respect to their road network characteristics</a>
+</td>
+<td>
+<span class="listing-author">Kacper Leśniara, Piotr Szymański</span>
+</td>
+<td>
+<span class="listing-categories">representation learning,road network</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="representation learning,POI" data-listing-date-sort="1640991600000" data-listing-file-modified-sort="1688739059847" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Hex2Vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-image"><img src="placeholder.svg" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Jan 1, 2022</span>
+</td>
+<td>
+<a href="../../pages/publications/hex2vec/index.html" class="title listing-title">Hex2Vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags</a>
+</td>
+<td>
+<span class="listing-author">Szymon Woźniak, Piotr Szymański</span>
+</td>
+<td>
+<span class="listing-categories">representation learning,POI</span>
+</td>
+</tr>
+</tbody>
+
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -429,11 +517,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><span class="faux-block">© 2023 KRAINA CC BY-SA 4.0</span></div>   
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
-    <div class="nav-footer-right"><span class="faux-block"><a href="https://github.com/srai-lab/srai">View source on GitHub</a></span></div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kraina-ai/kraina-website/edit/main/pages/publications/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kraina-ai/kraina-website/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="nav-footer-right"><span class="faux-block"><a href="https://github.com/kraina-ai/kraina-website">View source on GitHub</a></span></div>
   </div>
 </footer>
 

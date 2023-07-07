@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="asdasssssssssss">
 
 <title>kraina - News</title>
 <style>
@@ -31,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../assets/kraina-logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -60,7 +63,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-news-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-author','listing-description','listing-date','listing-image','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-news-listing'] = new List('listing-news-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -127,15 +161,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="conference">conference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="presentation">presentation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="srai">srai <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">News</h1>
+<p class="subtitle lead">asdasdas</p>
 </div>
 
+<div>
+  <div class="description">
+    asdasssssssssss
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -147,6 +187,70 @@ ul.task-list li input[type="checkbox"] {
   
 
 </header>
+
+<div id="listing-news-listing" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="srai" data-listing-date-sort="1651356000000" data-listing-file-modified-sort="1688739228784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../../pages/news/euroscipy2023 copy/index.html"> <img src="placeholder.svg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../../pages/news/euroscipy2023 copy/index.html">
+<h3 class="no-anchor listing-title">
+Second news yay!
+</h3>
+<div class="listing-subtitle">
+Ble
+</div>
+<div class="listing-description">
+<p>Adipisicing minim irure adipisicing id in nulla. In officia aliquip proident officia enim dolor adipisicing Lorem elit in aliqua ex. Velit cupidatat nostrud est reprehenderit. Magna ipsum id reprehenderit reprehenderit incididunt. Ad veniam sint laborum Lorem deserunt nostrud.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../pages/news/euroscipy2023 copy/index.html">
+<div class="listing-date">
+May 1, 2022
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="presentation,conference" data-listing-date-sort="1640991600000" data-listing-file-modified-sort="1688739180261" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="../../pages/news/euroscipy2023/index.html"> <img src="placeholder.svg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../../pages/news/euroscipy2023/index.html">
+<h3 class="no-anchor listing-title">
+We are at EuroScipy 2023!
+</h3>
+<div class="listing-subtitle">
+Tutorial
+</div>
+<div class="listing-description">
+<p>Adipisicing minim irure adipisicing id in nulla. In officia aliquip proident officia enim dolor adipisicing Lorem elit in aliqua ex. Velit cupidatat nostrud est reprehenderit. Magna ipsum id reprehenderit reprehenderit incididunt. Ad veniam sint laborum Lorem deserunt nostrud.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../pages/news/euroscipy2023/index.html">
+<div class="listing-date">
+Jan 1, 2022
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
 
@@ -388,11 +492,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><span class="faux-block">© 2023 KRAINA CC BY-SA 4.0</span></div>   
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
-    <div class="nav-footer-right"><span class="faux-block"><a href="https://github.com/srai-lab/srai">View source on GitHub</a></span></div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kraina-ai/kraina-website/edit/main/pages/news/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kraina-ai/kraina-website/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="nav-footer-right"><span class="faux-block"><a href="https://github.com/kraina-ai/kraina-website">View source on GitHub</a></span></div>
   </div>
 </footer>
 

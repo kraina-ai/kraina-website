@@ -1,30 +1,142 @@
 [
   {
+    "objectID": "pages/team/members/szymon_wozniak/index.html",
+    "href": "pages/team/members/szymon_wozniak/index.html",
+    "title": "Szymon Woźniak",
+    "section": "",
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\n\n\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011\n\n\n\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018\n\n \n  \n   \n  \n    \n     twitter\n  \n  \n    \n     Github\nAliqua esse id consequat dolor non est incididunt laborum excepteur. Amet sint deserunt reprehenderit id exercitation et id irure voluptate culpa officia proident nostrud amet. Sint officia laborum eiusmod ea mollit ut incididunt mollit nulla. Dolor aute ipsum velit officia incididunt ex."
+  },
+  {
+    "objectID": "pages/team/members/szymon_wozniak/index.html#education",
+    "href": "pages/team/members/szymon_wozniak/index.html#education",
+    "title": "Szymon Woźniak",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "pages/team/members/szymon_wozniak/index.html#experience",
+    "href": "pages/team/members/szymon_wozniak/index.html#experience",
+    "title": "Szymon Woźniak",
+    "section": "",
+    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
     "objectID": "pages/team/index.html",
     "href": "pages/team/index.html",
-    "title": "Meet the team",
+    "title": "Meet Kraina",
     "section": "",
-    "text": "Kacper Leśniara\n\n\nKacper Leśniara is very good\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPiotr Szymański\n\n\nPiotr Szymański is very good\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "PhD ML AI DS MLOps Engineer\n\n\nVelit enim irure duis eu minim occaecat do. Ex non labore nostrud tempor ut. Dolore duis est amet dolore. Ipsum aliqua quis aliquip pariatur.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Kraina Lab",
+    "objectID": "pages/team/index.html#head",
+    "href": "pages/team/index.html#head",
+    "title": "Meet Kraina",
     "section": "",
-    "text": "Welcome to the kraina research group!\n\n\n\nCol1\nCol2\nCol3"
+    "text": "PhD ML AI DS MLOps Engineer\n\n\nVelit enim irure duis eu minim occaecat do. Ex non labore nostrud tempor ut. Dolore duis est amet dolore. Ipsum aliqua quis aliquip pariatur.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "pages/geospatial/index.html",
-    "href": "pages/geospatial/index.html",
-    "title": "Geospatial wow",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\n\nCode\nimport geopandas as gpd\nfrom srai.utils import geocode_to_region_gdf\n\ngdf = geocode_to_region_gdf(\"Wrocław, Poland\")\ngdf.explore()\n\n\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\nFigure 1: A line plot on a polar axis"
+    "objectID": "pages/team/index.html#members",
+    "href": "pages/team/index.html#members",
+    "title": "Meet Kraina",
+    "section": "Members",
+    "text": "Members\n\n\n\n\n\n\n\n\n\n\nKacper Leśniara\n\n\nPhD ML AI DS MLOps Engineer\n\n\nVelit enim irure duis eu minim occaecat do. Ex non labore nostrud tempor ut. Dolore duis est amet dolore. Ipsum aliqua quis aliquip pariatur.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSzymon Woźniak\n\n\nPhD ML AI DS MLOps Engineer\n\n\nVelit enim irure duis eu minim occaecat do. Ex non labore nostrud tempor ut. Dolore duis est amet dolore. Ipsum aliqua quis aliquip pariatur.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "pages/publications/index.html",
     "href": "pages/publications/index.html",
     "title": "Publications",
     "section": "",
-    "text": "No matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Authors\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthors\n\n\nCategories\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\nHighway2Vec - Representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nKacper Leśniara, Piotr Szymański\n\n\nrepresentation learning,road network\n\n\n\n\n\n\n\nJan 1, 2022\n\n\nHex2Vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nSzymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,POI\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/news/euroscipy2023 copy/index.html",
+    "href": "pages/news/euroscipy2023 copy/index.html",
+    "title": "Second news yay!",
+    "section": "",
+    "text": "Laborum nisi anim sunt consectetur ad ea nisi dolor in excepteur. Tempor quis do nostrud anim velit deserunt esse eiusmod incididunt id fugiat laborum cupidatat. Adipisicing Lorem voluptate sit irure consectetur amet labore in sint eiusmod adipisicing aliquip do minim. Esse reprehenderit elit aute excepteur ad tempor esse et in excepteur. Ad quis esse sunt incididunt officia sit ipsum culpa laboris consectetur sunt esse proident.\nOccaecat nostrud pariatur anim anim amet nulla non enim officia anim voluptate elit proident duis. Cupidatat nulla anim aliqua id dolor veniam. Amet eiusmod est anim nostrud. Sunt qui proident mollit magna id fugiat velit aute quis cillum adipisicing.\nMollit eiusmod ullamco occaecat dolore id sint sunt quis qui qui et ea in anim. Nisi ullamco culpa enim reprehenderit labore ex irure nostrud minim fugiat laboris. Culpa sint est velit velit fugiat consequat ipsum. Id esse voluptate non anim ut officia occaecat sunt aliqua. Adipisicing deserunt laborum laboris cupidatat non in et proident ipsum elit adipisicing. Et nostrud ut quis sunt nostrud duis. Ea ea adipisicing culpa aliqua in velit eiusmod culpa non labore id.\nAliquip elit fugiat pariatur ullamco occaecat nisi exercitation sint adipisicing voluptate amet in est. Voluptate proident eu elit reprehenderit est eu eu deserunt tempor ea. Qui esse cupidatat velit ea magna laborum non eu anim. Incididunt aute adipisicing deserunt ipsum elit in.\nSunt tempor duis magna minim occaecat. Deserunt cupidatat nulla nostrud magna. Exercitation eiusmod irure do laboris eiusmod proident ad velit anim culpa pariatur elit aliqua. Esse sunt duis esse ullamco nostrud aliqua do cupidatat excepteur. Ex minim adipisicing aliquip aliquip quis mollit ullamco do qui laborum officia exercitation incididunt aliquip. Laborum elit culpa laborum magna. Labore nulla aliquip ipsum est nostrud eiusmod."
+  },
+  {
+    "objectID": "pages/news/euroscipy2023 copy/index.html#duży-heading",
+    "href": "pages/news/euroscipy2023 copy/index.html#duży-heading",
+    "title": "Second news yay!",
+    "section": "",
+    "text": "Laborum nisi anim sunt consectetur ad ea nisi dolor in excepteur. Tempor quis do nostrud anim velit deserunt esse eiusmod incididunt id fugiat laborum cupidatat. Adipisicing Lorem voluptate sit irure consectetur amet labore in sint eiusmod adipisicing aliquip do minim. Esse reprehenderit elit aute excepteur ad tempor esse et in excepteur. Ad quis esse sunt incididunt officia sit ipsum culpa laboris consectetur sunt esse proident.\nOccaecat nostrud pariatur anim anim amet nulla non enim officia anim voluptate elit proident duis. Cupidatat nulla anim aliqua id dolor veniam. Amet eiusmod est anim nostrud. Sunt qui proident mollit magna id fugiat velit aute quis cillum adipisicing.\nMollit eiusmod ullamco occaecat dolore id sint sunt quis qui qui et ea in anim. Nisi ullamco culpa enim reprehenderit labore ex irure nostrud minim fugiat laboris. Culpa sint est velit velit fugiat consequat ipsum. Id esse voluptate non anim ut officia occaecat sunt aliqua. Adipisicing deserunt laborum laboris cupidatat non in et proident ipsum elit adipisicing. Et nostrud ut quis sunt nostrud duis. Ea ea adipisicing culpa aliqua in velit eiusmod culpa non labore id.\nAliquip elit fugiat pariatur ullamco occaecat nisi exercitation sint adipisicing voluptate amet in est. Voluptate proident eu elit reprehenderit est eu eu deserunt tempor ea. Qui esse cupidatat velit ea magna laborum non eu anim. Incididunt aute adipisicing deserunt ipsum elit in.\nSunt tempor duis magna minim occaecat. Deserunt cupidatat nulla nostrud magna. Exercitation eiusmod irure do laboris eiusmod proident ad velit anim culpa pariatur elit aliqua. Esse sunt duis esse ullamco nostrud aliqua do cupidatat excepteur. Ex minim adipisicing aliquip aliquip quis mollit ullamco do qui laborum officia exercitation incididunt aliquip. Laborum elit culpa laborum magna. Labore nulla aliquip ipsum est nostrud eiusmod."
+  },
+  {
+    "objectID": "pages/geospatial/index.html",
+    "href": "pages/geospatial/index.html",
+    "title": "Geospatial",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nfrom srai.utils import geocode_to_region_gdf\n\ngdf = geocode_to_region_gdf(\"Wrocław, Poland\")\ngdf.explore()\n\n\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kraina Lab",
+    "section": "",
+    "text": "Welcome to the kraina research group!"
+  },
+  {
+    "objectID": "pages/news/euroscipy2023/index.html",
+    "href": "pages/news/euroscipy2023/index.html",
+    "title": "We are at EuroScipy 2023!",
+    "section": "",
+    "text": "Laborum nisi anim sunt consectetur ad ea nisi dolor in excepteur. Tempor quis do nostrud anim velit deserunt esse eiusmod incididunt id fugiat laborum cupidatat. Adipisicing Lorem voluptate sit irure consectetur amet labore in sint eiusmod adipisicing aliquip do minim. Esse reprehenderit elit aute excepteur ad tempor esse et in excepteur. Ad quis esse sunt incididunt officia sit ipsum culpa laboris consectetur sunt esse proident.\nOccaecat nostrud pariatur anim anim amet nulla non enim officia anim voluptate elit proident duis. Cupidatat nulla anim aliqua id dolor veniam. Amet eiusmod est anim nostrud. Sunt qui proident mollit magna id fugiat velit aute quis cillum adipisicing.\nMollit eiusmod ullamco occaecat dolore id sint sunt quis qui qui et ea in anim. Nisi ullamco culpa enim reprehenderit labore ex irure nostrud minim fugiat laboris. Culpa sint est velit velit fugiat consequat ipsum. Id esse voluptate non anim ut officia occaecat sunt aliqua. Adipisicing deserunt laborum laboris cupidatat non in et proident ipsum elit adipisicing. Et nostrud ut quis sunt nostrud duis. Ea ea adipisicing culpa aliqua in velit eiusmod culpa non labore id.\nAliquip elit fugiat pariatur ullamco occaecat nisi exercitation sint adipisicing voluptate amet in est. Voluptate proident eu elit reprehenderit est eu eu deserunt tempor ea. Qui esse cupidatat velit ea magna laborum non eu anim. Incididunt aute adipisicing deserunt ipsum elit in.\nSunt tempor duis magna minim occaecat. Deserunt cupidatat nulla nostrud magna. Exercitation eiusmod irure do laboris eiusmod proident ad velit anim culpa pariatur elit aliqua. Esse sunt duis esse ullamco nostrud aliqua do cupidatat excepteur. Ex minim adipisicing aliquip aliquip quis mollit ullamco do qui laborum officia exercitation incididunt aliquip. Laborum elit culpa laborum magna. Labore nulla aliquip ipsum est nostrud eiusmod."
+  },
+  {
+    "objectID": "pages/news/euroscipy2023/index.html#duży-heading",
+    "href": "pages/news/euroscipy2023/index.html#duży-heading",
+    "title": "We are at EuroScipy 2023!",
+    "section": "",
+    "text": "Laborum nisi anim sunt consectetur ad ea nisi dolor in excepteur. Tempor quis do nostrud anim velit deserunt esse eiusmod incididunt id fugiat laborum cupidatat. Adipisicing Lorem voluptate sit irure consectetur amet labore in sint eiusmod adipisicing aliquip do minim. Esse reprehenderit elit aute excepteur ad tempor esse et in excepteur. Ad quis esse sunt incididunt officia sit ipsum culpa laboris consectetur sunt esse proident.\nOccaecat nostrud pariatur anim anim amet nulla non enim officia anim voluptate elit proident duis. Cupidatat nulla anim aliqua id dolor veniam. Amet eiusmod est anim nostrud. Sunt qui proident mollit magna id fugiat velit aute quis cillum adipisicing.\nMollit eiusmod ullamco occaecat dolore id sint sunt quis qui qui et ea in anim. Nisi ullamco culpa enim reprehenderit labore ex irure nostrud minim fugiat laboris. Culpa sint est velit velit fugiat consequat ipsum. Id esse voluptate non anim ut officia occaecat sunt aliqua. Adipisicing deserunt laborum laboris cupidatat non in et proident ipsum elit adipisicing. Et nostrud ut quis sunt nostrud duis. Ea ea adipisicing culpa aliqua in velit eiusmod culpa non labore id.\nAliquip elit fugiat pariatur ullamco occaecat nisi exercitation sint adipisicing voluptate amet in est. Voluptate proident eu elit reprehenderit est eu eu deserunt tempor ea. Qui esse cupidatat velit ea magna laborum non eu anim. Incididunt aute adipisicing deserunt ipsum elit in.\nSunt tempor duis magna minim occaecat. Deserunt cupidatat nulla nostrud magna. Exercitation eiusmod irure do laboris eiusmod proident ad velit anim culpa pariatur elit aliqua. Esse sunt duis esse ullamco nostrud aliqua do cupidatat excepteur. Ex minim adipisicing aliquip aliquip quis mollit ullamco do qui laborum officia exercitation incididunt aliquip. Laborum elit culpa laborum magna. Labore nulla aliquip ipsum est nostrud eiusmod."
+  },
+  {
+    "objectID": "pages/news/index.html",
+    "href": "pages/news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "Second news yay!\n\n\nBle\n\n\nAdipisicing minim irure adipisicing id in nulla. In officia aliquip proident officia enim dolor adipisicing Lorem elit in aliqua ex. Velit cupidatat nostrud est reprehenderit. Magna ipsum id reprehenderit reprehenderit incididunt. Ad veniam sint laborum Lorem deserunt nostrud.\n\n\n\n\n\n\nMay 1, 2022\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nWe are at EuroScipy 2023!\n\n\nTutorial\n\n\nAdipisicing minim irure adipisicing id in nulla. In officia aliquip proident officia enim dolor adipisicing Lorem elit in aliqua ex. Velit cupidatat nostrud est reprehenderit. Magna ipsum id reprehenderit reprehenderit incididunt. Ad veniam sint laborum Lorem deserunt nostrud.\n\n\n\n\n\n\nJan 1, 2022\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/team/head/piotr_szymanski/index.html",
+    "href": "pages/team/head/piotr_szymanski/index.html",
+    "title": "Piotr Szymański",
+    "section": "",
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\n\n\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011\n\n\n\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018\n\n \n  \n   \n  \n    \n     twitter\n  \n  \n    \n     Github\nAliqua esse id consequat dolor non est incididunt laborum excepteur. Amet sint deserunt reprehenderit id exercitation et id irure voluptate culpa officia proident nostrud amet. Sint officia laborum eiusmod ea mollit ut incididunt mollit nulla. Dolor aute ipsum velit officia incididunt ex."
+  },
+  {
+    "objectID": "pages/team/head/piotr_szymanski/index.html#education",
+    "href": "pages/team/head/piotr_szymanski/index.html#education",
+    "title": "Piotr Szymański",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "pages/team/head/piotr_szymanski/index.html#experience",
+    "href": "pages/team/head/piotr_szymanski/index.html#experience",
+    "title": "Piotr Szymański",
+    "section": "",
+    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "pages/team/members/kacper_lesniara/index.html",
+    "href": "pages/team/members/kacper_lesniara/index.html",
+    "title": "Kacper Leśniara",
+    "section": "",
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\n\n\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011\n\n\n\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018\n\n \n  \n   \n  \n    \n     twitter\n  \n  \n    \n     Github\nAliqua esse id consequat dolor non est incididunt laborum excepteur. Amet sint deserunt reprehenderit id exercitation et id irure voluptate culpa officia proident nostrud amet. Sint officia laborum eiusmod ea mollit ut incididunt mollit nulla. Dolor aute ipsum velit officia incididunt ex."
+  },
+  {
+    "objectID": "pages/team/members/kacper_lesniara/index.html#education",
+    "href": "pages/team/members/kacper_lesniara/index.html#education",
+    "title": "Kacper Leśniara",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "pages/team/members/kacper_lesniara/index.html#experience",
+    "href": "pages/team/members/kacper_lesniara/index.html#experience",
+    "title": "Kacper Leśniara",
+    "section": "",
+    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
   }
 ]

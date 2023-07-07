@@ -6,9 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Piotr Szymański is very good">
+<meta name="author" content="Kacper Leśniara">
+<meta name="author" content="Piotr Szymański">
+<meta name="dcterms.date" content="2023-01-01">
+<meta name="description" content="Recent years brought advancements in using neural networks for representation learning of various language or visual phenomena. New methods freed data scientists from hand-crafting features for common tasks. Similarly, problems that require considering the spatial variable can benefit from pretrained map region representations instead of manually creating feature tables that one needs to prepare to solve a task. However, very few methods for map area representation exist, especially with respect to road network characteristics. In this paper, we propose a method for generating microregions’ embeddings with respect to their road infrastructure characteristics. We base our representations on OpenStreetMap road networks in a selection of cities and use the H3 spatial index to allow reproducible and scalable representation learning. We obtained vector representations that detect how similar map hexagons are in the road networks they contain. Additionally, we observe that embeddings yield a latent space with meaningful arithmetic operations. Finally, clustering methods allowed us to draft a high-level typology of obtained representations. We are confident that this contribution will aid data scientists working on infrastructure-related prediction tasks with spatial variables.">
 
-<title>kraina - Piotr Szymański</title>
+<title>kraina - Highway2Vec - Representing OpenStreetMap microregions with respect to their road network characteristics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,7 +38,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -65,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -126,39 +128,49 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-jolla">
+ <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Piotr Szymański</h1>
-<p class="subtitle lead">PhD</p>
-</div>
-
+<h1 class="title">Highway2Vec - Representing OpenStreetMap microregions with respect to their road network characteristics</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">representation learning</div>
+    <div class="quarto-category">road network</div>
+  </div>
+  </div>
 <div>
   <div class="description">
-    Piotr Szymański is very good
+    Recent years brought advancements in using neural networks for representation learning of various language or visual phenomena. New methods freed data scientists from hand-crafting features for common tasks. Similarly, problems that require considering the spatial variable can benefit from pretrained map region representations instead of manually creating feature tables that one needs to prepare to solve a task. However, very few methods for map area representation exist, especially with respect to road network characteristics. In this paper, we propose a method for generating microregions’ embeddings with respect to their road infrastructure characteristics. We base our representations on OpenStreetMap road networks in a selection of cities and use the H3 spatial index to allow reproducible and scalable representation learning. We obtained vector representations that detect how similar map hexagons are in the road networks they contain. Additionally, we observe that embeddings yield a latent space with meaningful arithmetic operations. Finally, clustering methods allowed us to draft a high-level typology of obtained representations. We are confident that this contribution will aid data scientists working on infrastructure-related prediction tasks with spatial variables.
   </div>
 </div>
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kacper Leśniara </p>
+             <p>Piotr Szymański </p>
+          </div>
   </div>
-  
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2023</p>
+    </div>
+  </div>
+  </div>
+</header><main class="content" id="quarto-document-content">
 
-</header>
 
-
-
-
-</main> <!-- /main -->
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://arxiv.org/abs/2304.13865" class="about-link" rel="" target="">
+     <span class="about-link-text">arXiv</span>
+  </a>
+</div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -179,13 +191,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -395,11 +400,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><span class="faux-block">© 2023 KRAINA CC BY-SA 4.0</span></div>   
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
-    <div class="nav-footer-right"><span class="faux-block"><a href="https://github.com/srai-lab/srai">View source on GitHub</a></span></div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kraina-ai/kraina-website/edit/main/pages/publications/highway2vec/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kraina-ai/kraina-website/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="nav-footer-right"><span class="faux-block"><a href="https://github.com/kraina-ai/kraina-website">View source on GitHub</a></span></div>
   </div>
 </footer>
 
