@@ -70,6 +70,41 @@
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nfrom srai.utils import geocode_to_region_gdf\n\ngdf = geocode_to_region_gdf(\"Wrocław, Poland\")\ngdf.explore()\n\n\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\nFigure 1: A line plot on a polar axis"
   },
   {
+    "objectID": "pages/contact/index.html",
+    "href": "pages/contact/index.html",
+    "title": "Forms Documentation",
+    "section": "",
+    "text": "This page demonstrates how to use the form shortcode. A form consists of a set of YAML keys and a shortcode.\nInsert the shortcode where you want the form to appear. The form is wrapped in a div which you can use to style the form, using CSS. The default form style uses whatever theme you have chosen from the Bootswatch themes supported by Quarto.\nIf you use a custom theme, you will likely need to provide CSS for the form element classes, if you don’t like the default."
+  },
+  {
+    "objectID": "pages/contact/index.html#form-fields",
+    "href": "pages/contact/index.html#form-fields",
+    "title": "Forms Documentation",
+    "section": "Form Fields",
+    "text": "Form Fields\nThe fields element is a list of fields, as outlined below. All inputs are strings, unless mentioned:\n\n\n\n\n\n\n\n\nKey\nDescription\nRequired?\n\n\n\n\nname\nThe name for the field\nYes\n\n\ntype\nThe input type: see list below\nYes\n\n\nid\nThe id for the input\nYes\n\n\nlabel\nThe label to display for the input\nYes\n\n\nvalues\nA list of values for multiple inputs\nradio, checkbox, select\n\n\nwidth\ninteger: Width of input\nNo\n\n\nheight\ninteger: Height of input\nNo\n\n\nrequired\nboolean: Require a response1\nNo\n\n\nmultiple\nboolean: Allow multiple values\nNo\n\n\nsize\ninteger: Number of inputs to display\nNo\n\n\n\nThe currently supported input type-s are:\n\n\n\n\n\n\n\n\n\nType\nDescription\nRequireable?\nMultiple valued\n\n\n\n\ntext\nSingle-line text input\nYes\nNo\n\n\ntextarea\nA large, multi-line text input\nNo\nNo\n\n\ncheckbox\nA series of checkboxes\nYes2\nYes\n\n\nradio\nSeries of radio options\nYes3\nNo\n\n\nselect\nDropdown selection, styled by CSS\nYes\nNo\n\n\nemail\nEmail-only text input\nNo\nNo\n\n\nfile\nFile-submission button\nNo\nNo"
+  },
+  {
+    "objectID": "pages/contact/index.html#form-field-values",
+    "href": "pages/contact/index.html#form-field-values",
+    "title": "Forms Documentation",
+    "section": "Form Field Values",
+    "text": "Form Field Values\nThe values for multi-line inputs are specified as\nform:\n  ...\n  fields:\n  - ...:\n    values:\n    - text: Radio 1\n      value: 1\n\ntext is the label text for the option to be displayed\nvalue is the value selecting the option will select"
+  },
+  {
+    "objectID": "pages/contact/index.html#non-field-form-entries",
+    "href": "pages/contact/index.html#non-field-form-entries",
+    "title": "Forms Documentation",
+    "section": "Non-field Form Entries",
+    "text": "Non-field Form Entries\nYou can also add arbitrary text using the text field:\nform:\n  ...\n  fields:\n  - text: \"Some  text\"\n  - text: ---\nUsing --- will insert a horizontal rule in the form."
+  },
+  {
+    "objectID": "pages/contact/index.html#footnotes",
+    "href": "pages/contact/index.html#footnotes",
+    "title": "Forms Documentation",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nOnly works for certain types of fields↩︎\n*poorly↩︎\n*poorly↩︎"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Kraina Lab",
