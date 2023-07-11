@@ -8,10 +8,10 @@
 
 <meta name="author" content="Szymon Woźniak">
 <meta name="author" content="Piotr Szymański">
-<meta name="dcterms.date" content="2022-01-01">
+<meta name="dcterms.date" content="2021-11-08">
 <meta name="description" content="Representation learning of spatial and geographic data is a rapidly developing field which allows for similarity detection between areas and high-quality inference using deep neural networks. Past approaches however concentrated on embedding raster imagery (maps, street or satellite photos), mobility data or road networks. In this paper we propose the first approach to learning vector representations of OpenStreetMap regions with respect to urban functions and land-use in a micro-region grid. We identify a subset of OSM tags related to major characteristics of land-use, building and urban region functions, types of water, green or other natural areas. Through manual verification of tagging quality, we selected 36 cities were for training region representations. Uber’s H3 index was used to divide the cities into hexagons, and OSM tags were aggregated for each hexagon. We propose the hex2vec method based on the Skip-gram model with negative sampling. The resulting vector representations showcase semantic structures of the map characteristics, similar to ones found in vector-based language models. We also present insights from region similarity detection in six Polish cities and propose a region typology obtained through agglomerative clustering.">
 
-<title>kraina - Hex2Vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags</title>
+<title>kraina - hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -133,10 +133,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-about-jolla">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hex2Vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags</h1>
+<h1 class="title">hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags</h1>
   <div class="quarto-categories">
     <div class="quarto-category">representation learning</div>
-    <div class="quarto-category">POI</div>
+    <div class="quarto-category">OpenStreetMap</div>
+    <div class="quarto-category">urban function</div>
+    <div class="quarto-category">land use</div>
+    <div class="quarto-category">clustering</div>
   </div>
   </div>
 <div>
@@ -155,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 1, 2022</p>
+      <p class="date">November 8, 2021</p>
     </div>
   </div>
   </div>
@@ -165,8 +168,17 @@ ul.task-list li input[type="checkbox"] {
 </main> 
   <hr class="about-sep">
    <div class="about-links">
-  <a href="https://arxiv.org/abs/2111.00970" class="about-link" rel="" target="">
-     <span class="about-link-text">arXiv</span>
+  <a href="https://arxiv.org/pdf/2111.00970.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-file-pdf"></i>
+     <span class="about-link-text">PDF</span>
+  </a>
+  <a href="https://doi.org/10.1145/3486635.3491076" class="about-link" rel="" target="">
+    <i class="bi bi-link"></i>
+     <span class="about-link-text">DOI</span>
+  </a>
+  <a href="https://github.com/pwr-inf/hex2vec" class="about-link" rel="" target="">
+    <i class="bi bi-code"></i>
+     <span class="about-link-text">Code</span>
   </a>
 </div>
 </div>

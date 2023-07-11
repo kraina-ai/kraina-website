@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "pages/geospatial/index.html",
+    "href": "pages/geospatial/index.html",
+    "title": "Geospatial",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nfrom srai.utils import geocode_to_region_gdf\n\ngdf = geocode_to_region_gdf(\"Wrocław, Poland\")\ngdf.explore()\n\n\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\nFigure 1: A line plot on a polar axis"
+  },
+  {
     "objectID": "pages/team/members/szymon_wozniak/index.html",
     "href": "pages/team/members/szymon_wozniak/index.html",
     "title": "Szymon Woźniak",
@@ -42,32 +49,25 @@
     "text": "Members\n\n\n\n\n\n\n\n\n\n\nKacper Leśniara\n\n\nPhD ML AI DS MLOps Engineer\n\n\nVelit enim irure duis eu minim occaecat do. Ex non labore nostrud tempor ut. Dolore duis est amet dolore. Ipsum aliqua quis aliquip pariatur.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSzymon Woźniak\n\n\nPhD ML AI DS MLOps Engineer\n\n\nVelit enim irure duis eu minim occaecat do. Ex non labore nostrud tempor ut. Dolore duis est amet dolore. Ipsum aliqua quis aliquip pariatur.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "pages/news/index.html",
+    "href": "pages/news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "Second news yay!\n\n\nBle\n\n\nAdipisicing minim irure adipisicing id in nulla. In officia aliquip proident officia enim dolor adipisicing Lorem elit in aliqua ex. Velit cupidatat nostrud est reprehenderit. Magna ipsum id reprehenderit reprehenderit incididunt. Ad veniam sint laborum Lorem deserunt nostrud.\n\n\n\n\n\n\nMay 1, 2022\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nWe are at EuroScipy 2023!\n\n\nTutorial\n\n\nAdipisicing minim irure adipisicing id in nulla. In officia aliquip proident officia enim dolor adipisicing Lorem elit in aliqua ex. Velit cupidatat nostrud est reprehenderit. Magna ipsum id reprehenderit reprehenderit incididunt. Ad veniam sint laborum Lorem deserunt nostrud.\n\n\n\n\n\n\nJan 1, 2022\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "pages/publications/index.html",
     "href": "pages/publications/index.html",
     "title": "Publications",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Authors\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthors\n\n\nCategories\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\nHighway2Vec - Representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nKacper Leśniara, Piotr Szymański\n\n\nrepresentation learning,road network\n\n\n\n\n\n\n\nJan 1, 2022\n\n\nHex2Vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nSzymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,POI\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Authors\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthors\n\n\nCategories\n\n\n\n\n\n\n\n\n\nNov 14, 2022\n\n\nhighway2vec - representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nKacper Leśniara, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,road network,clustering\n\n\n\n\n\n\n\nNov 18, 2021\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data\n\n\nKamil Raczycki, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,Bicycle-sharing system,Bicycle station\n\n\n\n\n\n\n\n\nNov 8, 2021\n\n\ngtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions\n\n\nPiotr Gramacki, Szymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,public transport,timetables\n\n\n\n\n\n\n\nNov 8, 2021\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nSzymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,urban function,land use,clustering\n\n\n\n\n\n\n\nJun 20, 2020\n\n\nAssessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area\n\n\nMarek Badura, Izabela Sówka, Piotr Szymański, Piotr Batog\n\n\nair quality,particulate matter,PM2.5 stratification\n\n\n\n\n\n\n\nNov 14, 2018\n\n\nSpatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław\n\n\nPiotr Szymański, Michał Zołnieruk, Piotr Oleszczyk, Igor Gisterek, Tomasz Kajdanowicz\n\n\nurban mobility,urban network,public transport,gps,vehicle location,clustering\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "pages/news/euroscipy2023 copy/index.html",
-    "href": "pages/news/euroscipy2023 copy/index.html",
-    "title": "Second news yay!",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kraina Lab",
     "section": "",
-    "text": "Laborum nisi anim sunt consectetur ad ea nisi dolor in excepteur. Tempor quis do nostrud anim velit deserunt esse eiusmod incididunt id fugiat laborum cupidatat. Adipisicing Lorem voluptate sit irure consectetur amet labore in sint eiusmod adipisicing aliquip do minim. Esse reprehenderit elit aute excepteur ad tempor esse et in excepteur. Ad quis esse sunt incididunt officia sit ipsum culpa laboris consectetur sunt esse proident.\nOccaecat nostrud pariatur anim anim amet nulla non enim officia anim voluptate elit proident duis. Cupidatat nulla anim aliqua id dolor veniam. Amet eiusmod est anim nostrud. Sunt qui proident mollit magna id fugiat velit aute quis cillum adipisicing.\nMollit eiusmod ullamco occaecat dolore id sint sunt quis qui qui et ea in anim. Nisi ullamco culpa enim reprehenderit labore ex irure nostrud minim fugiat laboris. Culpa sint est velit velit fugiat consequat ipsum. Id esse voluptate non anim ut officia occaecat sunt aliqua. Adipisicing deserunt laborum laboris cupidatat non in et proident ipsum elit adipisicing. Et nostrud ut quis sunt nostrud duis. Ea ea adipisicing culpa aliqua in velit eiusmod culpa non labore id.\nAliquip elit fugiat pariatur ullamco occaecat nisi exercitation sint adipisicing voluptate amet in est. Voluptate proident eu elit reprehenderit est eu eu deserunt tempor ea. Qui esse cupidatat velit ea magna laborum non eu anim. Incididunt aute adipisicing deserunt ipsum elit in.\nSunt tempor duis magna minim occaecat. Deserunt cupidatat nulla nostrud magna. Exercitation eiusmod irure do laboris eiusmod proident ad velit anim culpa pariatur elit aliqua. Esse sunt duis esse ullamco nostrud aliqua do cupidatat excepteur. Ex minim adipisicing aliquip aliquip quis mollit ullamco do qui laborum officia exercitation incididunt aliquip. Laborum elit culpa laborum magna. Labore nulla aliquip ipsum est nostrud eiusmod."
-  },
-  {
-    "objectID": "pages/news/euroscipy2023 copy/index.html#duży-heading",
-    "href": "pages/news/euroscipy2023 copy/index.html#duży-heading",
-    "title": "Second news yay!",
-    "section": "",
-    "text": "Laborum nisi anim sunt consectetur ad ea nisi dolor in excepteur. Tempor quis do nostrud anim velit deserunt esse eiusmod incididunt id fugiat laborum cupidatat. Adipisicing Lorem voluptate sit irure consectetur amet labore in sint eiusmod adipisicing aliquip do minim. Esse reprehenderit elit aute excepteur ad tempor esse et in excepteur. Ad quis esse sunt incididunt officia sit ipsum culpa laboris consectetur sunt esse proident.\nOccaecat nostrud pariatur anim anim amet nulla non enim officia anim voluptate elit proident duis. Cupidatat nulla anim aliqua id dolor veniam. Amet eiusmod est anim nostrud. Sunt qui proident mollit magna id fugiat velit aute quis cillum adipisicing.\nMollit eiusmod ullamco occaecat dolore id sint sunt quis qui qui et ea in anim. Nisi ullamco culpa enim reprehenderit labore ex irure nostrud minim fugiat laboris. Culpa sint est velit velit fugiat consequat ipsum. Id esse voluptate non anim ut officia occaecat sunt aliqua. Adipisicing deserunt laborum laboris cupidatat non in et proident ipsum elit adipisicing. Et nostrud ut quis sunt nostrud duis. Ea ea adipisicing culpa aliqua in velit eiusmod culpa non labore id.\nAliquip elit fugiat pariatur ullamco occaecat nisi exercitation sint adipisicing voluptate amet in est. Voluptate proident eu elit reprehenderit est eu eu deserunt tempor ea. Qui esse cupidatat velit ea magna laborum non eu anim. Incididunt aute adipisicing deserunt ipsum elit in.\nSunt tempor duis magna minim occaecat. Deserunt cupidatat nulla nostrud magna. Exercitation eiusmod irure do laboris eiusmod proident ad velit anim culpa pariatur elit aliqua. Esse sunt duis esse ullamco nostrud aliqua do cupidatat excepteur. Ex minim adipisicing aliquip aliquip quis mollit ullamco do qui laborum officia exercitation incididunt aliquip. Laborum elit culpa laborum magna. Labore nulla aliquip ipsum est nostrud eiusmod."
-  },
-  {
-    "objectID": "pages/geospatial/index.html",
-    "href": "pages/geospatial/index.html",
-    "title": "Geospatial",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nfrom srai.utils import geocode_to_region_gdf\n\ngdf = geocode_to_region_gdf(\"Wrocław, Poland\")\ngdf.explore()\n\n\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\nFigure 1: A line plot on a polar axis"
+    "text": "Welcome to the kraina research group!"
   },
   {
     "objectID": "pages/contact/index.html",
@@ -105,11 +105,18 @@
     "text": "Footnotes\n\n\nOnly works for certain types of fields↩︎\n*poorly↩︎\n*poorly↩︎"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Kraina Lab",
+    "objectID": "pages/news/euroscipy2023 copy/index.html",
+    "href": "pages/news/euroscipy2023 copy/index.html",
+    "title": "Second news yay!",
     "section": "",
-    "text": "Welcome to the kraina research group!"
+    "text": "Laborum nisi anim sunt consectetur ad ea nisi dolor in excepteur. Tempor quis do nostrud anim velit deserunt esse eiusmod incididunt id fugiat laborum cupidatat. Adipisicing Lorem voluptate sit irure consectetur amet labore in sint eiusmod adipisicing aliquip do minim. Esse reprehenderit elit aute excepteur ad tempor esse et in excepteur. Ad quis esse sunt incididunt officia sit ipsum culpa laboris consectetur sunt esse proident.\nOccaecat nostrud pariatur anim anim amet nulla non enim officia anim voluptate elit proident duis. Cupidatat nulla anim aliqua id dolor veniam. Amet eiusmod est anim nostrud. Sunt qui proident mollit magna id fugiat velit aute quis cillum adipisicing.\nMollit eiusmod ullamco occaecat dolore id sint sunt quis qui qui et ea in anim. Nisi ullamco culpa enim reprehenderit labore ex irure nostrud minim fugiat laboris. Culpa sint est velit velit fugiat consequat ipsum. Id esse voluptate non anim ut officia occaecat sunt aliqua. Adipisicing deserunt laborum laboris cupidatat non in et proident ipsum elit adipisicing. Et nostrud ut quis sunt nostrud duis. Ea ea adipisicing culpa aliqua in velit eiusmod culpa non labore id.\nAliquip elit fugiat pariatur ullamco occaecat nisi exercitation sint adipisicing voluptate amet in est. Voluptate proident eu elit reprehenderit est eu eu deserunt tempor ea. Qui esse cupidatat velit ea magna laborum non eu anim. Incididunt aute adipisicing deserunt ipsum elit in.\nSunt tempor duis magna minim occaecat. Deserunt cupidatat nulla nostrud magna. Exercitation eiusmod irure do laboris eiusmod proident ad velit anim culpa pariatur elit aliqua. Esse sunt duis esse ullamco nostrud aliqua do cupidatat excepteur. Ex minim adipisicing aliquip aliquip quis mollit ullamco do qui laborum officia exercitation incididunt aliquip. Laborum elit culpa laborum magna. Labore nulla aliquip ipsum est nostrud eiusmod."
+  },
+  {
+    "objectID": "pages/news/euroscipy2023 copy/index.html#duży-heading",
+    "href": "pages/news/euroscipy2023 copy/index.html#duży-heading",
+    "title": "Second news yay!",
+    "section": "",
+    "text": "Laborum nisi anim sunt consectetur ad ea nisi dolor in excepteur. Tempor quis do nostrud anim velit deserunt esse eiusmod incididunt id fugiat laborum cupidatat. Adipisicing Lorem voluptate sit irure consectetur amet labore in sint eiusmod adipisicing aliquip do minim. Esse reprehenderit elit aute excepteur ad tempor esse et in excepteur. Ad quis esse sunt incididunt officia sit ipsum culpa laboris consectetur sunt esse proident.\nOccaecat nostrud pariatur anim anim amet nulla non enim officia anim voluptate elit proident duis. Cupidatat nulla anim aliqua id dolor veniam. Amet eiusmod est anim nostrud. Sunt qui proident mollit magna id fugiat velit aute quis cillum adipisicing.\nMollit eiusmod ullamco occaecat dolore id sint sunt quis qui qui et ea in anim. Nisi ullamco culpa enim reprehenderit labore ex irure nostrud minim fugiat laboris. Culpa sint est velit velit fugiat consequat ipsum. Id esse voluptate non anim ut officia occaecat sunt aliqua. Adipisicing deserunt laborum laboris cupidatat non in et proident ipsum elit adipisicing. Et nostrud ut quis sunt nostrud duis. Ea ea adipisicing culpa aliqua in velit eiusmod culpa non labore id.\nAliquip elit fugiat pariatur ullamco occaecat nisi exercitation sint adipisicing voluptate amet in est. Voluptate proident eu elit reprehenderit est eu eu deserunt tempor ea. Qui esse cupidatat velit ea magna laborum non eu anim. Incididunt aute adipisicing deserunt ipsum elit in.\nSunt tempor duis magna minim occaecat. Deserunt cupidatat nulla nostrud magna. Exercitation eiusmod irure do laboris eiusmod proident ad velit anim culpa pariatur elit aliqua. Esse sunt duis esse ullamco nostrud aliqua do cupidatat excepteur. Ex minim adipisicing aliquip aliquip quis mollit ullamco do qui laborum officia exercitation incididunt aliquip. Laborum elit culpa laborum magna. Labore nulla aliquip ipsum est nostrud eiusmod."
   },
   {
     "objectID": "pages/news/euroscipy2023/index.html",
@@ -124,13 +131,6 @@
     "title": "We are at EuroScipy 2023!",
     "section": "",
     "text": "Laborum nisi anim sunt consectetur ad ea nisi dolor in excepteur. Tempor quis do nostrud anim velit deserunt esse eiusmod incididunt id fugiat laborum cupidatat. Adipisicing Lorem voluptate sit irure consectetur amet labore in sint eiusmod adipisicing aliquip do minim. Esse reprehenderit elit aute excepteur ad tempor esse et in excepteur. Ad quis esse sunt incididunt officia sit ipsum culpa laboris consectetur sunt esse proident.\nOccaecat nostrud pariatur anim anim amet nulla non enim officia anim voluptate elit proident duis. Cupidatat nulla anim aliqua id dolor veniam. Amet eiusmod est anim nostrud. Sunt qui proident mollit magna id fugiat velit aute quis cillum adipisicing.\nMollit eiusmod ullamco occaecat dolore id sint sunt quis qui qui et ea in anim. Nisi ullamco culpa enim reprehenderit labore ex irure nostrud minim fugiat laboris. Culpa sint est velit velit fugiat consequat ipsum. Id esse voluptate non anim ut officia occaecat sunt aliqua. Adipisicing deserunt laborum laboris cupidatat non in et proident ipsum elit adipisicing. Et nostrud ut quis sunt nostrud duis. Ea ea adipisicing culpa aliqua in velit eiusmod culpa non labore id.\nAliquip elit fugiat pariatur ullamco occaecat nisi exercitation sint adipisicing voluptate amet in est. Voluptate proident eu elit reprehenderit est eu eu deserunt tempor ea. Qui esse cupidatat velit ea magna laborum non eu anim. Incididunt aute adipisicing deserunt ipsum elit in.\nSunt tempor duis magna minim occaecat. Deserunt cupidatat nulla nostrud magna. Exercitation eiusmod irure do laboris eiusmod proident ad velit anim culpa pariatur elit aliqua. Esse sunt duis esse ullamco nostrud aliqua do cupidatat excepteur. Ex minim adipisicing aliquip aliquip quis mollit ullamco do qui laborum officia exercitation incididunt aliquip. Laborum elit culpa laborum magna. Labore nulla aliquip ipsum est nostrud eiusmod."
-  },
-  {
-    "objectID": "pages/news/index.html",
-    "href": "pages/news/index.html",
-    "title": "News",
-    "section": "",
-    "text": "Second news yay!\n\n\nBle\n\n\nAdipisicing minim irure adipisicing id in nulla. In officia aliquip proident officia enim dolor adipisicing Lorem elit in aliqua ex. Velit cupidatat nostrud est reprehenderit. Magna ipsum id reprehenderit reprehenderit incididunt. Ad veniam sint laborum Lorem deserunt nostrud.\n\n\n\n\n\n\nMay 1, 2022\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nWe are at EuroScipy 2023!\n\n\nTutorial\n\n\nAdipisicing minim irure adipisicing id in nulla. In officia aliquip proident officia enim dolor adipisicing Lorem elit in aliqua ex. Velit cupidatat nostrud est reprehenderit. Magna ipsum id reprehenderit reprehenderit incididunt. Ad veniam sint laborum Lorem deserunt nostrud.\n\n\n\n\n\n\nJan 1, 2022\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "pages/team/head/piotr_szymanski/index.html",
