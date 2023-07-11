@@ -1,0 +1,28 @@
+---
+title: "gtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions"
+author:
+    - Piotr Gramacki
+    - Szymon Woźniak
+    - Piotr Szymański
+date: 2021-11-08
+categories:
+    - representation learning
+    - public transport
+    - timetables
+description: We selected 48 European cities and gathered their public transport timetables in the GTFS format. We utilized Uber's H3 spatial index to divide each city into hexagonal micro-regions. Based on the timetables data we created certain features describing the quantity and variety of public transport availability in each region. Next, we trained an auto-associative deep neural network to embed each of the regions. Having such prepared representations, we then used a hierarchical clustering approach to identify similar regions. To do so, we utilized an agglomerative clustering algorithm with a euclidean distance between regions and Ward's method to minimize in-cluster variance. Finally, we analyzed the obtained clusters at different levels to identify some number of clusters that qualitatively describe public transport availability. We showed that our typology matches the characteristics of analyzed cities and allows succesful searching for areas with similar public transport schedule characteristics.
+
+about:
+    template: jolla
+    links:
+      - text: PDF
+        icon: file-pdf
+        href: https://arxiv.org/pdf/2111.00960.pdf
+      - text: DOI
+        icon: link
+        href: https://doi.org/10.1145/3486640.3491392
+      - text: Code
+        icon: code
+        href: https://github.com/pwr-inf/gtfs2vec
+---
+
+

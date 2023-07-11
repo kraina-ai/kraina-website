@@ -1,7 +1,7 @@
 ---
 title: "Publications"
-subtitle: "asdasdas"
-description: "asdasssssssssss"
+subtitle: "Work published by Kraina research lab members"
+description: "This page provides a list of research papers authored or co-authored by the members of the Kraina research lab. The list is updated regularly as new research is published."
 listing:
     id: publications-listing
     type: table

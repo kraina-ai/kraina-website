@@ -1,0 +1,21 @@
+---
+title: "Assessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area"
+author:
+    - Marek Badura
+    - Izabela Sówka
+    - Piotr Szymański
+    - Piotr Batog
+date: 2020-06-20
+categories:
+    - air quality
+    - particulate matter
+    - PM2.5 stratification
+description: "Low-cost sensors provide an opportunity to improve the spatial and temporal resolution of air quality measurements. Networks of such devices may complement the traditional air quality monitoring and provide some useful information about pollutants and their impact on health. This paper describes the network of 20 nodes for ambient PM2.5 monitoring on a campus area of Wrocław University of Science and Technology (Wrocław, Poland). Sensor nodes were equipped with optical sensors PMS A003 (Plantower), which showed high reproducibility between units. The distribution of the sensor nodes was characterised by both high density (14 devices on the main campus area) and wide spread across the city (6 devices on peripheral campuses). During the measurement campaign, signals from sensor nodes were consistent with results from regulatory monitoring stations and sensor devices were capable of indicating elevated levels of PM2.5 concentrations. A great advantage of this system was the ability to provide up-to-date air quality information to the public. Furthermore, air quality messaging was site-specific because of the observed differences in PM2.5 concentrations. Data analysis was aimed at assessing variability between locations using Kendall's τ metric and assessing the statistical significance of the differences in measurement results from neighbouring sensor nodes using the Kolmogorov-Smirnov test. The analysis showed high importance of the nodes in the middle of the main campus and variations of signals from nodes on the peripheries. Differences in signals from sensors located in close proximity to each other were in some cases significant, but only for short-term averaged data. Nevertheless, highly visible variation in PM2.5 signals was observed in the case of nodes arranged vertically on two buildings. PM2.5 concentrations were even 2–4 times greater near the top parts of the buildings than near the ground. The effect of stratification of PM2.5 levels was observed under conditions of temperature inversion."
+
+about:
+    template: jolla
+    links:
+      - text: DOI
+        icon: link
+        href: https://doi.org/10.1016/j.scitotenv.2020.137867
+---
