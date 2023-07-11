@@ -6,3 +6,4 @@ venv
 cache
 _freeze
 docs/
+/env/
