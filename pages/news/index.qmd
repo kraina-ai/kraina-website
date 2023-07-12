@@ -1,7 +1,7 @@
 ---
 title: "News"
-subtitle: "asdasdas"
-description: "asdasssssssssss"
+subtitle: "Latest Updates and Announcements from Kraina Lab"
+# description: "asdasssssssssss"
 listing:
     id: news-listing
     type: default
