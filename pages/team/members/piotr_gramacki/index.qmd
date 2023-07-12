@@ -1,7 +1,7 @@
 ---
-title: "Szymon Woźniak"
+title: "Piotr Gramacki"
 subtitle: AI Researcher, Machine Learning Engineer
-# TODO: Intro description @simonusher
+# TODO: Intro description @piotrgramacki
 description: ""
 image: avatar.jpg
 toc: false
@@ -12,13 +12,13 @@ about:
     links:
     - icon: github
       text: GitHub
-      href: https://github.com/simonusher
+      href: https://github.com/piotrgramacki
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/wscode/
+      href: https://www.linkedin.com/in/piotrgramacki
     - icon: twitter
       text: twitter
-      href: https://twitter.com/the_swoz
+      href: https://twitter.com/piotrgramacki
     # - icon: scholar
     #   text: Google Scholar
     #   href: https://scholar.google.com/citations?hl=pl&user=<ID>
@@ -29,7 +29,7 @@ about:
 :::{#intro-heading}
 
 
-<!-- TODO: Description @simonusher -->
+<!-- TODO: Description  @piotrgramacki -->
 
 
 
@@ -42,8 +42,6 @@ Wroclaw University of Science and Technology | Wrocław, Poland
 BSc, Computer Science | 2016 - 2020
 
 ## Experience
-
-Surfer | Data Scientist | July 2023 - Present
 
 Brand24 | Machine Learning Engineer | August 2021 - Present
 

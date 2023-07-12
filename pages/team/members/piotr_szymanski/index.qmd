@@ -1,0 +1,62 @@
+---
+# TODO: Review @niedakh
+title: "Piotr Szymański PhD"
+subtitle: Data Scientist, Machine Learning Engineer, Urban Activist
+description: Piotr Szymański is an assistant Professor at the Department of Artificial Intelligence at the Wrocław University of Science and Technology and a Machine Learning Engineer at Avaya. Professionally involved in data analysis, statistical reasoning, geospatial data science, natural language processing, machine learning and artificial intelligence techniques.
+image: avatar.jpg
+toc: false
+order: 1
+about:
+    template: jolla  # https://quarto.org/docs/websites/website-about.html
+    image: avatar.jpg
+    id: intro-heading
+    links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/niedakh
+    - icon: scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?hl=pl&user=K8v7ROIAAAAJ
+    - icon: facebook
+      text: Facebook
+      href: https://fb.com/niedakh
+    - icon: github
+      text: GitHub
+      href: https://github.com/niedakh
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/niedakh
+---
+:::{#intro-heading}
+
+He is an alumni of the Top 500 Innovators program at Stanford University, worked in several institutions over the years incl. Hasso Plattner Institute in Potsdam, Josef Stefan Institute in Ljubljana, University of Notre Dame and University of Technology Sydney. He is the author of [Scikit-multilearn](http://scikit.ml) - a popular python library for multi-label classification, and [pqdm](https://github.com/niedakh/pqdm) - a parallel processing wrapper for tqdm.
+
+Apart from multi-label classification, Piotr published papers concerning urban data, traffic analysis and bridging the gap between ASR and NLP in spoken language understanding systems. In his free time he is an urban activist in Wrocław - chairing the [Society of Beautification of the City of Wrocław](http://tumw.pl), and a member of Wrocław city [district council of Brochów](http://brochow.wroclaw.pl).
+
+Recently he became a member of the international group which models coronavirus spread: [MOCOS](http://mocos.pl), which publishes regular reports about the state of the pandemic in Poland and also analysis of related phenomena.
+
+
+
+## Education
+
+Wroclaw University of Science and Technology | Wrocław, Poland  
+PhD, Machine Learning | 2013 - 2020
+
+Wroclaw University of Science and Technology | Wrocław, Poland  
+PhD (finished study programme without defense), Mathematics, Theoretical Computer Science, Analysis of Algorithms | 2009 - 2012  
+
+Hasso Plattner Institue | Potsdam, Germany  
+PhD, Applied mathematics, cryptography, computer science | 2010 - 2010
+
+Wroclaw University of Science and Technology | Wrocław, Poland  
+MSc, Computer Science | 2004 - 2009
+
+## Experience
+
+Avaya | Machine Learning Engineer | June 2017 - present
+
+Wroclaw University of Science and Technology | Research Assistant / Principal Investigator | October 2009 - April 2023
+
+Admitster | Data Scientist, Full Stack Developer | 2013 - June 2016
+
+:::
