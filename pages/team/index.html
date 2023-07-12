@@ -65,34 +65,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-head-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-head-listing'] = new List('listing-head-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-team-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -193,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Meet Kraina</h1>
-<p class="subtitle lead">Pariatur adipisicing eiusmod dolor pariatur occaecat aliqua exercitation.</p>
+<p class="subtitle lead">Kraina Lab Team Members</p>
 </div>
 
 
@@ -208,41 +180,35 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="head" class="level2">
-<h2 class="anchored" data-anchor-id="head">Head</h2>
-<div id="listing-head-listing" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1689097078212" data-listing-reading-time-sort="1">
-<a href="../../pages/team/head/piotr_szymanski/index.html" class="quarto-grid-link">
+<!-- ## Head
+
+:::{#head-listing}
+::: -->
+<section id="members" class="level2">
+<h2 class="anchored" data-anchor-id="members">Members</h2>
+<div id="listing-team-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1689173901460" data-listing-reading-time-sort="2">
+<a href="../../pages/team/members/piotr_szymanski/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="../../pages/team/head/piotr_szymanski/avatar.svg" class="thumbnail-image card-img" style="height: 250px;">
+<img src="../../pages/team/members/piotr_szymanski/avatar.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Piotr Szymański
+Piotr Szymański PhD
 </h5>
 <div class="card-subtitle listing-subtitle">
-PhD ML AI DS MLOps Engineer
+Data Scientist, Machine Learning Engineer, Urban Activist
 </div>
 <div class="card-text listing-description">
-Velit enim irure duis eu minim occaecat do. Ex non labore nostrud tempor ut. Dolore duis est amet dolore. Ipsum aliqua quis aliquip pariatur.
+Piotr Szymański is an assistant Professor at the Department of Artificial Intelligence at the Wrocław University of Science and Technology and a Machine Learning Engineer at…
 </div>
 </div>
 </div>
 </a>
 </div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="members" class="level2">
-<h2 class="anchored" data-anchor-id="members">Members</h2>
-<div id="listing-team-listing" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1689097078214" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1689173901459" data-listing-reading-time-sort="1">
 <a href="../../pages/team/members/kacper_lesniara/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -253,30 +219,74 @@ No matching items
 Kacper Leśniara
 </h5>
 <div class="card-subtitle listing-subtitle">
-PhD ML AI DS MLOps Engineer
+AI Researcher, Data Scientist
 </div>
 <div class="card-text listing-description">
-Velit enim irure duis eu minim occaecat do. Ex non labore nostrud tempor ut. Dolore duis est amet dolore. Ipsum aliqua quis aliquip pariatur.
+Wroclaw University of Science and Technology | Wrocław, Poland<br>
+MSc, Data Science | February 2020 - February 2022
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1689097078214" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1689173901459" data-listing-reading-time-sort="1">
+<a href="../../pages/team/members/kamil_raczycki/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="../../pages/team/members/kamil_raczycki/avatar.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kamil Raczycki
+</h5>
+<div class="card-subtitle listing-subtitle">
+Location Intelligence Spatial Data Scientist, AI Researcher
+</div>
+<div class="card-text listing-description">
+Wroclaw University of Science and Technology | Wrocław, Poland<br>
+MSc, Data Science | November 2019 - July 2021
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1689173901460" data-listing-reading-time-sort="1">
+<a href="../../pages/team/members/piotr_gramacki/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="../../pages/team/members/piotr_gramacki/avatar.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Piotr Gramacki
+</h5>
+<div class="card-subtitle listing-subtitle">
+AI Researcher, Machine Learning Engineer
+</div>
+<div class="card-text listing-description">
+Wroclaw University of Science and Technology | Wrocław, Poland<br>
+MSc, Data Science | 2020 - 2021
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1689173901461" data-listing-reading-time-sort="1">
 <a href="../../pages/team/members/szymon_wozniak/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="../../pages/team/members/szymon_wozniak/avatar.svg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="../../pages/team/members/szymon_wozniak/avatar.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Szymon Woźniak
 </h5>
 <div class="card-subtitle listing-subtitle">
-PhD ML AI DS MLOps Engineer
+AI Researcher, Machine Learning Engineer
 </div>
 <div class="card-text listing-description">
-Velit enim irure duis eu minim occaecat do. Ex non labore nostrud tempor ut. Dolore duis est amet dolore. Ipsum aliqua quis aliquip pariatur.
+Wroclaw University of Science and Technology | Wrocław, Poland<br>
+MSc, Data Science | 2020 - 2021
 </div>
 </div>
 </div>
