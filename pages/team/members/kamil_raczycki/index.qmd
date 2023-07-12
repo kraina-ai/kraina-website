@@ -1,7 +1,7 @@
 ---
-title: "Szymon Woźniak"
-subtitle: AI Researcher, Machine Learning Engineer
-# TODO: Intro description @simonusher
+title: "Kamil Raczycki"
+subtitle: Location Intelligence Spatial Data Scientist, AI Researcher
+# TODO: Intro description @RaczeQ
 description: ""
 image: avatar.jpg
 toc: false
@@ -12,13 +12,13 @@ about:
     links:
     - icon: github
       text: GitHub
-      href: https://github.com/simonusher
+      href: https://github.com/RaczeQ
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/wscode/
+      href: https://www.linkedin.com/in/raczyckikamil
     - icon: twitter
       text: twitter
-      href: https://twitter.com/the_swoz
+      href: https://twitter.com/k_raczycki
     # - icon: scholar
     #   text: Google Scholar
     #   href: https://scholar.google.com/citations?hl=pl&user=<ID>
@@ -29,25 +29,23 @@ about:
 :::{#intro-heading}
 
 
-<!-- TODO: Description @simonusher -->
+<!-- TODO: Description @RaczeQ -->
 
 
 
 ## Education
 
 Wroclaw University of Science and Technology | Wrocław, Poland  
-MSc, Data Science | 2020 - 2021
+MSc, Data Science | November 2019 - July 2021
 
 Wroclaw University of Science and Technology | Wrocław, Poland  
-BSc, Computer Science | 2016 - 2020
+BSc, Computer Science | 2015 - 2019
 
 ## Experience
 
-Surfer | Data Scientist | July 2023 - Present
+Allegro | Location Intelligence Software Engineer | May 2022 - Present
 
-Brand24 | Machine Learning Engineer | August 2021 - Present
-
-Q2Q Research | AI Programmer/Researcher | August 2021 - January 2022
+Yoniee | Spatial Data Scientist | January 2022 - Present
 
 :::
 <!-- 

@@ -1,15 +1,15 @@
 ---
 title: "Meet Kraina"
-subtitle: Pariatur adipisicing eiusmod dolor pariatur occaecat aliqua exercitation. 
+subtitle: Kraina Lab Team Members
 listing:
-    - id: head-listing
-      type: grid
-      contents: "head/**/*.qmd"
-      image-placeholder: placeholder.svg
-      image-height: 250px
-      fields: [image, title, subtitle, description]
-      grid-columns: 1
-      grid-item-align: center
+    # - id: head-listing
+    #   type: grid
+    #   contents: "head/**/*.qmd"
+    #   image-placeholder: placeholder.svg
+    #   image-height: 250px
+    #   fields: [image, title, subtitle, description]
+    #   grid-columns: 1
+    #   grid-item-align: center
 
     - id: team-listing
       type: grid
@@ -18,12 +18,15 @@ listing:
       # image-height: 200px
       fields: [image, title, subtitle, description]
       grid-item-align: center
+      sort:
+        - "order"
+        - "title asc"
 ---
 
-## Head
+<!-- ## Head
 
 :::{#head-listing}
-:::
+::: -->
 
 ## Members
 
