@@ -1,5 +1,8 @@
 <script>
 
+const _ERROR_MESSAGE = "Something went wrong.";
+const _SUCCESS_MESSAGE = "Thank you for contacting us! We will get back to you as soon as possible.";
+
 async function submit() {
     const form = document.getElementById("form");
     const name_field = form.elements["nameField"];
@@ -26,9 +29,10 @@ async function submit() {
         const jsonResponse = await response.json();
         console.log(jsonResponse);
         form.reset();
-        alert("Form submitted successfully");
+        alert(_SUCCESS_MESSAGE);
     } else {
-        console.error('Error:', response.statusText);
+        alert(_ERROR_MESSAGE + response.statusText + ".");
+        console.error("Error:", response.statusText);
     }
 }
 
