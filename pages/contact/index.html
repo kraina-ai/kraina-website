@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>kraina - Forms Documentation</title>
+<title>kraina - Contact us</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -97,18 +63,60 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 <script>
 
-function submit() {
+const _ERROR_MESSAGE = "Something went wrong.";
+const _SUCCESS_MESSAGE = "Thank you for contacting us! We will get back to you as soon as possible.";
 
-        alert("Submitted!");
-    
+async function submit() {
+    const form = document.getElementById("form");
+    const name_field = form.elements["nameField"];
+    const email_field = form.elements["emailField"];
+    const subject_field = form.elements["subjectField"];
+    const message_field = form.elements["messageField"];
+
+    const formData = {
+        name: name_field.value,
+        email: email_field.value,
+        subject: subject_field.value,
+        message: message_field.value
+    };
+
+    try {
+        const response = await fetch('http://localhost:8080/endpoint', {
+            method: 'POST', 
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData)
+        });
+        await handleResponse(response);
     }
+    catch (error) {
+        showError(error);
+    }
+}
+
+async function handleResponse(response) {
+    if (response.ok) {
+        const jsonResponse = await response.json();
+        console.log(jsonResponse);
+        form.reset();
+        alert(_SUCCESS_MESSAGE);
+    } else {
+        showError(response.statusText);
+    }
+}
+
+function showError(additionalInfo) {
+    alert(_ERROR_MESSAGE);
+    console.error("Error:", additionalInfo);
+}
 
 </script>
 
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -169,27 +177,13 @@ function submit() {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#form-elements" id="toc-form-elements" class="nav-link active" data-scroll-target="#form-elements">Form Elements</a>
-  <ul class="collapse">
-  <li><a href="#form-fields" id="toc-form-fields" class="nav-link" data-scroll-target="#form-fields">Form Fields</a></li>
-  <li><a href="#form-field-values" id="toc-form-field-values" class="nav-link" data-scroll-target="#form-field-values">Form Field Values</a></li>
-  <li><a href="#non-field-form-entries" id="toc-non-field-form-entries" class="nav-link" data-scroll-target="#non-field-form-entries">Non-field Form Entries</a></li>
-  </ul></li>
-  <li><a href="#example-form" id="toc-example-form" class="nav-link" data-scroll-target="#example-form">Example Form</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kraina-ai/kraina-website/edit/main/pages/contact/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kraina-ai/kraina-website/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Forms Documentation</h1>
+<h1 class="title">Contact us</h1>
 </div>
 
 
@@ -204,286 +198,23 @@ function submit() {
 
 </header>
 
-<p>This page demonstrates how to use the <code>form</code> shortcode. A form consists of a set of YAML keys and a shortcode.</p>
-<p>Insert the shortcode where you want the form to appear. The form is wrapped in a <code>div</code> which you can use to style the form, using CSS. The default form style uses whatever theme you have chosen from the <a href="https://bootswatch.com/">Bootswatch</a> themes supported by Quarto.</p>
-<p>If you use a custom theme, you will likely need to provide CSS for the form element classes, if you don’t like the default.</p>
-<section id="form-elements" class="level1">
-<h1>Form Elements</h1>
-<div class="warning">
-<p>For most of the form elements that are not intended as labels, you should use HTML-safe names. Calling an form’s name <code>"?&gt;&lt;div ali --: !---</code> is probably a bad idea and will break your form.</p>
-</div>
-<p>The form elements are:</p>
-<table class="table">
-<colgroup>
-<col style="width: 23%">
-<col style="width: 31%">
-<col style="width: 23%">
-<col style="width: 21%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Key</th>
-<th>Purpose</th>
-<th>Values</th>
-<th>Required?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>action</code></td>
-<td>path to action</td>
-<td><code>filepath</code></td>
-<td>Required</td>
-</tr>
-<tr class="even">
-<td><code>submit</code></td>
-<td>text for submit button</td>
-<td><code>string</code></td>
-<td>Optional (Default: <code>Submit</code>)</td>
-</tr>
-<tr class="odd">
-<td><code>fields</code></td>
-<td>list of fields</td>
-<td><code>...</code></td>
-<td><code>fields</code></td>
-</tr>
-<tr class="even">
-<td><code>id</code></td>
-<td>an id for the form</td>
-<td><code>string</code></td>
-<td>Option (Default: <code>form</code>)</td>
-</tr>
-</tbody>
-</table>
-<p>This is specified as follows:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">form</span><span class="kw">:</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">action</span><span class="kw">:</span><span class="at"> </span><span class="st">"pathto/action/file.js"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">submit</span><span class="kw">:</span><span class="at"> </span><span class="st">"Submit Form"</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">id</span><span class="kw">:</span><span class="at"> FormID</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">fields</span><span class="kw">:</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> ...</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<section id="form-fields" class="level2">
-<h2 class="anchored" data-anchor-id="form-fields">Form Fields</h2>
-<p>The <code>fields</code> element is a list of fields, as outlined below. All inputs are strings, unless mentioned:</p>
-<table class="table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 66%">
-<col style="width: 18%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Key</th>
-<th>Description</th>
-<th>Required?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>name</code></td>
-<td>The name for the field</td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td><code>type</code></td>
-<td>The input type: see list below</td>
-<td>Yes</td>
-</tr>
-<tr class="odd">
-<td><code>id</code></td>
-<td>The id for the input</td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td><code>label</code></td>
-<td>The label to display for the input</td>
-<td>Yes</td>
-</tr>
-<tr class="odd">
-<td><code>values</code></td>
-<td>A list of values for multiple inputs</td>
-<td><code>radio</code>, <code>checkbox</code>, <code>select</code></td>
-</tr>
-<tr class="even">
-<td><code>width</code></td>
-<td><code>integer</code>: Width of input</td>
-<td>No</td>
-</tr>
-<tr class="odd">
-<td><code>height</code></td>
-<td><code>integer</code>: Height of input</td>
-<td>No</td>
-</tr>
-<tr class="even">
-<td><code>required</code></td>
-<td><code>boolean</code>: Require a response<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
-<td>No</td>
-</tr>
-<tr class="odd">
-<td><code>multiple</code></td>
-<td><code>boolean</code>: Allow multiple values</td>
-<td>No</td>
-</tr>
-<tr class="even">
-<td><code>size</code></td>
-<td><code>integer</code>: Number of inputs to display</td>
-<td>No</td>
-</tr>
-</tbody>
-</table>
-<p>The currently supported input <code>type</code>-s are:</p>
-<table class="table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 45%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>Requireable?</th>
-<th>Multiple valued</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>text</code></td>
-<td>Single-line text input</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr class="even">
-<td><code>textarea</code></td>
-<td>A large, multi-line text input</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr class="odd">
-<td><code>checkbox</code></td>
-<td>A series of checkboxes</td>
-<td>Yes<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td><code>radio</code></td>
-<td>Series of radio options</td>
-<td>Yes<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></td>
-<td>No</td>
-</tr>
-<tr class="odd">
-<td><code>select</code></td>
-<td>Dropdown selection, styled by CSS</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr class="even">
-<td><code>email</code></td>
-<td>Email-only text input</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr class="odd">
-<td><code>file</code></td>
-<td>File-submission button</td>
-<td>No</td>
-<td>No</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="form-field-values" class="level2">
-<h2 class="anchored" data-anchor-id="form-field-values">Form Field Values</h2>
-<p>The <code>values</code> for multi-line inputs are specified as</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">form</span><span class="kw">:</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">  ...</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">fields</span><span class="kw">:</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">...</span><span class="kw">:</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">values</span><span class="kw">:</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Radio 1</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">value</span><span class="kw">:</span><span class="at"> </span><span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ul>
-<li><code>text</code> is the label text for the option to be displayed</li>
-<li><code>value</code> is the value selecting the option will select</li>
-</ul>
-</section>
-<section id="non-field-form-entries" class="level2">
-<h2 class="anchored" data-anchor-id="non-field-form-entries">Non-field Form Entries</h2>
-<p>You can also add arbitrary text using the <code>text</code> field:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">form</span><span class="kw">:</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="at">  ...</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">fields</span><span class="kw">:</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> </span><span class="st">"Some  text"</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> ---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Using <code>---</code> will insert a horizontal rule in the form.</p>
-</section>
-</section>
-<section id="example-form" class="level1">
-<h1>Example Form</h1>
 <p></p><div id="form-div" class="form-wrapper">
  <form id="form" action="javascript:submit()">
-<br><p>This is a form spacer</p>
 <div class="form-group">
-<label for="textid" class="form-label mt-4">A text field (1)</label>
-  <input type="text" id="textid" name="Text1" class="form-control" required="">
-</div>
-<div class="form-group">
-<label for="textid2" class="form-label mt-4">Another text field (2)</label>
-  <input type="text" id="textid2" name="Text2" class="form-control">
-</div>
-<br><p>This is a form spacer</p>
-<hr>
-<div class="form-group">
-<fieldset class="form-group">
-<p class="form-label">My Radio Button</p>
-<div class="form-check">
-  <input type="radio" id="radio11" name="Radio" value="1" class="form-check-input" autocomplete="off" checked="">
-  <label for="radio11" class="form-check-label">&nbsp;Good</label>
-</div>
-<div class="form-check">
-  <input type="radio" id="radio12" name="Radio" value="0" class="form-check-input" autocomplete="off" checked="">
-  <label for="radio12" class="form-check-label">&nbsp;Bad</label>
-</div>
-</fieldset>
+<label for="nameField" class="form-label mt-4">Your Name*</label>
+  <input type="text" id="nameField" name="Name" class="form-control" required="">
 </div>
 <div class="form-group">
-<fieldset class="form-group">
-<p class="form-label">My Checkbox</p>
-<div class="form-check">
-  <input type="checkbox" id="checkbox11" name="Checkbox" value="hi" class="form-check-input" autocomplete="off">
-  <label for="checkbox11" class="form-check-label">&nbsp;High</label>
-</div>
-<div class="form-check">
-  <input type="checkbox" id="checkbox12" name="Checkbox" value="lo" class="form-check-input" autocomplete="off">
-  <label for="checkbox12" class="form-check-label">&nbsp;Low</label>
-</div>
-<div class="form-check">
-  <input type="checkbox" id="checkbox13" name="Checkbox" value="mid" class="form-check-input" autocomplete="off">
-  <label for="checkbox13" class="form-check-label">&nbsp;Mid</label>
-</div>
-</fieldset>
+<label for="emailField" class="form-label mt-4">E-mail address*</label>
+<input type="email" id="emailField" name="" class="form-control" required="">
 </div>
 <div class="form-group">
-<label for="selector1" class="form-label mt-4">My Selector</label>
-<select id="selector1" size="3" multiple="" class="form-select">
-  <option value="1">Option 1</option>
-  <option value="2">Option 2</option>
-  <option value="3">Option 3</option>
-  <option value="4">Option 4</option>
-</select>
+<label for="subjectField" class="form-label mt-4">Message subject*</label>
+  <input type="text" id="subjectField" name="Subject" class="form-control" required="">
 </div>
 <div class="form-group">
-<label for="textarea1">Enter lots of text</label>
-<textarea name="BigText" id="textarea1" rows="..&quot;30&quot;" cols="30" class="form-control"></textarea>
-</div>
-<div class="form-group">
-<label for="email1" class="form-label mt-4">Enter your email</label>
-<input type="email" id="email1" name="" class="form-control">
-</div>
-<div class="form-group">
-<label for="file1" class="form-label mt-4">Upload a file</label>
-<input type="file" id="file1" name="FileUpload" class="form-control">
+<label for="messageField">Message*</label>
+<textarea name="Message" id="messageField" rows="..&quot;30&quot;" cols="30" class="form-control"></textarea>
 </div>
 <br>
 <div class="form-group">
@@ -493,17 +224,8 @@ function submit() {
 <p></p>
 
 
-</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Only works for certain types of fields<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>*poorly<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>*poorly<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -745,7 +467,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kraina-ai/kraina-website/edit/main/pages/contact/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kraina-ai/kraina-website/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
     <div class="nav-footer-right"><span class="faux-block"><a href="https://github.com/kraina-ai/kraina-website">View source on GitHub</a></span></div>
   </div>
 </footer>
