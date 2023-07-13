@@ -7,3 +7,5 @@ cache
 _freeze
 docs/
 /env/
+.venv/
+/.luarc.json

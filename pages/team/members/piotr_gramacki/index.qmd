@@ -2,7 +2,7 @@
 title: "Piotr Gramacki"
 subtitle: AI Researcher, Machine Learning Engineer
 # TODO: Intro description @piotrgramacki
-description: ""
+description: "Co-creator of SRAI library | GeoAI researcher @ WUST | Machine Learning Engineer @ Brand24"
 image: avatar.jpg
 toc: false
 about:
@@ -19,9 +19,9 @@ about:
     - icon: twitter
       text: twitter
       href: https://twitter.com/piotrgramacki
-    # - icon: scholar
-    #   text: Google Scholar
-    #   href: https://scholar.google.com/citations?hl=pl&user=<ID>
+    - icon: scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?hl=pl&user=KJvjUiQAAAAJ
     # - icon: facebook
     #   text: Facebook
     #   href: https://fb.com/<ID>
