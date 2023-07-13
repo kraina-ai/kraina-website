@@ -14,7 +14,7 @@ form:
   - name: Name
     type: text
     id: nameField
-    label: Name*
+    label: Your Name*
     required: true
   - name: Email
     type: email

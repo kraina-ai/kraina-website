@@ -17,23 +17,35 @@ async function submit() {
         message: message_field.value
     };
 
-    const response = await fetch('http://localhost:8080/endpoint', {
-        method: 'POST', 
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData)
-    });
+    try {
+        const response = await fetch('http://localhost:8080/endpoint', {
+            method: 'POST', 
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData)
+        });
+        await handleResponse(response);
+    }
+    catch (error) {
+        showError(error);
+    }
+}
 
+async function handleResponse(response) {
     if (response.ok) {
         const jsonResponse = await response.json();
         console.log(jsonResponse);
         form.reset();
         alert(_SUCCESS_MESSAGE);
     } else {
-        alert(_ERROR_MESSAGE + response.statusText + ".");
-        console.error("Error:", response.statusText);
+        showError(response.statusText);
     }
+}
+
+function showError(additionalInfo) {
+    alert(_ERROR_MESSAGE);
+    console.error("Error:", additionalInfo);
 }
 
 </script>
