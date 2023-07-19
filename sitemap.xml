@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/geospatial/index.html</loc>
-    <lastmod>2023-07-13T11:10:48.192Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/team/members/kamil_raczycki/index.html</loc>
-    <lastmod>2023-07-13T11:10:44.491Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/team/members/szymon_wozniak/index.html</loc>
-    <lastmod>2023-07-13T11:10:44.030Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/team/index.html</loc>
-    <lastmod>2023-07-13T11:10:43.592Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/news/index.html</loc>
-    <lastmod>2023-07-13T11:10:43.060Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/hex2vec/index.html</loc>
-    <lastmod>2023-07-13T11:10:42.483Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/bike-stations/index.html</loc>
-    <lastmod>2023-07-13T11:10:41.885Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/air-quality-campus-network/index.html</loc>
-    <lastmod>2023-07-13T11:10:41.327Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/contact/index.html</loc>
-    <lastmod>2023-07-13T11:10:40.710Z</lastmod>
-  </url>
-  <url>
     <loc>https://kraina-ai.github.io/kraina-website/index.html</loc>
-    <lastmod>2023-07-13T11:10:40.300Z</lastmod>
+    <lastmod>2023-07-19T23:22:55.915Z</lastmod>
   </url>
   <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/contact/submit_form.html</loc>
-    <lastmod>2023-07-13T11:10:40.504Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/highway2vec/index.html</loc>
-    <lastmod>2023-07-13T11:10:41.010Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/gtfs2vec/index.html</loc>
-    <lastmod>2023-07-13T11:10:41.592Z</lastmod>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/geospatial/index.html</loc>
+    <lastmod>2023-07-19T23:22:55.585Z</lastmod>
   </url>
   <url>
     <loc>https://kraina-ai.github.io/kraina-website/pages/publications/index.html</loc>
-    <lastmod>2023-07-13T11:10:42.204Z</lastmod>
+    <lastmod>2023-07-19T23:22:50.715Z</lastmod>
   </url>
   <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/bus-delays/index.html</loc>
-    <lastmod>2023-07-13T11:10:42.803Z</lastmod>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/bike-stations/index.html</loc>
+    <lastmod>2023-07-19T23:22:50.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/hex2vec/index.html</loc>
+    <lastmod>2023-07-19T23:22:49.725Z</lastmod>
   </url>
   <url>
     <loc>https://kraina-ai.github.io/kraina-website/pages/news/euroscipy2023/index.html</loc>
-    <lastmod>2023-07-13T11:10:43.273Z</lastmod>
+    <lastmod>2023-07-19T23:22:49.275Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/contact/submit_form.html</loc>
+    <lastmod>2023-07-19T23:22:48.885Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/team/index.html</loc>
+    <lastmod>2023-07-19T23:22:48.575Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/team/members/kamil_raczycki/index.html</loc>
+    <lastmod>2023-07-19T23:22:48.055Z</lastmod>
   </url>
   <url>
     <loc>https://kraina-ai.github.io/kraina-website/pages/team/members/piotr_gramacki/index.html</loc>
-    <lastmod>2023-07-13T11:10:43.805Z</lastmod>
+    <lastmod>2023-07-19T23:22:47.685Z</lastmod>
   </url>
   <url>
-    <loc>https://kraina-ai.github.io/kraina-website/pages/team/members/piotr_szymanski/index.html</loc>
-    <lastmod>2023-07-13T11:10:44.281Z</lastmod>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/team/members/szymon_wozniak/index.html</loc>
+    <lastmod>2023-07-19T23:22:47.495Z</lastmod>
   </url>
   <url>
     <loc>https://kraina-ai.github.io/kraina-website/pages/team/members/kacper_lesniara/index.html</loc>
-    <lastmod>2023-07-13T11:10:44.705Z</lastmod>
+    <lastmod>2023-07-19T23:22:47.875Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/team/members/piotr_szymanski/index.html</loc>
+    <lastmod>2023-07-19T23:22:48.275Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/contact/index.html</loc>
+    <lastmod>2023-07-19T23:22:48.735Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/news/index.html</loc>
+    <lastmod>2023-07-19T23:22:49.095Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/highway2vec/index.html</loc>
+    <lastmod>2023-07-19T23:22:49.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/gtfs2vec/index.html</loc>
+    <lastmod>2023-07-19T23:22:49.945Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/bus-delays/index.html</loc>
+    <lastmod>2023-07-19T23:22:50.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina-ai.github.io/kraina-website/pages/publications/air-quality-campus-network/index.html</loc>
+    <lastmod>2023-07-19T23:22:50.975Z</lastmod>
   </url>
 </urlset>
