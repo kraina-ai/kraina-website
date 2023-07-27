@@ -1,0 +1,14 @@
+.card {
+    border: none;   
+}
+
+.card-img {
+    height: 200px !important;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.card-subtitle {
+    opacity: 75%;
+    font-size: 0.8rem;
+}

@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Kraina Lab",
-    "section": "",
-    "text": "Welcome to the kraina research group!"
-  },
-  {
-    "objectID": "pages/geospatial/index.html",
-    "href": "pages/geospatial/index.html",
-    "title": "Geospatial",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nfrom srai.utils import geocode_to_region_gdf\n\ngdf = geocode_to_region_gdf(\"Wrocław, Poland\")\ngdf.explore()\n\n\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\nFigure 1: A line plot on a polar axis"
-  },
-  {
     "objectID": "pages/publications/index.html",
     "href": "pages/publications/index.html",
     "title": "Publications",
@@ -26,6 +12,83 @@
     "title": "SRAI Tutorial Accepted at EuroSciPy 2023!",
     "section": "",
     "text": "The conference takes place from Monday, August 14, to Friday, August 18, in Basel, Switzerland. We’ll be presenting our tutorial on the first day, Monday, August 14 at 10:30 AM (Europe/Berlin). You can find more information on the conference’s main website and the schedule page. We hope to see you there!"
+  },
+  {
+    "objectID": "pages/team/members/kacper_lesniara/index.html",
+    "href": "pages/team/members/kacper_lesniara/index.html",
+    "title": "Kacper Leśniara",
+    "section": "",
+    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | February 2020 - February 2022\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | October 2016 - January 2020\n\n\n\nGetInData | Data Scientist | November 2021 - Present\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter"
+  },
+  {
+    "objectID": "pages/team/members/kacper_lesniara/index.html#education",
+    "href": "pages/team/members/kacper_lesniara/index.html#education",
+    "title": "Kacper Leśniara",
+    "section": "",
+    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | February 2020 - February 2022\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | October 2016 - January 2020"
+  },
+  {
+    "objectID": "pages/team/members/kacper_lesniara/index.html#experience",
+    "href": "pages/team/members/kacper_lesniara/index.html#experience",
+    "title": "Kacper Leśniara",
+    "section": "",
+    "text": "GetInData | Data Scientist | November 2021 - Present"
+  },
+  {
+    "objectID": "pages/team/members/piotr_szymanski/index.html",
+    "href": "pages/team/members/piotr_szymanski/index.html",
+    "title": "Piotr Szymański PhD",
+    "section": "",
+    "text": "He is an alumni of the Top 500 Innovators program at Stanford University, worked in several institutions over the years incl. Hasso Plattner Institute in Potsdam, Josef Stefan Institute in Ljubljana, University of Notre Dame and University of Technology Sydney. He is the author of Scikit-multilearn - a popular python library for multi-label classification, and pqdm - a parallel processing wrapper for tqdm.\nApart from multi-label classification, Piotr published papers concerning urban data, traffic analysis and bridging the gap between ASR and NLP in spoken language understanding systems. In his free time he is an urban activist in Wrocław - chairing the Society of Beautification of the City of Wrocław, and a member of Wrocław city district council of Brochów.\nRecently he became a member of the international group which models coronavirus spread: MOCOS, which publishes regular reports about the state of the pandemic in Poland and also analysis of related phenomena.\n\n\nWroclaw University of Science and Technology | Wrocław, Poland\nPhD, Machine Learning | 2013 - 2020\nWroclaw University of Science and Technology | Wrocław, Poland\nPhD (finished study programme without defense), Mathematics, Theoretical Computer Science, Analysis of Algorithms | 2009 - 2012\nHasso Plattner Institue | Potsdam, Germany\nPhD, Applied mathematics, cryptography, computer science | 2010 - 2010\nWroclaw University of Science and Technology | Wrocław, Poland\nMSc, Computer Science | 2004 - 2009\n\n\n\nAvaya | Machine Learning Engineer | June 2017 - present\nWroclaw University of Science and Technology | Research Assistant / Principal Investigator | October 2009 - April 2023\nAdmitster | Data Scientist, Full Stack Developer | 2013 - June 2016\n\n \n  \n   \n  \n    \n     twitter\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     Facebook\n  \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn"
+  },
+  {
+    "objectID": "pages/team/members/piotr_szymanski/index.html#education",
+    "href": "pages/team/members/piotr_szymanski/index.html#education",
+    "title": "Piotr Szymański PhD",
+    "section": "",
+    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nPhD, Machine Learning | 2013 - 2020\nWroclaw University of Science and Technology | Wrocław, Poland\nPhD (finished study programme without defense), Mathematics, Theoretical Computer Science, Analysis of Algorithms | 2009 - 2012\nHasso Plattner Institue | Potsdam, Germany\nPhD, Applied mathematics, cryptography, computer science | 2010 - 2010\nWroclaw University of Science and Technology | Wrocław, Poland\nMSc, Computer Science | 2004 - 2009"
+  },
+  {
+    "objectID": "pages/team/members/piotr_szymanski/index.html#experience",
+    "href": "pages/team/members/piotr_szymanski/index.html#experience",
+    "title": "Piotr Szymański PhD",
+    "section": "",
+    "text": "Avaya | Machine Learning Engineer | June 2017 - present\nWroclaw University of Science and Technology | Research Assistant / Principal Investigator | October 2009 - April 2023\nAdmitster | Data Scientist, Full Stack Developer | 2013 - June 2016"
+  },
+  {
+    "objectID": "pages/team/members/szymon_wozniak/index.html",
+    "href": "pages/team/members/szymon_wozniak/index.html",
+    "title": "Szymon Woźniak",
+    "section": "",
+    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | 2020 - 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2016 - 2020\n\n\n\nSurfer | Data Scientist | July 2023 - Present\nBrand24 | Machine Learning Engineer | August 2021 - Present\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter"
+  },
+  {
+    "objectID": "pages/team/members/szymon_wozniak/index.html#education",
+    "href": "pages/team/members/szymon_wozniak/index.html#education",
+    "title": "Szymon Woźniak",
+    "section": "",
+    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | 2020 - 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2016 - 2020"
+  },
+  {
+    "objectID": "pages/team/members/szymon_wozniak/index.html#experience",
+    "href": "pages/team/members/szymon_wozniak/index.html#experience",
+    "title": "Szymon Woźniak",
+    "section": "",
+    "text": "Surfer | Data Scientist | July 2023 - Present\nBrand24 | Machine Learning Engineer | August 2021 - Present\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kraina Lab",
+    "section": "",
+    "text": "Welcome to the kraina research group!"
+  },
+  {
+    "objectID": "pages/contact/index.html",
+    "href": "pages/contact/index.html",
+    "title": "Contact us",
+    "section": "",
+    "text": "Your Name*\n  \n\n\nE-mail address*\n\n\n\nMessage subject*\n  \n\n\nMessage*"
   },
   {
     "objectID": "pages/team/index.html",
@@ -84,80 +147,17 @@
     "text": "Brand24 | Machine Learning Engineer | August 2021 - Present\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022"
   },
   {
-    "objectID": "pages/team/members/szymon_wozniak/index.html",
-    "href": "pages/team/members/szymon_wozniak/index.html",
-    "title": "Szymon Woźniak",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | 2020 - 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2016 - 2020\n\n\n\nSurfer | Data Scientist | July 2023 - Present\nBrand24 | Machine Learning Engineer | August 2021 - Present\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter"
-  },
-  {
-    "objectID": "pages/team/members/szymon_wozniak/index.html#education",
-    "href": "pages/team/members/szymon_wozniak/index.html#education",
-    "title": "Szymon Woźniak",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | 2020 - 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2016 - 2020"
-  },
-  {
-    "objectID": "pages/team/members/szymon_wozniak/index.html#experience",
-    "href": "pages/team/members/szymon_wozniak/index.html#experience",
-    "title": "Szymon Woźniak",
-    "section": "",
-    "text": "Surfer | Data Scientist | July 2023 - Present\nBrand24 | Machine Learning Engineer | August 2021 - Present\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022"
-  },
-  {
-    "objectID": "pages/team/members/kacper_lesniara/index.html",
-    "href": "pages/team/members/kacper_lesniara/index.html",
-    "title": "Kacper Leśniara",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | February 2020 - February 2022\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | October 2016 - January 2020\n\n\n\nGetInData | Data Scientist | November 2021 - Present\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter"
-  },
-  {
-    "objectID": "pages/team/members/kacper_lesniara/index.html#education",
-    "href": "pages/team/members/kacper_lesniara/index.html#education",
-    "title": "Kacper Leśniara",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | February 2020 - February 2022\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | October 2016 - January 2020"
-  },
-  {
-    "objectID": "pages/team/members/kacper_lesniara/index.html#experience",
-    "href": "pages/team/members/kacper_lesniara/index.html#experience",
-    "title": "Kacper Leśniara",
-    "section": "",
-    "text": "GetInData | Data Scientist | November 2021 - Present"
-  },
-  {
-    "objectID": "pages/team/members/piotr_szymanski/index.html",
-    "href": "pages/team/members/piotr_szymanski/index.html",
-    "title": "Piotr Szymański PhD",
-    "section": "",
-    "text": "He is an alumni of the Top 500 Innovators program at Stanford University, worked in several institutions over the years incl. Hasso Plattner Institute in Potsdam, Josef Stefan Institute in Ljubljana, University of Notre Dame and University of Technology Sydney. He is the author of Scikit-multilearn - a popular python library for multi-label classification, and pqdm - a parallel processing wrapper for tqdm.\nApart from multi-label classification, Piotr published papers concerning urban data, traffic analysis and bridging the gap between ASR and NLP in spoken language understanding systems. In his free time he is an urban activist in Wrocław - chairing the Society of Beautification of the City of Wrocław, and a member of Wrocław city district council of Brochów.\nRecently he became a member of the international group which models coronavirus spread: MOCOS, which publishes regular reports about the state of the pandemic in Poland and also analysis of related phenomena.\n\n\nWroclaw University of Science and Technology | Wrocław, Poland\nPhD, Machine Learning | 2013 - 2020\nWroclaw University of Science and Technology | Wrocław, Poland\nPhD (finished study programme without defense), Mathematics, Theoretical Computer Science, Analysis of Algorithms | 2009 - 2012\nHasso Plattner Institue | Potsdam, Germany\nPhD, Applied mathematics, cryptography, computer science | 2010 - 2010\nWroclaw University of Science and Technology | Wrocław, Poland\nMSc, Computer Science | 2004 - 2009\n\n\n\nAvaya | Machine Learning Engineer | June 2017 - present\nWroclaw University of Science and Technology | Research Assistant / Principal Investigator | October 2009 - April 2023\nAdmitster | Data Scientist, Full Stack Developer | 2013 - June 2016\n\n \n  \n   \n  \n    \n     twitter\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     Facebook\n  \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn"
-  },
-  {
-    "objectID": "pages/team/members/piotr_szymanski/index.html#education",
-    "href": "pages/team/members/piotr_szymanski/index.html#education",
-    "title": "Piotr Szymański PhD",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nPhD, Machine Learning | 2013 - 2020\nWroclaw University of Science and Technology | Wrocław, Poland\nPhD (finished study programme without defense), Mathematics, Theoretical Computer Science, Analysis of Algorithms | 2009 - 2012\nHasso Plattner Institue | Potsdam, Germany\nPhD, Applied mathematics, cryptography, computer science | 2010 - 2010\nWroclaw University of Science and Technology | Wrocław, Poland\nMSc, Computer Science | 2004 - 2009"
-  },
-  {
-    "objectID": "pages/team/members/piotr_szymanski/index.html#experience",
-    "href": "pages/team/members/piotr_szymanski/index.html#experience",
-    "title": "Piotr Szymański PhD",
-    "section": "",
-    "text": "Avaya | Machine Learning Engineer | June 2017 - present\nWroclaw University of Science and Technology | Research Assistant / Principal Investigator | October 2009 - April 2023\nAdmitster | Data Scientist, Full Stack Developer | 2013 - June 2016"
-  },
-  {
-    "objectID": "pages/contact/index.html",
-    "href": "pages/contact/index.html",
-    "title": "Contact us",
-    "section": "",
-    "text": "Your Name*\n  \n\n\nE-mail address*\n\n\n\nMessage subject*\n  \n\n\nMessage*"
-  },
-  {
     "objectID": "pages/news/index.html",
     "href": "pages/news/index.html",
     "title": "News",
     "section": "",
     "text": "SRAI Tutorial Accepted at EuroSciPy 2023!\n\n\nIntroduction to Geospatial Machine Learning with SRAI\n\n\nWe’re delighted to announce that our submission to EuroSciPy 2023 has been accepted! We’ll be presenting a tutorial on geospatial machine learning with SRAI.\n\n\n\n\n\n\nJun 15, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/geospatial/index.html",
+    "href": "pages/geospatial/index.html",
+    "title": "Geospatial",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nfrom srai.utils import geocode_to_region_gdf\n\ngdf = geocode_to_region_gdf(\"Wrocław, Poland\")\ngdf.explore()\n\n\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\nFigure 1: A line plot on a polar axis"
   }
 ]
