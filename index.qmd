@@ -7,7 +7,35 @@ format:
     html:
         css: index.css
 ---
-<!-- ::: {.column-screen .banner}
-![](assets/banner.png)
-::: -->
-Welcome to the kraina research group!
+
+## Welcome to the Kraina Lab at Wrocław University of Science and Technology!
+
+### Explore the World with Geospatial Intelligence
+
+At Kraina Lab, we are passionate about unlocking the untapped potential of geospatial data and its transformative applications. Our team of skilled researchers and enthusiasts is dedicated to pushing the boundaries of geospatial technology to solve real-world challenges and create a brighter, more sustainable future.
+
+### What We Do:
+
+Geospatial Analysis: We delve deep into the vast troves of geospatial data to extract valuable insights, uncover patterns, and make informed decisions. From environmental monitoring to urban planning, our analysis empowers better understanding and smarter choices.
+
+Mapping Solutions: Our experts create dynamic and interactive maps that breathe life into your data. Whether it's for navigation, resource management, or visualizing complex information, we'll craft elegant mapping solutions tailored to your needs.
+
+Remote Sensing: Utilizing cutting-edge remote sensing technologies, we observe the Earth from above to monitor changes, detect anomalies, and assess environmental impacts. Our work extends from forestry assessments to disaster management.
+
+Location-Based Services: We leverage geospatial data to develop innovative location-based services that enhance user experiences, optimize logistics, and drive business growth. From mobile apps to smart city initiatives, we make location matter.
+
+### Why Choose Kraina Lab:
+
+Expertise: With a team of highly skilled researchers and practitioners, we possess a wealth of experience in the geospatial domain, ensuring top-notch solutions for your project.
+
+Innovation: We stay at the forefront of technology, continuously exploring new tools and methods to elevate geospatial analysis to unprecedented heights.
+
+Collaboration: At Kraina Lab, we believe in the power of collaboration. We actively engage with industry partners, government agencies, and fellow researchers to foster a dynamic and inclusive ecosystem.
+
+Impact: Our work goes beyond theory; we strive to make a tangible impact on society and the environment through meaningful applications of geospatial data.
+
+### Ready to Explore the Possibilities?
+
+Whether you're an organization seeking data-driven solutions or a researcher with shared interests, Kraina Lab welcomes you to join us in our geospatial journey. Together, we can navigate the world of geospatial data and turn it into a powerful force for positive change.
+
+Unlock the Potential of Geospatial Intelligence with Kraina Lab! Get in touch today!
