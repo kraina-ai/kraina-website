@@ -1,32 +1,20 @@
 ---
 title: "Meet Kraina"
 subtitle: Kraina Lab Team Members
+format:
+  html:
+    css: styles.css
 listing:
-    # - id: head-listing
-    #   type: grid
-    #   contents: "head/**/*.qmd"
-    #   image-placeholder: placeholder.svg
-    #   image-height: 250px
-    #   fields: [image, title, subtitle, description]
-    #   grid-columns: 1
-    #   grid-item-align: center
-
     - id: team-listing
       type: grid
       contents: "members/**/*.qmd"
       image-placeholder: placeholder.svg
-      # image-height: 200px
       fields: [image, title, subtitle, description]
       grid-item-align: center
       sort:
         - "order"
         - "title asc"
 ---
-
-<!-- ## Head
-
-:::{#head-listing}
-::: -->
 
 ## Members
 
