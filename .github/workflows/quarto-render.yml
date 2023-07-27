@@ -1,9 +1,11 @@
+name: Render and Publish
+
 on:
   push:
     branches: main
 
-name: Render and Publish
-
+permissions: write-all
+  
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
