@@ -1,5 +1,5 @@
 .quarto-listing-container-table {
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 .table {
