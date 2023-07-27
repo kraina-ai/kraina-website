@@ -58,9 +58,9 @@ website:
   #   location: navbar
   #   type: textbox
 
-  # page-footer:
-  # left: |
-  #   <span class="faux-block">&#169; 2023 KRAINA CC BY-SA 4.0</span>
+  page-footer:
+    center: |
+      <span>&#169; 2023 KRAINA CC BY 4.0</span>
   # center: |
   #   <span class="faux-block"><a href="https://github.com/srai-lab/srai">placeholder</a></span>
   # right: |
