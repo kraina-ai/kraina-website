@@ -12,10 +12,10 @@ website:
   title: "kraina"
   description: "kraina is a geospatial research group at WUST"
   image: assets/kraina-logo.png
-  favicon: assets/kraina-logo.png
+  favicon: assets/kraina-logo-favicon.png
   site-url: "https://kraina-ai.github.io/kraina-website/"
   repo-url: https://github.com/kraina-ai/kraina-website
-  repo-actions: [edit, issue]
+  # repo-actions: [edit, issue]
 
   navbar:
     logo: assets/kraina-logo.png
@@ -56,12 +56,12 @@ website:
   #   type: textbox
 
   # page-footer:
-    # left: |
-    #   <span class="faux-block">&#169; 2023 KRAINA CC BY-SA 4.0</span>
-    # center: |
-    #   <span class="faux-block"><a href="https://github.com/srai-lab/srai">placeholder</a></span>
-    # right: |
-    #   <span class="faux-block"><a href="https://github.com/kraina-ai/kraina-website">View source on GitHub</a></span>
+  # left: |
+  #   <span class="faux-block">&#169; 2023 KRAINA CC BY-SA 4.0</span>
+  # center: |
+  #   <span class="faux-block"><a href="https://github.com/srai-lab/srai">placeholder</a></span>
+  # right: |
+  #   <span class="faux-block"><a href="https://github.com/kraina-ai/kraina-website">View source on GitHub</a></span>
 
 # freeze: auto
 reader-mode: true
