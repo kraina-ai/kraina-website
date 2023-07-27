@@ -1,11 +1,25 @@
-.banner img {
+.banner p {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.banner p img {
+    flex: 1;
     opacity: 40%;
     max-height: 300px;
     object-fit: cover;
     width: 100%;
+    max-width: 1920px;
 }
 
 #quarto-document-content {
     padding-top: 0;
     margin-top: 0;
+}
+
+#title-block-header {
+    visibility: hidden;
+    height: 0;
+    margin-bottom: 0;
 }

@@ -1,10 +1,11 @@
 ---
+title: Geospatial enthiusasts
+# subtitle: asdasdasd
+# title-block-banner: assets/banner.png
+# title-block-banner-color: green
 format:
     html:
         css: index.css
-# about:
-#     template: marquee
-#     image: assets/banner.png
 ---
 ::: {.column-screen .banner}
 ![](assets/banner.png)
