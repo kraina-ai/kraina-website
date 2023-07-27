@@ -17,6 +17,9 @@ website:
   repo-url: https://github.com/kraina-ai/kraina-website
   # repo-actions: [edit, issue]
 
+  twitter-card: true
+  open-graph: true
+
   navbar:
     logo: assets/kraina-logo.png
 

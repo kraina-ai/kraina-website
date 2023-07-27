@@ -1,5 +1,12 @@
 ---
-title: "Kraina Lab"
+format:
+    html:
+        css: index.css
+# about:
+#     template: marquee
+#     image: assets/banner.png
 ---
-
+::: {.column-screen .banner}
+![](assets/banner.png)
+:::
 Welcome to the kraina research group!
