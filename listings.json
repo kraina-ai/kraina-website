@@ -1,16 +1,5 @@
 [
   {
-    "listing": "/pages/publications/index.html",
-    "items": [
-      "/pages/publications/highway2vec/index.html",
-      "/pages/publications/bike-stations/index.html",
-      "/pages/publications/gtfs2vec/index.html",
-      "/pages/publications/hex2vec/index.html",
-      "/pages/publications/air-quality-campus-network/index.html",
-      "/pages/publications/bus-delays/index.html"
-    ]
-  },
-  {
     "listing": "/pages/team/index.html",
     "items": [
       "/pages/team/members/piotr_szymanski/index.html",
@@ -24,6 +13,17 @@
     "listing": "/pages/news/index.html",
     "items": [
       "/pages/news/euroscipy2023/index.html"
+    ]
+  },
+  {
+    "listing": "/pages/publications/index.html",
+    "items": [
+      "/pages/publications/highway2vec/index.html",
+      "/pages/publications/bike-stations/index.html",
+      "/pages/publications/gtfs2vec/index.html",
+      "/pages/publications/hex2vec/index.html",
+      "/pages/publications/air-quality-campus-network/index.html",
+      "/pages/publications/bus-delays/index.html"
     ]
   }
 ]
