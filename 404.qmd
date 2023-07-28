@@ -1,5 +1,7 @@
 ---
-title: "Not found"
+title: "404 Not found"
 ---
 
-Not found.
+Sorry! The following page could not be found ;/
+
+![](assets/kraina-logo-bg.png)

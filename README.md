@@ -1,62 +1,34 @@
+<!-- ![](assets/kraina-logo-bg.png) -->
+<p align="center">
+    <img width=300 src="assets/kraina-logo-bg.png">
+</p>
+
 # Kraina Website
 
 This is a repository for Kraina website implemented in Quarto.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Kraina is a geospatial research group under Wrocław University of Science and Technology.
 
 ## Getting Started
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+To install the dependencies:
 
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
+```sh
+pip install -r requirements.txt
 ```
 
-## Help
+### Rendering
 
-Any advise for common problems or issues.
+Install [the quarto extension](https://marketplace.visualstudio.com/items?itemName=quarto.quarto) for VSCode and then from the command palette:
+
+```txt
+>Quarto: Render Project
 ```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+This project is licensed under the Apache 2.0 License - see the LICENSE.md file for details.

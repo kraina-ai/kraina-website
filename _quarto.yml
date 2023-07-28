@@ -10,12 +10,14 @@ project:
 
 website:
   title: "kraina"
-  description: "kraina is a geospatial research group at WUST"
+  description: "Geospatial & Mobility Research Group at WUST"
   image: assets/kraina-logo.png
   favicon: assets/kraina-logo-favicon.png
   site-url: "https://kraina-ai.github.io/kraina-website/"
   repo-url: https://github.com/kraina-ai/kraina-website
-  # repo-actions: [edit, issue]
+
+  twitter-card: true
+  open-graph: true
 
   navbar:
     logo: assets/kraina-logo.png
@@ -24,9 +26,6 @@ website:
       - href: index.qmd
         icon: house
         text: Home
-      - href: pages/geospatial
-        icon: map
-        text: Geospatial
       - href: pages/news
         icon: body-text
         text: News
@@ -40,31 +39,19 @@ website:
         icon: chat-square
         text: Contact
 
-    # right:
-    #   # - icon: folder-symlink
-    #   #   href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
-    #   # - icon: twitter
-    #   #   href: https://twitter.com/MarvinSchmittML
-    #   # - icon: linkedin
-    #   #   href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
-    #   - icon: envelope
-    #     aria-label: email
-    #     href: "mailto:klesniara@kraina.ai"
+    tools:
+      - icon: github
+        text: Organization
+        url: https://github.com/kraina-ai
+      # - icon: envelope
+      #   aria-label: email
+      #   href: "mailto:contact@kraina.ai"
 
-  # search:
-  #   location: navbar
-  #   type: textbox
+  page-footer:
+    center: <span>🗺️ &#169; 2023  KRAINA CC BY 4.0 🗺️</span>
+    border: True
+    background: light
 
-  # page-footer:
-  # left: |
-  #   <span class="faux-block">&#169; 2023 KRAINA CC BY-SA 4.0</span>
-  # center: |
-  #   <span class="faux-block"><a href="https://github.com/srai-lab/srai">placeholder</a></span>
-  # right: |
-  #   <span class="faux-block"><a href="https://github.com/kraina-ai/kraina-website">View source on GitHub</a></span>
-
-# freeze: auto
-reader-mode: true
 execute:
   enabled: true
 
