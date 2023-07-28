@@ -1,8 +1,7 @@
 ---
 title: "Kacper Leśniara"
-subtitle: AI Researcher, Data Scientist
-# TODO: Intro description @Calychas
-description: ""
+subtitle: Machine Learning Engineer, SRAI co-creator
+description: "Spatial Data Scientist and an ML Engineer passionate about the geospatial domain and an author of highway2vec. Background in Computer and Data Science from the Wrocław University of Science and Technology and a proud member of the KRAINA Lab tackling geospatial problems."
 image: avatar.jpg
 toc: false
 about:
@@ -19,33 +18,18 @@ about:
     - icon: twitter
       text: twitter
       href: https://twitter.com/lesniara
-    # - icon: scholar
-    #   text: Google Scholar
-    #   href: https://scholar.google.com/citations?hl=pl&user=<ID>
-    # - icon: facebook
-    #   text: Facebook
-    #   href: https://fb.com/<ID>
+
 ---
 :::{#intro-heading}
 
-
-<!-- TODO: Description @Calychas -->
-
-
-
 ## Education
 
-Wroclaw University of Science and Technology | Wrocław, Poland  
-MSc, Data Science | February 2020 - February 2022
+Wroclaw University of Science and Technology | Wrocław, Poland MSc, Data Science | February 2020 - February 2022
 
-Wroclaw University of Science and Technology | Wrocław, Poland  
-BSc, Computer Science | October 2016 - January 2020
+Wroclaw University of Science and Technology | Wrocław, Poland BSc, Computer Science | October 2016 - January 2020
 
 ## Experience
 
-GetInData | Data Scientist | November 2021 - Present
+[GetInData](https://getindata.com/) | Machine Learning Engineer | November 2021 - Present
 
 :::
-<!-- 
----
-Aliqua esse id consequat dolor non est incididunt laborum excepteur. Amet sint deserunt reprehenderit id exercitation et id irure voluptate culpa officia proident nostrud amet. Sint officia laborum eiusmod ea mollit ut incididunt mollit nulla. Dolor aute ipsum velit officia incididunt ex. -->
