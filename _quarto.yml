@@ -26,9 +26,6 @@ website:
       - href: index.qmd
         icon: house
         text: Home
-      - href: pages/geospatial
-        icon: map
-        text: Geospatial
       - href: pages/news
         icon: body-text
         text: News
