@@ -1,6 +1,6 @@
 ---
 title: Kraina
-subtitle: Geospatial Research Group
+subtitle: Geospatial & Mobility Research Group at WUST
 title-block-banner: assets/banner-o.png
 # title-block-banner-color: grey
 format:
