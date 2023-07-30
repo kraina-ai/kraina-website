@@ -2,7 +2,7 @@
 title: "Piotr Gramacki"
 subtitle: AI Researcher, Machine Learning Engineer
 # TODO: Intro description @piotrgramacki
-description: "Co-creator of SRAI library | GeoAI researcher @ WUST | Machine Learning Engineer @ Brand24"
+# description: "Co-creator of SRAI library | GeoAI researcher @ WUST | Machine Learning Engineer @ Brand24"
 image: avatar.jpg
 toc: false
 about:
@@ -30,8 +30,7 @@ about:
 
 
 <!-- TODO: Description  @piotrgramacki -->
-
-
+Machine Learning Engineer and Researcher in Geospatial AI and NLP at WUST. Huge fun of public transport trying to improve it with AI. Author of gtfs2vec model and an analysis of public transport availability across the Europe. Co-creator of SRAI library for research in GeoAI.
 
 ## Education
 
@@ -43,7 +42,7 @@ BSc, Computer Science | 2016 - 2020
 
 ## Experience
 
-Brand24 | Machine Learning Engineer | August 2021 - Present
+[Brand24](https://brand24.com/) | Machine Learning Engineer | August 2021 - Present
 
 Q2Q Research | AI Programmer/Researcher | August 2021 - January 2022
 
