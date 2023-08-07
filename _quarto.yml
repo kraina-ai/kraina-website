@@ -8,6 +8,9 @@ project:
     watch-inputs: false
     navigate: true
 
+  resources:
+    - CNAME
+
 website:
   title: "kraina"
   description: "Geospatial & Mobility Research Group at WUST"
