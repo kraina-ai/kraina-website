@@ -25,3 +25,27 @@ about:
         href: https://github.com/Calychas/highway2vec
 ---
 
+{{< include ../_citation_modal.qmd >}}
+
+```{=html}
+<script>
+const bibtex = `@inproceedings{10.1145/3557918.3565865,
+author = {Le\\'{s}niara, Kacper and Szyma\\'{n}ski, Piotr},
+title = {Highway2vec: Representing OpenStreetMap Microregions with Respect to Their Road Network Characteristics},
+year = {2022},
+isbn = {9781450395328},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3557918.3565865},
+doi = {10.1145/3557918.3565865},
+abstract = {Recent years brought advancements in using neural networks for representation learning of various language or visual phenomena. New methods freed data scientists from hand-crafting features for common tasks. Similarly, problems that require considering the spatial variable can benefit from pretrained map region representations instead of manually creating feature tables that one needs to prepare to solve a task. However, very few methods for map area representation exist, especially with respect to road network characteristics. In this paper, we propose a method for generating microregions' embeddings with respect to their road infrastructure characteristics. We base our representations on OpenStreetMap road networks in a selection of cities and use the H3 spatial index to allow reproducible and scalable representation learning. We obtained vector representations that detect how similar map hexagons are in the road networks they contain. Additionally, we observe that embeddings yield a latent space with meaningful arithmetic operations. Finally, clustering methods allowed us to draft a high-level typology of obtained representations. We are confident that this contribution will aid data scientists working on infrastructure-related prediction tasks with spatial variables.},
+booktitle = {Proceedings of the 5th ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery},
+pages = {18–29},
+numpages = {12},
+keywords = {road network embeddings, embedding, spatial representation learning, OpenStreetMap embeddings, clustering},
+location = {Seattle, Washington},
+series = {GeoAI '22}
+}`;
+  setModalContent(bibtex);
+</script>
+```

@@ -1,0 +1,44 @@
+```{=html}
+<style>
+  .code-container {
+    position: relative;
+  }
+  .copy-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+</style>
+
+<button type="button" class="about-link" data-bs-toggle="modal" data-bs-target="#citationModal" id="openModal">
+  <i class="bi bi-quote"></i> Cite
+</button>
+
+<div class="modal fade" id="citationModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Export citation</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body code-container" id="modalBody">
+        <button class="about-link copy-button" onclick="copyCode()"><i class="bi bi-clipboard"></i></button>
+        <pre><code class="text-start" id="code-block">
+        </code></pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function setModalContent(modalBody) {
+    document.getElementById("openModal").addEventListener("click", function() {
+      document.getElementById("code-block").textContent = modalBody;
+    });
+  }
+
+  function copyCode() {
+    navigator.clipboard.writeText(document.getElementById('code-block').textContent);
+  }
+</script>
+```

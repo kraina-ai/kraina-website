@@ -26,3 +26,25 @@ about:
         icon: link
         href: https://doi.org/10.1109/TITS.2018.2852845
 ---
+
+{{< include ../_citation_modal.qmd >}}
+
+```{=html}
+<script>
+const bibtex = `@ARTICLE{8424477,
+  author={Szyma\\'{n}ski, Piotr and \\.{Z}ołnieruk, Michał and Oleszczyk, Piotr and Gisterek, Igor and Kajdanowicz, Tomasz},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={Spatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław}, 
+  year={2018},
+  volume={19},
+  number={11},
+  pages={3652-3661},
+  abstract={In recent years, many studies on urban mobility based on large data sets have been published: most of them are based on crowdsourced GPS data or smart-card data. We present, what is to the best of our knowledge, the first exploration of public transport delay data harvested from a large-scale, official public transport positioning system, provided by the Wrocław municipality. We introduce the methodology to analyze the distribution of delays in public transport, enabling the improvement of timetables by making them more realistic, and thus improve passenger comfort. We evaluate the method considering the characteristics of delays between stops in relation to the direction, time, and delay variance of 1648 stop pairs from 16-mln delay reports. We construct a normalized feature matrix of likelihood of a given delay change happening at a given hour on the edge between two stops. We then calculate the distances between such matrices using the earth mover's distance and cluster them using hierarchical agglomerative clustering with Vor Hees's linkage method. As a result, we obtained six profiles of delay changes in Wrocław: edges nearly not impacting the delay at all, these not impacting the delay significantly, likely to cause strong increase of delay, these causing increase of delay, edges likely to cause strong decrease of delay, and finally these likely to cause decrease of delay (i.e., when a public transport vehicle is speeding). We analyze the spatial and mode of transport properties of each cluster and provide insights into reasons of delay change patterns in each of the detected profiles. Such insights can be successfully utilized in traffic structure optimization and transport model split.},
+  keywords={},
+  doi={10.1109/TITS.2018.2852845},
+  ISSN={1558-0016},
+  month={Nov},}
+`;
+  setModalContent(bibtex);
+</script>
+```
