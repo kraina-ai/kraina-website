@@ -1,4 +1,9 @@
 ---
+twitter-card:
+  image: /assets/kraina-logo-bg.png
+open-graph:
+  image: /assets/kraina-logo-bg.png
+
 title: "Assessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area"
 author:
     - Marek Badura
