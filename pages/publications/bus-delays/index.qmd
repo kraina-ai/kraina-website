@@ -7,7 +7,7 @@ open-graph:
 title: "Spatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław"
 author:
     - Piotr Szymański
-    - Michał Zołnieruk
+    - Michał Żołnieruk
     - Piotr Oleszczyk
     - Igor Gisterek
     - Tomasz Kajdanowicz
