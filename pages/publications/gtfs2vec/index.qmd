@@ -1,4 +1,5 @@
 ---
+image: /assets/kraina-logo-bg.png
 title: "gtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions"
 author:
     - Piotr Gramacki

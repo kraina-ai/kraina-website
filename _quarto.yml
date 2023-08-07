@@ -12,15 +12,21 @@ project:
     - CNAME
 
 website:
-  title: "kraina"
+  title: "Kraina AI"
   description: "Geospatial & Mobility Research Group at WUST"
   image: assets/kraina-logo.png
   favicon: assets/kraina-logo-favicon.png
-  site-url: "https://kraina-ai.github.io/kraina-website/"
+  site-url: "https://kraina.ai"
   repo-url: https://github.com/kraina-ai/kraina-website
 
   twitter-card: true
   open-graph: true
+
+  cookie-consent: true
+  
+  google-analytics:
+    tracking-id: G-W8TQR5W028
+    anonymize-ip: true
 
   navbar:
     logo: assets/kraina-logo.png

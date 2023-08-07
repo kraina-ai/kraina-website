@@ -1,4 +1,5 @@
 ---
+image: /assets/kraina-logo-bg.png
 title: "Contact us"
 format: 
   html:
