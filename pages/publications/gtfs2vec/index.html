@@ -165,6 +165,64 @@ ul.task-list li input[type="checkbox"] {
   </div>
   </div>
 </header><main class="content" id="quarto-document-content">
+<style>
+  .code-container {
+    position: relative;
+  }
+  .copy-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+</style>
+<button type="button" class="about-link" data-bs-toggle="modal" data-bs-target="#citationModal" id="openModal">
+  <i class="bi bi-quote"></i> Cite
+</button>
+<div class="modal fade" id="citationModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Export citation</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body code-container" id="modalBody">
+        <button class="about-link copy-button" onclick="copyCode()"><i class="bi bi-clipboard"></i></button>
+        <pre><code class="text-start" id="code-block">
+        </code></pre>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function setModalContent(modalBody) {
+    document.getElementById("openModal").addEventListener("click", function() {
+      document.getElementById("code-block").textContent = modalBody;
+    });
+  }
+  function copyCode() {
+    navigator.clipboard.writeText(document.getElementById('code-block').textContent);
+  }
+</script>
+<script>
+const bibtex = `@inproceedings{10.1145/3486640.3491392,
+author = {Gramacki, Piotr and Wo\\'{z}niak, Szymon and Szyma\\'{n}ski, Piotr},
+title = {Gtfs2vec: Learning GTFS Embeddings for Comparing Public Transport Offer in Microregions},
+year = {2021},
+isbn = {9781450391238},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3486640.3491392},
+doi = {10.1145/3486640.3491392},
+abstract = {We selected 48 European cities and gathered their public transport timetables in the GTFS format. We utilized Uber's H3 spatial index to divide each city into hexagonal micro-regions. Based on the timetables data we created certain features describing the quantity and variety of public transport availability in each region. Next, we trained an auto-associative deep neural network to embed each of the regions. Having such prepared representations, we then used a hierarchical clustering approach to identify similar regions. To do so, we utilized an agglomerative clustering algorithm with a euclidean distance between regions and Ward's method to minimize in-cluster variance. Finally, we analyzed the obtained clusters at different levels to identify some number of clusters that qualitatively describe public transport availability. We showed that our typology matches the characteristics of analyzed cities and allows succesful searching for areas with similar public transport schedule characteristics.},
+booktitle = {Proceedings of the 1st ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data},
+pages = {5–12},
+numpages = {8},
+keywords = {typology of public transport offering, unsupervised representation learning, public transport timetable embeddings},
+location = {Beijing, China},
+series = {GeoSearch'21}
+}`;
+  setModalContent(bibtex);
+</script>
 
 
 </main> 

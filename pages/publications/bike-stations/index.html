@@ -164,6 +164,64 @@ ul.task-list li input[type="checkbox"] {
   </div>
   </div>
 </header><main class="content" id="quarto-document-content">
+<style>
+  .code-container {
+    position: relative;
+  }
+  .copy-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+</style>
+<button type="button" class="about-link" data-bs-toggle="modal" data-bs-target="#citationModal" id="openModal">
+  <i class="bi bi-quote"></i> Cite
+</button>
+<div class="modal fade" id="citationModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Export citation</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body code-container" id="modalBody">
+        <button class="about-link copy-button" onclick="copyCode()"><i class="bi bi-clipboard"></i></button>
+        <pre><code class="text-start" id="code-block">
+        </code></pre>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function setModalContent(modalBody) {
+    document.getElementById("openModal").addEventListener("click", function() {
+      document.getElementById("code-block").textContent = modalBody;
+    });
+  }
+  function copyCode() {
+    navigator.clipboard.writeText(document.getElementById('code-block').textContent);
+  }
+</script>
+<script>
+const bibtex = `@inproceedings{10.1145/3486626.3493434,
+author = {Raczycki, Kamil and Szyma\\'{n}ski, Piotr},
+title = {Transfer Learning Approach to Bicycle-Sharing Systems' Station Location Planning Using OpenStreetMap Data},
+year = {2021},
+isbn = {9781450391160},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3486626.3493434},
+doi = {10.1145/3486626.3493434},
+abstract = {Bicycle-sharing systems (BSS) have become a daily reality for many citizens of larger, wealthier cities in developed regions. However, planning the layout of bicycle-sharing stations usually requires expensive data gathering, surveying travel behavior and trip modelling followed by station layout optimization. Many smaller cities and towns, especially in developing areas, may have difficulty financing such projects. Planning a BSS also takes a considerable amount of time. Yet as the pandemic has shown us, municipalities will face the need to adapt rapidly to mobility shifts, which include citizens leaving public transport for bicycles. Laying out a bike sharing system quickly will become critical in addressing the increase in bike demand. This paper addresses the problem of cost and time in BSS layout design and proposes a new solution to streamline and facilitate the process of such planning by using spatial embedding methods. Based only on publicly available data from OpenStreetMap, and station layouts from 34 cities in Europe, a method has been developed to divide cities into micro-regions using the Uber H3 discrete global grid system and to indicate regions where it is worth placing a station based on existing systems in different cities using transfer learning. The result of the work is a mechanism to support planners in their decision making when planning a station layout with a choice of reference cities.},
+booktitle = {Proceedings of the 4th ACM SIGSPATIAL International Workshop on Advances in Resilient and Intelligent Cities},
+pages = {1–12},
+numpages = {12},
+keywords = {bicycle-sharing system, spatial data embedding, OpenStreetMap representation, bicycle station prediction},
+location = {Beijing, China},
+series = {ARIC '21}
+}`;
+  setModalContent(bibtex);
+</script>
 
 
 </main> 
