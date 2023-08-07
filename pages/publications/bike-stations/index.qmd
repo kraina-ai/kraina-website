@@ -1,5 +1,9 @@
 ---
-image: /assets/kraina-logo-bg.png
+twitter-card:
+  image: /assets/kraina-logo-bg.png
+open-graph:
+  image: /assets/kraina-logo-bg.png
+
 title: "Transfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data"
 author:
     - Kamil Raczycki

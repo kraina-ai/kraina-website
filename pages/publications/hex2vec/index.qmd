@@ -1,5 +1,9 @@
 ---
-image: /assets/kraina-logo-bg.png
+twitter-card:
+  image: /assets/kraina-logo-bg.png
+open-graph:
+  image: /assets/kraina-logo-bg.png
+
 title: "hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags"
 author:
     - Szymon Woźniak

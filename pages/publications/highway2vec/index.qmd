@@ -1,5 +1,9 @@
 ---
-image: /assets/kraina-logo-bg.png
+twitter-card:
+  image: /assets/kraina-logo-bg.png
+open-graph:
+  image: /assets/kraina-logo-bg.png
+
 title: "highway2vec - representing OpenStreetMap microregions with respect to their road network characteristics"
 author:
     - Kacper Leśniara

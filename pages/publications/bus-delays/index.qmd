@@ -1,5 +1,9 @@
 ---
-image: /assets/kraina-logo-bg.png
+twitter-card:
+  image: /assets/kraina-logo-bg.png
+open-graph:
+  image: /assets/kraina-logo-bg.png
+
 title: "Spatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław"
 author:
     - Piotr Szymański
