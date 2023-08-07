@@ -11,7 +11,7 @@
 <meta name="dcterms.date" content="2021-11-18">
 <meta name="description" content="Bicycle-sharing systems (BSS) have become a daily reality for many citizens of larger, wealthier cities in developed regions. However, planning the layout of bicycle-sharing stations usually requires expensive data gathering, surveying travel behavior and trip modelling followed by station layout optimization. Many smaller cities and towns, especially in developing areas, may have difficulty financing such projects. Planning a BSS also takes a considerable amount of time. Yet as the pandemic has shown us, municipalities will face the need to adapt rapidly to mobility shifts, which include citizens leaving public transport for bicycles. Laying out a bike sharing system quickly will become critical in addressing the increase in bike demand. This paper addresses the problem of cost and time in BSS layout design and proposes a new solution to streamline and facilitate the process of such planning by using spatial embedding methods. Based only on publicly available data from OpenStreetMap, and station layouts from 34 cities in Europe, a method has been developed to divide cities into micro-regions using the Uber H3 discrete global grid system and to indicate regions where it is worth placing a station based on existing systems in different cities using transfer learning. The result of the work is a mechanism to support planners in their decision making when planning a station layout with a choice of reference cities.">
 
-<title>kraina - Transfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data</title>
+<title>Kraina AI - Transfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,6 +35,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
 <link href="../../../assets/kraina-logo-favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -63,14 +65,45 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-W8TQR5W028"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-W8TQR5W028', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
 
 
-<meta property="og:title" content="kraina - Transfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data">
+<meta property="og:title" content="Kraina AI - Transfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data">
 <meta property="og:description" content="Bicycle-sharing systems (BSS) have become a daily reality for many citizens of larger, wealthier cities in developed regions. However, planning the layout of bicycle-sharing stations usually requires expensive data gathering, surveying travel behavior and trip modelling followed by station layout optimization. Many smaller cities and towns, especially in developing areas, may have difficulty financing such projects. Planning a BSS also takes a considerable amount of time. Yet as the pandemic has shown us, municipalities will face the need to adapt rapidly to mobility shifts, which include citizens leaving public transport for bicycles. Laying out a bike sharing system quickly will become critical in addressing the increase in bike demand. This paper addresses the problem of cost and time in BSS layout design and proposes a new solution to streamline and facilitate the process of such planning by using spatial embedding methods. Based only on publicly available data from OpenStreetMap, and station layouts from 34 cities in Europe, a method has been developed to divide cities into micro-regions using the Uber H3 discrete global grid system and to indicate regions where it is worth placing a station based on existing systems in different cities using transfer learning. The result of the work is a mechanism to support planners in their decision making when planning a station layout with a choice of reference cities.">
-<meta property="og:site-name" content="kraina">
-<meta name="twitter:title" content="kraina - Transfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data">
+<meta property="og:image" content="https://kraina.ai/assets/kraina-logo-bg.png">
+<meta property="og:site-name" content="Kraina AI">
+<meta property="og:image:height" content="1102">
+<meta property="og:image:width" content="1102">
+<meta name="twitter:title" content="Kraina AI - Transfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data">
 <meta name="twitter:description" content="Bicycle-sharing systems (BSS) have become a daily reality for many citizens of larger, wealthier cities in developed regions. However, planning the layout of bicycle-sharing stations usually requires expensive data gathering, surveying travel behavior and trip modelling followed by station layout optimization. Many smaller cities and towns, especially in developing areas, may have difficulty financing such projects. Planning a BSS also takes a considerable amount of time. Yet as the pandemic has shown us, municipalities will face the need to adapt rapidly to mobility shifts, which include citizens leaving public transport for bicycles. Laying out a bike sharing system quickly will become critical in addressing the increase in bike demand. This paper addresses the problem of cost and time in BSS layout design and proposes a new solution to streamline and facilitate the process of such planning by using spatial embedding methods. Based only on publicly available data from OpenStreetMap, and station layouts from 34 cities in Europe, a method has been developed to divide cities into micro-regions using the Uber H3 discrete global grid system and to indicate regions where it is worth placing a station based on existing systems in different cities using transfer learning. The result of the work is a mechanism to support planners in their decision making when planning a station layout with a choice of reference cities.">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://kraina.ai/assets/kraina-logo-bg.png">
+<meta name="twitter:image-height" content="1102">
+<meta name="twitter:image-width" content="1102">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -84,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../../assets/kraina-logo.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../../../index.html">
-    <span class="navbar-title">kraina</span>
+    <span class="navbar-title">Kraina AI</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -478,7 +511,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center"><span>🗺️ © 2023 KRAINA CC BY 4.0 🗺️</span></div>
+    <div class="nav-footer-center"><span>🗺️ © 2023 KRAINA CC BY 4.0 🗺️</span><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

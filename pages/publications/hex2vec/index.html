@@ -11,7 +11,7 @@
 <meta name="dcterms.date" content="2021-11-08">
 <meta name="description" content="Representation learning of spatial and geographic data is a rapidly developing field which allows for similarity detection between areas and high-quality inference using deep neural networks. Past approaches however concentrated on embedding raster imagery (maps, street or satellite photos), mobility data or road networks. In this paper we propose the first approach to learning vector representations of OpenStreetMap regions with respect to urban functions and land-use in a micro-region grid. We identify a subset of OSM tags related to major characteristics of land-use, building and urban region functions, types of water, green or other natural areas. Through manual verification of tagging quality, we selected 36 cities were for training region representations. Uber’s H3 index was used to divide the cities into hexagons, and OSM tags were aggregated for each hexagon. We propose the hex2vec method based on the Skip-gram model with negative sampling. The resulting vector representations showcase semantic structures of the map characteristics, similar to ones found in vector-based language models. We also present insights from region similarity detection in six Polish cities and propose a region typology obtained through agglomerative clustering.">
 
-<title>kraina - hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags</title>
+<title>Kraina AI - hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,6 +35,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
 <link href="../../../assets/kraina-logo-favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -63,14 +65,45 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-W8TQR5W028"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-W8TQR5W028', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
 
 
-<meta property="og:title" content="kraina - hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags">
+<meta property="og:title" content="Kraina AI - hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags">
 <meta property="og:description" content="Representation learning of spatial and geographic data is a rapidly developing field which allows for similarity detection between areas and high-quality inference using deep neural networks. Past approaches however concentrated on embedding raster imagery (maps, street or satellite photos), mobility data or road networks. In this paper we propose the first approach to learning vector representations of OpenStreetMap regions with respect to urban functions and land-use in a micro-region grid. We identify a subset of OSM tags related to major characteristics of land-use, building and urban region functions, types of water, green or other natural areas. Through manual verification of tagging quality, we selected 36 cities were for training region representations. Uber’s H3 index was used to divide the cities into hexagons, and OSM tags were aggregated for each hexagon. We propose the hex2vec method based on the Skip-gram model with negative sampling. The resulting vector representations showcase semantic structures of the map characteristics, similar to ones found in vector-based language models. We also present insights from region similarity detection in six Polish cities and propose a region typology obtained through agglomerative clustering.">
-<meta property="og:site-name" content="kraina">
-<meta name="twitter:title" content="kraina - hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags">
+<meta property="og:image" content="https://kraina.ai/assets/kraina-logo-bg.png">
+<meta property="og:site-name" content="Kraina AI">
+<meta property="og:image:height" content="1102">
+<meta property="og:image:width" content="1102">
+<meta name="twitter:title" content="Kraina AI - hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags">
 <meta name="twitter:description" content="Representation learning of spatial and geographic data is a rapidly developing field which allows for similarity detection between areas and high-quality inference using deep neural networks. Past approaches however concentrated on embedding raster imagery (maps, street or satellite photos), mobility data or road networks. In this paper we propose the first approach to learning vector representations of OpenStreetMap regions with respect to urban functions and land-use in a micro-region grid. We identify a subset of OSM tags related to major characteristics of land-use, building and urban region functions, types of water, green or other natural areas. Through manual verification of tagging quality, we selected 36 cities were for training region representations. Uber’s H3 index was used to divide the cities into hexagons, and OSM tags were aggregated for each hexagon. We propose the hex2vec method based on the Skip-gram model with negative sampling. The resulting vector representations showcase semantic structures of the map characteristics, similar to ones found in vector-based language models. We also present insights from region similarity detection in six Polish cities and propose a region typology obtained through agglomerative clustering.">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://kraina.ai/assets/kraina-logo-bg.png">
+<meta name="twitter:image-height" content="1102">
+<meta name="twitter:image-width" content="1102">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -84,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../../assets/kraina-logo.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../../../index.html">
-    <span class="navbar-title">kraina</span>
+    <span class="navbar-title">Kraina AI</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -475,7 +508,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center"><span>🗺️ © 2023 KRAINA CC BY 4.0 🗺️</span></div>
+    <div class="nav-footer-center"><span>🗺️ © 2023 KRAINA CC BY 4.0 🗺️</span><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
