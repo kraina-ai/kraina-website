@@ -11,6 +11,12 @@
     ]
   },
   {
+    "listing": "/pages/news/index.html",
+    "items": [
+      "/pages/news/euroscipy2023/index.html"
+    ]
+  },
+  {
     "listing": "/pages/team/index.html",
     "items": [
       "/pages/team/members/piotr_szymanski/index.html",
@@ -18,12 +24,6 @@
       "/pages/team/members/kamil_raczycki/index.html",
       "/pages/team/members/piotr_gramacki/index.html",
       "/pages/team/members/szymon_wozniak/index.html"
-    ]
-  },
-  {
-    "listing": "/pages/news/index.html",
-    "items": [
-      "/pages/news/euroscipy2023/index.html"
     ]
   }
 ]
