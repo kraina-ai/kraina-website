@@ -52,9 +52,10 @@ website:
       - icon: github
         text: Organization
         url: https://github.com/kraina-ai
-      # - icon: envelope
-      #   aria-label: email
-      #   href: "mailto:contact@kraina.ai"
+      - icon: envelope
+        aria-label: email
+        text: contact@kraina.ai
+        href: "mailto:contact@kraina.ai"
 
   page-footer:
     center: <span>🗺️ &#169; 2023  KRAINA CC BY 4.0 🗺️</span>

@@ -35,7 +35,7 @@ form:
     height: 30
 ---
 
-If you would like to contact us, please temporarily use the following email: [swozniak@kraina.ai](mailto:swozniak@kraina.ai)  
+If you would like to contact us, please use the following email: [contact@kraina.ai](mailto:contact@kraina.ai)  
 You can also use the form below. We will get back to you as soon as possible.
 
 {{< form >}}
