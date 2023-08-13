@@ -1,0 +1,14 @@
+---
+title: "Paper accepted at GeoAI @ SigSpatial 2021!"
+subtitle: "hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags"
+date: 2021-10-06
+categories:
+    - presentation
+    - conference
+image: image.png
+
+description: "We're delighted to announce that our submission to SigSpatial 2021 has been accepted! We'll be presenting a paper on OpenStreetMap region representation learning with respect to their urban and POI characteristics."
+---
+
+
+We'll be presenting our tutorial on the workshop day, November 2nd. You can find our paper at the [arxiv website](https://arxiv.org/abs/2111.00970) and the [conference proceedings](https://dl.acm.org/doi/abs/10.1145/3486635.3491076). We hope to see you there! <em>Update:</em> hex2vec has been implemented in our Spatial Representations for Artificial Intelligence library - [SRAI](https://kraina-ai.github.io/srai).

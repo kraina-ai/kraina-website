@@ -1,0 +1,13 @@
+---
+title: "Our PhD scholarship proposal has been accepted for financing by the Unite! project!"
+subtitle: "Using Large Language Models in the Context of Understanding and Generating Geospatial Language and Data"
+date: 2023-05-16
+categories:
+    - phd
+    - funding
+image: image.png
+
+description: "We're delighted to announce that the Unite! meta university project will be financing our proposal for a PhD position on the verge of NLP and geospatial data with a focus on large language models and content generation."
+---
+
+The scholarship will be released jointly by the University of Lisbon and Wrocław University of Science and Technology, by advisors: Bruno Martins (UL) and Piotr Szymański (WrocławTech). More information can be found on the [university website](https://www.unite-university.eu/unitenews/doctoral-research-grant-opportunities-in-three-unite-priority-areas).

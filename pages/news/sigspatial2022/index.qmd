@@ -1,0 +1,16 @@
+---
+title: "Paper accepted at GeoAI @ SigSpatial 2022!"
+subtitle: "highway2vec: representing OpenStreetMap microregions with respect to their road network characteristics"
+date: 2022-10-02
+categories:
+    - presentation
+    - conference
+image: image.png
+
+description: "We're delighted to announce that our submission to GeoAI@SigSpatial 2022 has been accepted! We'll be presenting a paper on OpenStreetMap region representation learning with respect to their road network characteristics."
+---
+
+
+The conference takes place Tuesday November 1 - Friday November 4, 2022, in Seattle, Washington. We'll be presenting our tutorial on the workshop day, Tuesday, November 1st at 11:00 AM (USA/Seattle).
+You can find our paper at the [arxiv website](https://arxiv.org/abs/2304.13865) and the [conference proceedings](https://dl.acm.org/doi/abs/10.1145/3557918.3565865). We hope to see you there! 
+<em>Update:</em> highway2vec has been implemented in our Spatial Representations for Artificial Intelligence library - [SRAI](https://kraina-ai.github.io/srai).
