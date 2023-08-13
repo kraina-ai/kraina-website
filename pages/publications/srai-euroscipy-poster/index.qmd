@@ -8,8 +8,8 @@ title: "Streamlining Geospatial Machine Learning with SRAI"
 author:
     - Szymon Woźniak
     - Kamil Raczycki
-	- Kacper Leśniara
-	- Piotr Gramacki
+    - Kacper Leśniara
+    - Piotr Gramacki
     - Piotr Szymański
 date: 2023-08-14
 categories:
