@@ -10,6 +10,7 @@ project:
 
   resources:
     - CNAME
+    - pages/publications/srai-euroscipy-poster/poster.pdf
 
 website:
   title: "Kraina AI"
