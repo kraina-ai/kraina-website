@@ -2,102 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kraina.ai/index.html</loc>
-    <lastmod>2023-08-13T19:55:02.022Z</lastmod>
+    <lastmod>2023-08-13T20:35:37.191Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/contact/index.html</loc>
-    <lastmod>2023-08-13T19:55:01.158Z</lastmod>
+    <lastmod>2023-08-13T20:35:36.231Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/team/members/kamil_raczycki/index.html</loc>
-    <lastmod>2023-08-13T19:55:00.582Z</lastmod>
+    <lastmod>2023-08-13T20:35:35.543Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/team/members/kacper_lesniara/index.html</loc>
-    <lastmod>2023-08-13T19:54:59.982Z</lastmod>
+    <lastmod>2023-08-13T20:35:34.839Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/team/members/szymon_wozniak/index.html</loc>
-    <lastmod>2023-08-13T19:54:59.266Z</lastmod>
+    <lastmod>2023-08-13T20:35:34.027Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/news/sigspatial2022/index.html</loc>
-    <lastmod>2023-08-13T19:54:58.426Z</lastmod>
+    <lastmod>2023-08-13T20:35:33.015Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/news/euroscipy2023/index.html</loc>
-    <lastmod>2023-08-13T19:54:57.766Z</lastmod>
+    <lastmod>2023-08-13T20:35:32.259Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/news/aric2021/index.html</loc>
-    <lastmod>2023-08-13T19:54:57.158Z</lastmod>
+    <lastmod>2023-08-13T20:35:31.563Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/news/iwcts2021/index.html</loc>
-    <lastmod>2023-08-13T19:54:56.078Z</lastmod>
+    <lastmod>2023-08-13T20:35:30.343Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/publications/gtfs2vec/index.html</loc>
-    <lastmod>2023-08-13T19:54:55.362Z</lastmod>
+    <lastmod>2023-08-13T20:35:29.527Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/publications/bus-delays/index.html</loc>
-    <lastmod>2023-08-13T19:54:54.590Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina.ai/pages/publications/highway2vec/index.html</loc>
-    <lastmod>2023-08-13T19:54:53.670Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina.ai/pages/publications/air-quality-campus-network/index.html</loc>
-    <lastmod>2023-08-13T19:54:52.706Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kraina.ai/pages/publications/index.html</loc>
-    <lastmod>2023-08-13T19:54:53.262Z</lastmod>
+    <lastmod>2023-08-13T20:35:28.639Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/publications/bike-stations/index.html</loc>
-    <lastmod>2023-08-13T19:54:54.114Z</lastmod>
+    <lastmod>2023-08-13T20:35:27.699Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina.ai/pages/publications/index.html</loc>
+    <lastmod>2023-08-13T20:35:26.775Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina.ai/pages/publications/air-quality-campus-network/index.html</loc>
+    <lastmod>2023-08-13T20:35:26.135Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina.ai/pages/publications/highway2vec/index.html</loc>
+    <lastmod>2023-08-13T20:35:27.235Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kraina.ai/pages/publications/srai-euroscipy-poster/index.html</loc>
+    <lastmod>2023-08-13T20:35:28.107Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/publications/hex2vec/index.html</loc>
-    <lastmod>2023-08-13T19:54:54.982Z</lastmod>
+    <lastmod>2023-08-13T20:35:29.087Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/news/geoai2021/index.html</loc>
-    <lastmod>2023-08-13T19:54:55.710Z</lastmod>
+    <lastmod>2023-08-13T20:35:29.931Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/news/index.html</loc>
-    <lastmod>2023-08-13T19:54:56.834Z</lastmod>
+    <lastmod>2023-08-13T20:35:31.187Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/news/geosearch2021/index.html</loc>
-    <lastmod>2023-08-13T19:54:57.466Z</lastmod>
+    <lastmod>2023-08-13T20:35:31.923Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/news/unite2023/index.html</loc>
-    <lastmod>2023-08-13T19:54:58.102Z</lastmod>
+    <lastmod>2023-08-13T20:35:32.611Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/team/index.html</loc>
-    <lastmod>2023-08-13T19:54:58.970Z</lastmod>
+    <lastmod>2023-08-13T20:35:33.667Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/team/members/piotr_szymanski/index.html</loc>
-    <lastmod>2023-08-13T19:54:59.670Z</lastmod>
+    <lastmod>2023-08-13T20:35:34.487Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/team/members/piotr_gramacki/index.html</loc>
-    <lastmod>2023-08-13T19:55:00.290Z</lastmod>
+    <lastmod>2023-08-13T20:35:35.195Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/pages/contact/submit_form.html</loc>
-    <lastmod>2023-08-13T19:55:00.854Z</lastmod>
+    <lastmod>2023-08-13T20:35:35.859Z</lastmod>
   </url>
   <url>
     <loc>https://kraina.ai/LICENSE.html</loc>
-    <lastmod>2023-08-13T19:55:01.690Z</lastmod>
+    <lastmod>2023-08-13T20:35:36.807Z</lastmod>
   </url>
 </urlset>

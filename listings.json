@@ -2,6 +2,7 @@
   {
     "listing": "/pages/publications/index.html",
     "items": [
+      "/pages/publications/srai-euroscipy-poster/index.html",
       "/pages/publications/highway2vec/index.html",
       "/pages/publications/bike-stations/index.html",
       "/pages/publications/gtfs2vec/index.html",
