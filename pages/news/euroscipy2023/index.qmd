@@ -8,7 +8,7 @@ categories:
     - tutorial
 image: image.png
 
-description: "We're delighted to announce that our submission to EuroSciPy 2023 has been accepted! We'll be presenting a tutorial on geospatial machine learning with SRAI."
+description: "We're delighted to announce that our submission to EuroSciPy 2023 has been accepted! We'll be presenting a tutorial on geospatial machine learning with SRAI and a poster about the SRAI project."
 # about:
 #     template: jolla
 #     links:
@@ -23,3 +23,6 @@ description: "We're delighted to announce that our submission to EuroSciPy 2023 
 
 The conference takes place from Monday, August 14, to Friday, August 18, in Basel, Switzerland. We'll be presenting our tutorial on the first day, Monday, August 14 at 10:30 AM (Europe/Berlin).
 You can find more information on the conference's [main website](https://www.euroscipy.org/2023) and the [schedule page](https://pretalx.com/euroscipy-2023/schedule/). We hope to see you there!
+
+* Tutorial materials - [GitHub](https://github.com/kraina-ai/srai-tutorial/)
+* Poster - [PDF](/pages/publications/srai-euroscipy-poster/poster.pdf)
