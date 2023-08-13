@@ -26,13 +26,16 @@ about:
     links:
       - text: Poster
         icon: image
-        href: /pages/publications/srai-euroscipy-poster/poster.png
+        href: /pages/publications/srai-euroscipy-poster/poster.pdf
 #      - text: DOI
 #        icon: link
 #        href: https://doi.org/10.1145/3486640.3491392
       - text: Code
         icon: code
         href: https://github.com/kraina-ai/srai
+      - text: Tutorial
+        icon: book
+        href: https://github.com/kraina-ai/srai-tutorial
 ---
 
 We'll be presenting in person - see you there!
