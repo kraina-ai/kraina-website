@@ -23,17 +23,17 @@ At Kraina Lab, we embark on pioneering studies, leveraging advanced technologies
 
 ### Spatial Representations for Artificial Intelligence
 
-[![](/assets/srai-logo-transparent.png){width=300}](https://github.com/srai-lab/srai)
+[![](/assets/srai-logo-transparent.png){width=300}](https://github.com/kraina-ai/srai)
 
 Project Spatial Representations for Artificial Intelligence (srai) aims to provide simple and efficient solutions to geospatial problems that are accessible to everybody and reusable in various contexts where geospatial data can be used. It is a Python module integrating many geo-related algorithms in a single package with unified API. 
 
-See [SRAI](https://github.com/srai-lab/srai) for more information.
+See [SRAI](https://github.com/kraina-ai/srai) for more information.
 
 
 ### Bicycle Sharing System - Station Location Recommendation
 
-[![](/assets/bss-station-location-recommendation.png){width=600}](https://pwr-inf.github.io/Transfer-learning-approach-to-bicycle-sharing-systems-station-location-planning-using-OpenStreetMap/)
+[![](/assets/bss-station-location-recommendation.png){width=600}](https://kraina-ai.github.io/Transfer-learning-approach-to-bicycle-sharing-systems-station-location-planning-using-OpenStreetMap/)
 
 Based on data collected from 34 European cities, a method for automatically generating a heat map has been developed to support planners in developing the layout of bike sharing stations. The model was developed as part of a Master's thesis and published at the ARIC workshop at SIGSPATIAL 2021. The website allows the user to view all generated results for different cities of the world for many of the available heat map models with the possibility to change the colour scheme and style of the map.
 
-See [the website](https://pwr-inf.github.io/Transfer-learning-approach-to-bicycle-sharing-systems-station-location-planning-using-OpenStreetMap/) for more information or visit [the publication](/pages/publications/bike-stations/index.qmd).
+See [the website](https://kraina-ai.github.io/Transfer-learning-approach-to-bicycle-sharing-systems-station-location-planning-using-OpenStreetMap/) for more information or visit [the publication](/pages/publications/bike-stations/index.qmd).
