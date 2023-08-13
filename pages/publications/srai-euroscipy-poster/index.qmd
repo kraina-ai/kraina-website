@@ -11,7 +11,7 @@ author:
 	- Kacper Leśniara
 	- Piotr Gramacki
     - Piotr Szymański
-date: 2021-11-08
+date: 2023-08-14
 categories:
     - representation learning
     - software
@@ -35,3 +35,4 @@ about:
         href: https://github.com/kraina-ai/srai
 ---
 
+We'll be presenting in person - see you there!
