@@ -84,11 +84,32 @@
     "text": "Surfer | Data Scientist | July 2023 - Present\nBrand24 | Machine Learning Engineer | August 2021 - Present\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022"
   },
   {
+    "objectID": "pages/news/sigspatial2022/index.html",
+    "href": "pages/news/sigspatial2022/index.html",
+    "title": "Paper accepted at GeoAI @ SigSpatial 2022!",
+    "section": "",
+    "text": "The conference takes place Tuesday November 1 - Friday November 4, 2022, in Seattle, Washington. We’ll be presenting our tutorial on the workshop day, Tuesday, November 1st at 11:00 AM (USA/Seattle). You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Update: highway2vec has been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
+  },
+  {
     "objectID": "pages/news/euroscipy2023/index.html",
     "href": "pages/news/euroscipy2023/index.html",
     "title": "SRAI Tutorial Accepted at EuroSciPy 2023!",
     "section": "",
     "text": "The conference takes place from Monday, August 14, to Friday, August 18, in Basel, Switzerland. We’ll be presenting our tutorial on the first day, Monday, August 14 at 10:30 AM (Europe/Berlin). You can find more information on the conference’s main website and the schedule page. We hope to see you there!"
+  },
+  {
+    "objectID": "pages/news/aric2021/index.html",
+    "href": "pages/news/aric2021/index.html",
+    "title": "Paper accepted at ARIC @ SigSpatial 2021!",
+    "section": "",
+    "text": "We’ll be presenting on the workshop day, November 2nd at 10:00 AM local time. You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Feel free to see the demo of our solution.\nUpdate: transfer learning approaches have been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
+  },
+  {
+    "objectID": "pages/news/iwcts2021/index.html",
+    "href": "pages/news/iwcts2021/index.html",
+    "title": "Paper accepted at ARIC @ SigSpatial 2021!",
+    "section": "",
+    "text": "We’ll be presenting on the workshop day, November 2nd at 10:00 AM local time. You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Feel free to see the demo of our solution.\nUpdate: transfer learning approaches have been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
   },
   {
     "objectID": "pages/publications/gtfs2vec/index.html",
@@ -140,11 +161,32 @@
     "text": "Cite\n\n\n  \n    \n      \n        Export citation"
   },
   {
+    "objectID": "pages/news/geoai2021/index.html",
+    "href": "pages/news/geoai2021/index.html",
+    "title": "Paper accepted at GeoAI @ SigSpatial 2021!",
+    "section": "",
+    "text": "We’ll be presenting our tutorial on the workshop day, November 2nd. You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Update: hex2vec has been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
+  },
+  {
     "objectID": "pages/news/index.html",
     "href": "pages/news/index.html",
     "title": "News",
     "section": "",
-    "text": "SRAI Tutorial Accepted at EuroSciPy 2023!\n\n\nIntroduction to Geospatial Machine Learning with SRAI\n\n\nWe’re delighted to announce that our submission to EuroSciPy 2023 has been accepted! We’ll be presenting a tutorial on geospatial machine learning with SRAI.\n\n\n\n\n\n\nJun 15, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "SRAI Tutorial Accepted at EuroSciPy 2023!\n\n\nIntroduction to Geospatial Machine Learning with SRAI\n\n\nWe’re delighted to announce that our submission to EuroSciPy 2023 has been accepted! We’ll be presenting a tutorial on geospatial machine learning with SRAI.\n\n\n\n\n\n\nJun 15, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nOur PhD scholarship proposal has been accepted for financing by the Unite! project!\n\n\nUsing Large Language Models in the Context of Understanding and Generating Geospatial Language and Data\n\n\nWe’re delighted to announce that the Unite! meta university project will be financing our proposal for a PhD position on the verge of NLP and geospatial data with a focus on large language models and content generation.\n\n\n\n\n\n\nMay 16, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoAI @ SigSpatial 2022!\n\n\nhighway2vec: representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nWe’re delighted to announce that our submission to GeoAI@SigSpatial 2022 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to their road network characteristics.\n\n\n\n\n\n\nOct 2, 2022\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at ARIC @ SigSpatial 2021!\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning Using OpenStreetMap Data\n\n\nWe’re delighted to announce that our submission to the 4th ACM SIGSPATIAL Workshop on Advances on Resilient and Intelligent Cities (ARIC) has been accepted! We’ll be presenting a paper on effective geographic transfer learning using OpenStreetMap region features for bike station location predictions.\n\n\n\n\n\n\nNov 1, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at ARIC @ SigSpatial 2021!\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning Using OpenStreetMap Data\n\n\nWe’re delighted to announce that our submission to the 4th ACM SIGSPATIAL Workshop on Advances on Resilient and Intelligent Cities (ARIC) has been accepted! We’ll be presenting a paper on effective geographic transfer learning using OpenStreetMap region features for bike station location predictions.\n\n\n\n\n\n\nNov 1, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoSearch @ SigSpatial 2021!\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nWe’re delighted to announce that our submission to GeoSearch @ SigSpatial 2021 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to public transport quality offering.\n\n\n\n\n\n\nOct 12, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoAI @ SigSpatial 2021!\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nWe’re delighted to announce that our submission to SigSpatial 2021 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to their urban and POI characteristics.\n\n\n\n\n\n\nOct 6, 2021\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/news/geosearch2021/index.html",
+    "href": "pages/news/geosearch2021/index.html",
+    "title": "Paper accepted at GeoSearch @ SigSpatial 2021!",
+    "section": "",
+    "text": "We’ll be presenting our tutorial on the workshop day, November 2nd. You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Update: gtfs2vec has been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
+  },
+  {
+    "objectID": "pages/news/unite2023/index.html",
+    "href": "pages/news/unite2023/index.html",
+    "title": "Our PhD scholarship proposal has been accepted for financing by the Unite! project!",
+    "section": "",
+    "text": "The scholarship will be released jointly by the University of Lisbon and Wrocław University of Science and Technology, by advisors: Bruno Martins (UL) and Piotr Szymański (WrocławTech). More information can be found on the university website."
   },
   {
     "objectID": "pages/team/index.html",

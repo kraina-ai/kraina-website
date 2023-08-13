@@ -13,7 +13,13 @@
   {
     "listing": "/pages/news/index.html",
     "items": [
-      "/pages/news/euroscipy2023/index.html"
+      "/pages/news/euroscipy2023/index.html",
+      "/pages/news/unite2023/index.html",
+      "/pages/news/sigspatial2022/index.html",
+      "/pages/news/aric2021/index.html",
+      "/pages/news/iwcts2021/index.html",
+      "/pages/news/geosearch2021/index.html",
+      "/pages/news/geoai2021/index.html"
     ]
   },
   {
