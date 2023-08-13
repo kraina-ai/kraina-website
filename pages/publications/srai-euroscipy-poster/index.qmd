@@ -26,7 +26,7 @@ about:
     links:
       - text: PDF
         icon: file-pdf
-        href: ./poster.pdf
+        href: /pages/publications/srai-euroscipy-poster/poster.pdf
 #      - text: DOI
 #        icon: link
 #        href: https://doi.org/10.1145/3486640.3491392
