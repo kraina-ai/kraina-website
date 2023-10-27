@@ -18,6 +18,9 @@ about:
     - icon: twitter
       text: twitter
       href: https://twitter.com/lesniara
+    - icon: envelope
+      text: Email
+      href: mailto:klesniara@kraina.ai
 
 ---
 :::{#intro-heading}

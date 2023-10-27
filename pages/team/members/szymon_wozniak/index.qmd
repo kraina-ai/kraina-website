@@ -19,6 +19,10 @@ about:
     - icon: twitter
       text: twitter
       href: https://twitter.com/the_swoz
+    - icon: envelope
+      text: Email
+      href: mailto:swozniak@kraina.ai
+
     # - icon: scholar
     #   text: Google Scholar
     #   href: https://scholar.google.com/citations?hl=pl&user=<ID>
@@ -45,7 +49,7 @@ BSc, Computer Science | 2016 - 2020
 
 Surfer | Data Scientist | July 2023 - Present
 
-Brand24 | Machine Learning Engineer | August 2021 - Present
+Brand24 | Machine Learning Engineer | August 2021 - July 2023
 
 Q2Q Research | AI Programmer/Researcher | August 2021 - January 2022
 
