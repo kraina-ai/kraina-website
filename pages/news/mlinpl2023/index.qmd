@@ -1,0 +1,22 @@
+---
+title: "Geospatial Machine Learning Tutorial at ML in PL 2023"
+subtitle: "Introduction to Geospatial Machine Learning"
+date: 2023-10-29
+categories:
+    - presentation
+    - conference
+    - tutorial
+image: image.jpeg
+
+description: "Members of Kraina AI will be presenting a comprehensive tutorial on geospatial machine learning at the ML in PL Conference 2023 in Warsaw, Poland."
+---
+
+The tutorial, titled "Introduction to Geospatial Machine Learning," is scheduled for Sunday, 29th October, from 09:00 - 13:00. Participants will gain insights into the geospatial domain using Python libraries and learn the applications of open-source geospatial data. A significant portion will highlight the features of the srai (Spatial Representation for Artificial Intelligence) library developed by our team, along with other libraries like GeoPandas, Shapely, osmnx, and scikit-learn. We're enthusiastic about providing hands-on learning, and as such, tutorial materials will be shared in the form of Jupyter notebooks.
+
+Please check:
+
+* the conference's [main website](https://conference2023.mlinpl.org/)
+
+* the tutorial materials - [GitHub](https://github.com/kraina-ai/srai-tutorial/tree/MLinPL2023-intro-to-geospatial)
+
+* the [registration page](https://app.evenea.pl/event/mlinpl-tutorials/)
