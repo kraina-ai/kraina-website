@@ -26,6 +26,9 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/niedakh
+    - icon: envelope
+      text: Email
+      href: mailto:pszymanski@kraina.ai
 ---
 :::{#intro-heading}
 
