@@ -1,5 +1,15 @@
 [
   {
+    "listing": "/pages/team/index.html",
+    "items": [
+      "/pages/team/members/piotr_szymanski/index.html",
+      "/pages/team/members/kacper_lesniara/index.html",
+      "/pages/team/members/kamil_raczycki/index.html",
+      "/pages/team/members/piotr_gramacki/index.html",
+      "/pages/team/members/szymon_wozniak/index.html"
+    ]
+  },
+  {
     "listing": "/pages/publications/index.html",
     "items": [
       "/pages/publications/srai-euroscipy-poster/index.html",
@@ -12,19 +22,10 @@
     ]
   },
   {
-    "listing": "/pages/team/index.html",
-    "items": [
-      "/pages/team/members/piotr_szymanski/index.html",
-      "/pages/team/members/kacper_lesniara/index.html",
-      "/pages/team/members/kamil_raczycki/index.html",
-      "/pages/team/members/piotr_gramacki/index.html",
-      "/pages/team/members/szymon_wozniak/index.html"
-    ]
-  },
-  {
     "listing": "/pages/news/index.html",
     "items": [
       "/pages/news/mlinpl2023/index.html",
+      "/pages/news/geoai2023/index.html",
       "/pages/news/euroscipy2023/index.html",
       "/pages/news/unite2023/index.html",
       "/pages/news/sigspatial2022/index.html",

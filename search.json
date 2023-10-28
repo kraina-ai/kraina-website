@@ -28,186 +28,18 @@
     "text": "The conference takes place from Monday, August 14, to Friday, August 18, in Basel, Switzerland. We’ll be presenting our tutorial on the first day, Monday, August 14 at 10:30 AM (Europe/Berlin). You can find more information on the conference’s main website and the schedule page. We hope to see you there!\n\nTutorial materials - GitHub\nPoster - PDF"
   },
   {
-    "objectID": "pages/news/aric2021/index.html",
-    "href": "pages/news/aric2021/index.html",
-    "title": "Paper accepted at ARIC @ SigSpatial 2021!",
+    "objectID": "pages/news/geoai2023/index.html",
+    "href": "pages/news/geoai2023/index.html",
+    "title": "Paper accepted for the GeoAI @ SIGSPATIAL 2023!",
     "section": "",
-    "text": "We’ll be presenting on the workshop day, November 2nd at 10:00 AM local time. You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Feel free to see the demo of our solution.\nUpdate: transfer learning approaches have been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
+    "text": "We’ll be presenting our tutorial on the workshop day, November 13th. You can find the preprint version of our paper in the arxiv repository. We hope to see you there!"
   },
   {
-    "objectID": "pages/contact/index.html",
-    "href": "pages/contact/index.html",
-    "title": "Contact us",
+    "objectID": "pages/news/sigspatial2022/index.html",
+    "href": "pages/news/sigspatial2022/index.html",
+    "title": "Paper accepted at GeoAI @ SigSpatial 2022!",
     "section": "",
-    "text": "If you would like to contact us, please use the following email: contact@kraina.ai\nYou can also use the form below. We will get back to you as soon as possible.\n\n \n\nYour Name*\n  \n\n\nE-mail address*\n\n\n\nMessage subject*\n  \n\n\nMessage*"
-  },
-  {
-    "objectID": "pages/team/members/kacper_lesniara/index.html",
-    "href": "pages/team/members/kacper_lesniara/index.html",
-    "title": "Kacper Leśniara",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | Wrocław, Poland MSc, Data Science | February 2020 - February 2022\nWroclaw University of Science and Technology | Wrocław, Poland BSc, Computer Science | October 2016 - January 2020\n\n\n\nGetInData | Machine Learning Engineer | November 2021 - Present\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter\n  \n  \n    \n     Email"
-  },
-  {
-    "objectID": "pages/team/members/kacper_lesniara/index.html#education",
-    "href": "pages/team/members/kacper_lesniara/index.html#education",
-    "title": "Kacper Leśniara",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | Wrocław, Poland MSc, Data Science | February 2020 - February 2022\nWroclaw University of Science and Technology | Wrocław, Poland BSc, Computer Science | October 2016 - January 2020"
-  },
-  {
-    "objectID": "pages/team/members/kacper_lesniara/index.html#experience",
-    "href": "pages/team/members/kacper_lesniara/index.html#experience",
-    "title": "Kacper Leśniara",
-    "section": "",
-    "text": "GetInData | Machine Learning Engineer | November 2021 - Present"
-  },
-  {
-    "objectID": "pages/team/members/szymon_wozniak/index.html",
-    "href": "pages/team/members/szymon_wozniak/index.html",
-    "title": "Szymon Woźniak",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | 2020 - 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2016 - 2020\n\n\n\nSurfer | Data Scientist | July 2023 - Present\nBrand24 | Machine Learning Engineer | August 2021 - July 2023\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter\n  \n  \n    \n     Email"
-  },
-  {
-    "objectID": "pages/team/members/szymon_wozniak/index.html#education",
-    "href": "pages/team/members/szymon_wozniak/index.html#education",
-    "title": "Szymon Woźniak",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | 2020 - 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2016 - 2020"
-  },
-  {
-    "objectID": "pages/team/members/szymon_wozniak/index.html#experience",
-    "href": "pages/team/members/szymon_wozniak/index.html#experience",
-    "title": "Szymon Woźniak",
-    "section": "",
-    "text": "Surfer | Data Scientist | July 2023 - Present\nBrand24 | Machine Learning Engineer | August 2021 - July 2023\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022"
-  },
-  {
-    "objectID": "pages/team/members/piotr_gramacki/index.html",
-    "href": "pages/team/members/piotr_gramacki/index.html",
-    "title": "Piotr Gramacki",
-    "section": "",
-    "text": "Machine Learning Engineer and Researcher in Geospatial AI and NLP at WUST. Huge fun of public transport trying to improve it with AI. Author of gtfs2vec model and an analysis of public transport availability across the Europe. Co-creator of SRAI library for research in GeoAI.\n\n\nWroclaw University of Science and Technology | MSc, Data Science | February 2020 - July 2021\nWroclaw University of Science and Technology | BSc, Computer Science | October 2016 - January 2020\n\n\n\nBrand24 | Machine Learning Engineer | August 2021 - Present\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     Email"
-  },
-  {
-    "objectID": "pages/team/members/piotr_gramacki/index.html#education",
-    "href": "pages/team/members/piotr_gramacki/index.html#education",
-    "title": "Piotr Gramacki",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | MSc, Data Science | February 2020 - July 2021\nWroclaw University of Science and Technology | BSc, Computer Science | October 2016 - January 2020"
-  },
-  {
-    "objectID": "pages/team/members/piotr_gramacki/index.html#experience",
-    "href": "pages/team/members/piotr_gramacki/index.html#experience",
-    "title": "Piotr Gramacki",
-    "section": "",
-    "text": "Brand24 | Machine Learning Engineer | August 2021 - Present\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022"
-  },
-  {
-    "objectID": "pages/publications/air-quality-campus-network/index.html",
-    "href": "pages/publications/air-quality-campus-network/index.html",
-    "title": "Assessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area",
-    "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
-  },
-  {
-    "objectID": "pages/publications/highway2vec/index.html",
-    "href": "pages/publications/highway2vec/index.html",
-    "title": "highway2vec - representing OpenStreetMap microregions with respect to their road network characteristics",
-    "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
-  },
-  {
-    "objectID": "pages/publications/srai-euroscipy-poster/index.html",
-    "href": "pages/publications/srai-euroscipy-poster/index.html",
-    "title": "Streamlining Geospatial Machine Learning with SRAI",
-    "section": "",
-    "text": "We’ll be presenting in person - see you there!"
-  },
-  {
-    "objectID": "pages/publications/hex2vec/index.html",
-    "href": "pages/publications/hex2vec/index.html",
-    "title": "hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags",
-    "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Kraina",
-    "section": "",
-    "text": "At Kraina Lab, we embark on pioneering studies, leveraging advanced technologies and analytical methodologies to unravel the intricate complexities of geospatial phenomena and mobility patterns. Our interdisciplinary approach empowers us to extract meaningful insights from vast datasets, revolutionizing the understanding of urban dynamics, transportation systems, and spatial interactions."
-  },
-  {
-    "objectID": "index.html#our-key-areas-of-focus",
-    "href": "index.html#our-key-areas-of-focus",
-    "title": "Kraina",
-    "section": "Our Key Areas of Focus:",
-    "text": "Our Key Areas of Focus:\n📍 Geospatial Analysis: Employing state-of-the-art spatial data processing techniques, we discern spatial relationships and distribution patterns, uncovering crucial spatial trends.\n🚗 Mobility Insights: Through extensive data mining and modeling, we investigate the dynamics of human and vehicular mobility, optimizing transportation networks and fostering sustainable urban development.\n🗺️ Urban Dynamics: Merging urban studies with geospatial analytics, we dissect the drivers behind urban growth, land use changes, and urban sprawl, informing evidence-based urban planning strategies.\n🔓 Open source: At Kraina we are actively improving the tooling around the geospatial domain. Take a glimpse into our projects:\n\nSpatial Representations for Artificial Intelligence\n\n\n\n\n\nProject Spatial Representations for Artificial Intelligence (srai) aims to provide simple and efficient solutions to geospatial problems that are accessible to everybody and reusable in various contexts where geospatial data can be used. It is a Python module integrating many geo-related algorithms in a single package with unified API.\nSee SRAI for more information.\n\n\nBicycle Sharing System - Station Location Recommendation\n\n\n\n\n\nBased on data collected from 34 European cities, a method for automatically generating a heat map has been developed to support planners in developing the layout of bike sharing stations. The model was developed as part of a Master’s thesis and published at the ARIC workshop at SIGSPATIAL 2021. The website allows the user to view all generated results for different cities of the world for many of the available heat map models with the possibility to change the colour scheme and style of the map.\nSee the website for more information or visit the publication."
-  },
-  {
-    "objectID": "pages/publications/bus-delays/index.html",
-    "href": "pages/publications/bus-delays/index.html",
-    "title": "Spatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław",
-    "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
-  },
-  {
-    "objectID": "pages/publications/gtfs2vec/index.html",
-    "href": "pages/publications/gtfs2vec/index.html",
-    "title": "gtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions",
-    "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
-  },
-  {
-    "objectID": "pages/publications/index.html",
-    "href": "pages/publications/index.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Authors\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthors\n\n\nCategories\n\n\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nStreamlining Geospatial Machine Learning with SRAI\n\n\nSzymon Woźniak, Kamil Raczycki, Kacper Leśniara, Piotr Gramacki, Piotr Szymański\n\n\nrepresentation learning,software,library\n\n\n\n\n\n\n\nNov 14, 2022\n\n\nhighway2vec - representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nKacper Leśniara, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,road network,clustering\n\n\n\n\n\n\n\nNov 18, 2021\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data\n\n\nKamil Raczycki, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,Bicycle-sharing system,Bicycle station\n\n\n\n\n\n\n\n\nNov 8, 2021\n\n\ngtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions\n\n\nPiotr Gramacki, Szymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,public transport,timetables\n\n\n\n\n\n\n\nNov 8, 2021\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nSzymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,urban function,land use,clustering\n\n\n\n\n\n\n\nJun 20, 2020\n\n\nAssessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area\n\n\nMarek Badura, Izabela Sówka, Piotr Szymański, Piotr Batog\n\n\nair quality,particulate matter,PM2.5 stratification\n\n\n\n\n\n\n\nNov 14, 2018\n\n\nSpatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław\n\n\nPiotr Szymański, Michał Żołnieruk, Piotr Oleszczyk, Igor Gisterek, Tomasz Kajdanowicz\n\n\nurban mobility,urban network,public transport,gps,vehicle location,clustering\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "pages/publications/bike-stations/index.html",
-    "href": "pages/publications/bike-stations/index.html",
-    "title": "Transfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data",
-    "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
-  },
-  {
-    "objectID": "pages/team/index.html",
-    "href": "pages/team/index.html",
-    "title": "Meet Kraina",
-    "section": "",
-    "text": "Data Scientist, Machine Learning Engineer, Urban Activist\n\n\nPiotr Szymański is an assistant Professor at the Department of Artificial Intelligence at the Wrocław University of Science and Technology and a Machine Learning Engineer at…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning Engineer, SRAI co-creator\n\n\nSpatial Data Scientist and an ML Engineer passionate about the geospatial domain and an author of highway2vec. Background in Computer and Data Science from the Wrocław…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLocation Intelligence Spatial Data Scientist, AI Researcher\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Researcher, Machine Learning Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Researcher, Machine Learning Engineer\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "pages/team/index.html#members",
-    "href": "pages/team/index.html#members",
-    "title": "Meet Kraina",
-    "section": "",
-    "text": "Data Scientist, Machine Learning Engineer, Urban Activist\n\n\nPiotr Szymański is an assistant Professor at the Department of Artificial Intelligence at the Wrocław University of Science and Technology and a Machine Learning Engineer at…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning Engineer, SRAI co-creator\n\n\nSpatial Data Scientist and an ML Engineer passionate about the geospatial domain and an author of highway2vec. Background in Computer and Data Science from the Wrocław…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLocation Intelligence Spatial Data Scientist, AI Researcher\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Researcher, Machine Learning Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Researcher, Machine Learning Engineer\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "pages/team/members/kamil_raczycki/index.html",
-    "href": "pages/team/members/kamil_raczycki/index.html",
-    "title": "Kamil Raczycki",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | November 2019 - July 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2015 - 2019\n\n\n\nAllegro | Location Intelligence Software Engineer | May 2022 - Present\nYoniee | Spatial Data Scientist | January 2022 - Present\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter\n  \n  \n    \n     Email"
-  },
-  {
-    "objectID": "pages/team/members/kamil_raczycki/index.html#education",
-    "href": "pages/team/members/kamil_raczycki/index.html#education",
-    "title": "Kamil Raczycki",
-    "section": "",
-    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | November 2019 - July 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2015 - 2019"
-  },
-  {
-    "objectID": "pages/team/members/kamil_raczycki/index.html#experience",
-    "href": "pages/team/members/kamil_raczycki/index.html#experience",
-    "title": "Kamil Raczycki",
-    "section": "",
-    "text": "Allegro | Location Intelligence Software Engineer | May 2022 - Present\nYoniee | Spatial Data Scientist | January 2022 - Present"
+    "text": "The conference takes place Tuesday November 1 - Friday November 4, 2022, in Seattle, Washington. We’ll be presenting our tutorial on the workshop day, Tuesday, November 1st at 11:00 AM (USA/Seattle). You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Update: highway2vec has been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
   },
   {
     "objectID": "pages/team/members/piotr_szymanski/index.html",
@@ -231,11 +63,186 @@
     "text": "Avaya | Machine Learning Engineer | June 2017 - present\nWroclaw University of Science and Technology | Research Assistant / Principal Investigator | October 2009 - April 2023\nAdmitster | Data Scientist, Full Stack Developer | 2013 - June 2016"
   },
   {
-    "objectID": "pages/news/sigspatial2022/index.html",
-    "href": "pages/news/sigspatial2022/index.html",
-    "title": "Paper accepted at GeoAI @ SigSpatial 2022!",
+    "objectID": "pages/team/members/kamil_raczycki/index.html",
+    "href": "pages/team/members/kamil_raczycki/index.html",
+    "title": "Kamil Raczycki",
     "section": "",
-    "text": "The conference takes place Tuesday November 1 - Friday November 4, 2022, in Seattle, Washington. We’ll be presenting our tutorial on the workshop day, Tuesday, November 1st at 11:00 AM (USA/Seattle). You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Update: highway2vec has been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
+    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | November 2019 - July 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2015 - 2019\n\n\n\nAllegro | Location Intelligence Software Engineer | May 2022 - Present\nYoniee | Spatial Data Scientist | January 2022 - Present\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter\n  \n  \n    \n     Email"
+  },
+  {
+    "objectID": "pages/team/members/kamil_raczycki/index.html#education",
+    "href": "pages/team/members/kamil_raczycki/index.html#education",
+    "title": "Kamil Raczycki",
+    "section": "",
+    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | November 2019 - July 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2015 - 2019"
+  },
+  {
+    "objectID": "pages/team/members/kamil_raczycki/index.html#experience",
+    "href": "pages/team/members/kamil_raczycki/index.html#experience",
+    "title": "Kamil Raczycki",
+    "section": "",
+    "text": "Allegro | Location Intelligence Software Engineer | May 2022 - Present\nYoniee | Spatial Data Scientist | January 2022 - Present"
+  },
+  {
+    "objectID": "pages/team/index.html",
+    "href": "pages/team/index.html",
+    "title": "Meet Kraina",
+    "section": "",
+    "text": "Data Scientist, Machine Learning Engineer, Urban Activist\n\n\nPiotr Szymański is an assistant Professor at the Department of Artificial Intelligence at the Wrocław University of Science and Technology and a Machine Learning Engineer at…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning Engineer, SRAI co-creator\n\n\nSpatial Data Scientist and an ML Engineer passionate about the geospatial domain and an author of highway2vec. Background in Computer and Data Science from the Wrocław…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLocation Intelligence Spatial Data Scientist, AI Researcher\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Researcher, Machine Learning Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Researcher, Machine Learning Engineer\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/team/index.html#members",
+    "href": "pages/team/index.html#members",
+    "title": "Meet Kraina",
+    "section": "",
+    "text": "Data Scientist, Machine Learning Engineer, Urban Activist\n\n\nPiotr Szymański is an assistant Professor at the Department of Artificial Intelligence at the Wrocław University of Science and Technology and a Machine Learning Engineer at…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning Engineer, SRAI co-creator\n\n\nSpatial Data Scientist and an ML Engineer passionate about the geospatial domain and an author of highway2vec. Background in Computer and Data Science from the Wrocław…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLocation Intelligence Spatial Data Scientist, AI Researcher\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Researcher, Machine Learning Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI Researcher, Machine Learning Engineer\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/publications/bike-stations/index.html",
+    "href": "pages/publications/bike-stations/index.html",
+    "title": "Transfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data",
+    "section": "",
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+  },
+  {
+    "objectID": "pages/publications/index.html",
+    "href": "pages/publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Authors\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthors\n\n\nCategories\n\n\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nStreamlining Geospatial Machine Learning with SRAI\n\n\nSzymon Woźniak, Kamil Raczycki, Kacper Leśniara, Piotr Gramacki, Piotr Szymański\n\n\nrepresentation learning,software,library\n\n\n\n\n\n\n\nNov 14, 2022\n\n\nhighway2vec - representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nKacper Leśniara, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,road network,clustering\n\n\n\n\n\n\n\nNov 18, 2021\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data\n\n\nKamil Raczycki, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,Bicycle-sharing system,Bicycle station\n\n\n\n\n\n\n\n\nNov 8, 2021\n\n\ngtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions\n\n\nPiotr Gramacki, Szymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,public transport,timetables\n\n\n\n\n\n\n\nNov 8, 2021\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nSzymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,urban function,land use,clustering\n\n\n\n\n\n\n\nJun 20, 2020\n\n\nAssessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area\n\n\nMarek Badura, Izabela Sówka, Piotr Szymański, Piotr Batog\n\n\nair quality,particulate matter,PM2.5 stratification\n\n\n\n\n\n\n\nNov 14, 2018\n\n\nSpatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław\n\n\nPiotr Szymański, Michał Żołnieruk, Piotr Oleszczyk, Igor Gisterek, Tomasz Kajdanowicz\n\n\nurban mobility,urban network,public transport,gps,vehicle location,clustering\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/publications/gtfs2vec/index.html",
+    "href": "pages/publications/gtfs2vec/index.html",
+    "title": "gtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions",
+    "section": "",
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+  },
+  {
+    "objectID": "pages/publications/bus-delays/index.html",
+    "href": "pages/publications/bus-delays/index.html",
+    "title": "Spatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław",
+    "section": "",
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kraina",
+    "section": "",
+    "text": "At Kraina Lab, we embark on pioneering studies, leveraging advanced technologies and analytical methodologies to unravel the intricate complexities of geospatial phenomena and mobility patterns. Our interdisciplinary approach empowers us to extract meaningful insights from vast datasets, revolutionizing the understanding of urban dynamics, transportation systems, and spatial interactions."
+  },
+  {
+    "objectID": "index.html#our-key-areas-of-focus",
+    "href": "index.html#our-key-areas-of-focus",
+    "title": "Kraina",
+    "section": "Our Key Areas of Focus:",
+    "text": "Our Key Areas of Focus:\n📍 Geospatial Analysis: Employing state-of-the-art spatial data processing techniques, we discern spatial relationships and distribution patterns, uncovering crucial spatial trends.\n🚗 Mobility Insights: Through extensive data mining and modeling, we investigate the dynamics of human and vehicular mobility, optimizing transportation networks and fostering sustainable urban development.\n🗺️ Urban Dynamics: Merging urban studies with geospatial analytics, we dissect the drivers behind urban growth, land use changes, and urban sprawl, informing evidence-based urban planning strategies.\n🔓 Open source: At Kraina we are actively improving the tooling around the geospatial domain. Take a glimpse into our projects:\n\nSpatial Representations for Artificial Intelligence\n\n\n\n\n\nProject Spatial Representations for Artificial Intelligence (srai) aims to provide simple and efficient solutions to geospatial problems that are accessible to everybody and reusable in various contexts where geospatial data can be used. It is a Python module integrating many geo-related algorithms in a single package with unified API.\nSee SRAI for more information.\n\n\nBicycle Sharing System - Station Location Recommendation\n\n\n\n\n\nBased on data collected from 34 European cities, a method for automatically generating a heat map has been developed to support planners in developing the layout of bike sharing stations. The model was developed as part of a Master’s thesis and published at the ARIC workshop at SIGSPATIAL 2021. The website allows the user to view all generated results for different cities of the world for many of the available heat map models with the possibility to change the colour scheme and style of the map.\nSee the website for more information or visit the publication."
+  },
+  {
+    "objectID": "pages/publications/hex2vec/index.html",
+    "href": "pages/publications/hex2vec/index.html",
+    "title": "hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags",
+    "section": "",
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+  },
+  {
+    "objectID": "pages/publications/srai-euroscipy-poster/index.html",
+    "href": "pages/publications/srai-euroscipy-poster/index.html",
+    "title": "Streamlining Geospatial Machine Learning with SRAI",
+    "section": "",
+    "text": "We’ll be presenting in person - see you there!"
+  },
+  {
+    "objectID": "pages/publications/highway2vec/index.html",
+    "href": "pages/publications/highway2vec/index.html",
+    "title": "highway2vec - representing OpenStreetMap microregions with respect to their road network characteristics",
+    "section": "",
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+  },
+  {
+    "objectID": "pages/publications/air-quality-campus-network/index.html",
+    "href": "pages/publications/air-quality-campus-network/index.html",
+    "title": "Assessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area",
+    "section": "",
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+  },
+  {
+    "objectID": "pages/team/members/piotr_gramacki/index.html",
+    "href": "pages/team/members/piotr_gramacki/index.html",
+    "title": "Piotr Gramacki",
+    "section": "",
+    "text": "Machine Learning Engineer and Researcher in Geospatial AI and NLP at WUST. Huge fun of public transport trying to improve it with AI. Author of gtfs2vec model and an analysis of public transport availability across the Europe. Co-creator of SRAI library for research in GeoAI.\n\n\nWroclaw University of Science and Technology | MSc, Data Science | February 2020 - July 2021\nWroclaw University of Science and Technology | BSc, Computer Science | October 2016 - January 2020\n\n\n\nBrand24 | Machine Learning Engineer | August 2021 - Present\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     Email"
+  },
+  {
+    "objectID": "pages/team/members/piotr_gramacki/index.html#education",
+    "href": "pages/team/members/piotr_gramacki/index.html#education",
+    "title": "Piotr Gramacki",
+    "section": "",
+    "text": "Wroclaw University of Science and Technology | MSc, Data Science | February 2020 - July 2021\nWroclaw University of Science and Technology | BSc, Computer Science | October 2016 - January 2020"
+  },
+  {
+    "objectID": "pages/team/members/piotr_gramacki/index.html#experience",
+    "href": "pages/team/members/piotr_gramacki/index.html#experience",
+    "title": "Piotr Gramacki",
+    "section": "",
+    "text": "Brand24 | Machine Learning Engineer | August 2021 - Present\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022"
+  },
+  {
+    "objectID": "pages/team/members/szymon_wozniak/index.html",
+    "href": "pages/team/members/szymon_wozniak/index.html",
+    "title": "Szymon Woźniak",
+    "section": "",
+    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | 2020 - 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2016 - 2020\n\n\n\nSurfer | Data Scientist | July 2023 - Present\nBrand24 | Machine Learning Engineer | August 2021 - July 2023\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter\n  \n  \n    \n     Email"
+  },
+  {
+    "objectID": "pages/team/members/szymon_wozniak/index.html#education",
+    "href": "pages/team/members/szymon_wozniak/index.html#education",
+    "title": "Szymon Woźniak",
+    "section": "",
+    "text": "Wroclaw University of Science and Technology | Wrocław, Poland\nMSc, Data Science | 2020 - 2021\nWroclaw University of Science and Technology | Wrocław, Poland\nBSc, Computer Science | 2016 - 2020"
+  },
+  {
+    "objectID": "pages/team/members/szymon_wozniak/index.html#experience",
+    "href": "pages/team/members/szymon_wozniak/index.html#experience",
+    "title": "Szymon Woźniak",
+    "section": "",
+    "text": "Surfer | Data Scientist | July 2023 - Present\nBrand24 | Machine Learning Engineer | August 2021 - July 2023\nQ2Q Research | AI Programmer/Researcher | August 2021 - January 2022"
+  },
+  {
+    "objectID": "pages/team/members/kacper_lesniara/index.html",
+    "href": "pages/team/members/kacper_lesniara/index.html",
+    "title": "Kacper Leśniara",
+    "section": "",
+    "text": "Wroclaw University of Science and Technology | Wrocław, Poland MSc, Data Science | February 2020 - February 2022\nWroclaw University of Science and Technology | Wrocław, Poland BSc, Computer Science | October 2016 - January 2020\n\n\n\nGetInData | Machine Learning Engineer | November 2021 - Present\n\n \n  \n   \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     twitter\n  \n  \n    \n     Email"
+  },
+  {
+    "objectID": "pages/team/members/kacper_lesniara/index.html#education",
+    "href": "pages/team/members/kacper_lesniara/index.html#education",
+    "title": "Kacper Leśniara",
+    "section": "",
+    "text": "Wroclaw University of Science and Technology | Wrocław, Poland MSc, Data Science | February 2020 - February 2022\nWroclaw University of Science and Technology | Wrocław, Poland BSc, Computer Science | October 2016 - January 2020"
+  },
+  {
+    "objectID": "pages/team/members/kacper_lesniara/index.html#experience",
+    "href": "pages/team/members/kacper_lesniara/index.html#experience",
+    "title": "Kacper Leśniara",
+    "section": "",
+    "text": "GetInData | Machine Learning Engineer | November 2021 - Present"
+  },
+  {
+    "objectID": "pages/contact/index.html",
+    "href": "pages/contact/index.html",
+    "title": "Contact us",
+    "section": "",
+    "text": "If you would like to contact us, please use the following email: contact@kraina.ai\nYou can also use the form below. We will get back to you as soon as possible.\n\n \n\nYour Name*\n  \n\n\nE-mail address*\n\n\n\nMessage subject*\n  \n\n\nMessage*"
+  },
+  {
+    "objectID": "pages/news/aric2021/index.html",
+    "href": "pages/news/aric2021/index.html",
+    "title": "Paper accepted at ARIC @ SigSpatial 2021!",
+    "section": "",
+    "text": "We’ll be presenting on the workshop day, November 2nd at 10:00 AM local time. You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Feel free to see the demo of our solution.\nUpdate: transfer learning approaches have been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
   },
   {
     "objectID": "pages/news/iwcts2021/index.html",
@@ -249,7 +256,7 @@
     "href": "pages/news/index.html",
     "title": "News",
     "section": "",
-    "text": "Geospatial Machine Learning Tutorial at ML in PL 2023\n\n\nIntroduction to Geospatial Machine Learning\n\n\nMembers of Kraina AI will be presenting a comprehensive tutorial on geospatial machine learning at the ML in PL Conference 2023 in Warsaw, Poland.\n\n\n\n\n\n\nOct 29, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nSRAI Tutorial Accepted at EuroSciPy 2023!\n\n\nIntroduction to Geospatial Machine Learning with SRAI\n\n\nWe’re delighted to announce that our submission to EuroSciPy 2023 has been accepted! We’ll be presenting a tutorial on geospatial machine learning with SRAI and a poster about the SRAI project.\n\n\n\n\n\n\nJun 15, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nOur PhD scholarship proposal has been accepted for financing by the Unite! project!\n\n\nUsing Large Language Models in the Context of Understanding and Generating Geospatial Language and Data\n\n\nWe’re delighted to announce that the Unite! meta university project will be financing our proposal for a PhD position on the verge of NLP and geospatial data with a focus on large language models and content generation.\n\n\n\n\n\n\nMay 16, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoAI @ SigSpatial 2022!\n\n\nhighway2vec: representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nWe’re delighted to announce that our submission to GeoAI@SigSpatial 2022 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to their road network characteristics.\n\n\n\n\n\n\nOct 2, 2022\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at ARIC @ SigSpatial 2021!\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning Using OpenStreetMap Data\n\n\nWe’re delighted to announce that our submission to the 4th ACM SIGSPATIAL Workshop on Advances on Resilient and Intelligent Cities (ARIC) has been accepted! We’ll be presenting a paper on effective geographic transfer learning using OpenStreetMap region features for bike station location predictions.\n\n\n\n\n\n\nNov 1, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at ARIC @ SigSpatial 2021!\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning Using OpenStreetMap Data\n\n\nWe’re delighted to announce that our submission to the 4th ACM SIGSPATIAL Workshop on Advances on Resilient and Intelligent Cities (ARIC) has been accepted! We’ll be presenting a paper on effective geographic transfer learning using OpenStreetMap region features for bike station location predictions.\n\n\n\n\n\n\nNov 1, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoSearch @ SigSpatial 2021!\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nWe’re delighted to announce that our submission to GeoSearch @ SigSpatial 2021 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to public transport quality offering.\n\n\n\n\n\n\nOct 12, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoAI @ SigSpatial 2021!\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nWe’re delighted to announce that our submission to SigSpatial 2021 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to their urban and POI characteristics.\n\n\n\n\n\n\nOct 6, 2021\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Geospatial Machine Learning Tutorial at ML in PL 2023\n\n\nIntroduction to Geospatial Machine Learning\n\n\nMembers of Kraina AI will be presenting a comprehensive tutorial on geospatial machine learning at the ML in PL Conference 2023 in Warsaw, Poland.\n\n\n\n\n\n\nOct 29, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted for the GeoAI @ SIGSPATIAL 2023!\n\n\nSRAI: Towards Standardization of Geospatial AI\n\n\nWe’re delighted to announce that our submission to the GeoAI workshop at SIGSPATIAL 2023 has been accepted! We’ll be presenting a paper describing our open-source library for geospatial data processing and represenation learning.\n\n\n\n\n\n\nOct 7, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nSRAI Tutorial Accepted at EuroSciPy 2023!\n\n\nIntroduction to Geospatial Machine Learning with SRAI\n\n\nWe’re delighted to announce that our submission to EuroSciPy 2023 has been accepted! We’ll be presenting a tutorial on geospatial machine learning with SRAI and a poster about the SRAI project.\n\n\n\n\n\n\nJun 15, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nOur PhD scholarship proposal has been accepted for financing by the Unite! project!\n\n\nUsing Large Language Models in the Context of Understanding and Generating Geospatial Language and Data\n\n\nWe’re delighted to announce that the Unite! meta university project will be financing our proposal for a PhD position on the verge of NLP and geospatial data with a focus on large language models and content generation.\n\n\n\n\n\n\nMay 16, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoAI @ SigSpatial 2022!\n\n\nhighway2vec: representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nWe’re delighted to announce that our submission to GeoAI@SigSpatial 2022 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to their road network characteristics.\n\n\n\n\n\n\nOct 2, 2022\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at ARIC @ SigSpatial 2021!\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning Using OpenStreetMap Data\n\n\nWe’re delighted to announce that our submission to the 4th ACM SIGSPATIAL Workshop on Advances on Resilient and Intelligent Cities (ARIC) has been accepted! We’ll be presenting a paper on effective geographic transfer learning using OpenStreetMap region features for bike station location predictions.\n\n\n\n\n\n\nNov 1, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at ARIC @ SigSpatial 2021!\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning Using OpenStreetMap Data\n\n\nWe’re delighted to announce that our submission to the 4th ACM SIGSPATIAL Workshop on Advances on Resilient and Intelligent Cities (ARIC) has been accepted! We’ll be presenting a paper on effective geographic transfer learning using OpenStreetMap region features for bike station location predictions.\n\n\n\n\n\n\nNov 1, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoSearch @ SigSpatial 2021!\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nWe’re delighted to announce that our submission to GeoSearch @ SigSpatial 2021 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to public transport quality offering.\n\n\n\n\n\n\nOct 12, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoAI @ SigSpatial 2021!\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nWe’re delighted to announce that our submission to SigSpatial 2021 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to their urban and POI characteristics.\n\n\n\n\n\n\nOct 6, 2021\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "pages/news/mlinpl2023/index.html",
