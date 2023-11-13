@@ -13,25 +13,28 @@ categories:
   - OpenStreetMap
   - geospatial
   - diffusion
+  - AI 
   - map generation
-  - gpt
-description: This paper introduces a novel text promptable map generation model, leveraging recent advancements in generative models. Promptable map generation has broad applications, democratizing access to geographic data, enhancing decision-making, improving communication, and enabling customization. Map Diffusion generates maps based on textual descriptions, allowing users to describe a region, and the model generates a corresponding map. We conduct a comprehensive review of related work, highlighting the unique contributions of our model. We also provide insights into dataset creation, model architecture, training procedures, and experimental results. This research marks a significant step in harnessing generative models for map generation, opening doors for future exploration in this field.
+description: Map Diffusion is a novel text promptable map generation model, leveraging recent advancements in generative models. Promptable map generation has broad applications, democratizing access to geographic data, enhancing decision-making, improving communication, and enabling customization. Map Diffusion generates maps based on textual descriptions, allowing users to describe a region, and the model generates a corresponding map. We conduct a comprehensive review of related work, highlighting the unique contributions of our model. We also provide insights into dataset creation, model architecture, training procedures, and experimental results. This research marks a significant step in harnessing generative models for map generation, opening doors for future exploration in this field.
 
 about:
     template: jolla
     links:
-#       - text: Article
-#         icon: file-pdf
-#         href: https://arxiv.org/pdf/2310.13098.pdf
-#       - text: DOI
-#         icon: link
-#         href: https://doi.org/10.48550/arXiv.2310.13098
+      - text: Paper
+        icon: image
+        href: /pages/publications/map-diffusion/map_generation_ai_acm.pdf
+#      - text: DOI
+#        icon: link
+#        href: https://doi.org/10.1145/3486640.3491392
       - text: Code
         icon: code
         href: https://github.com/kraina-ai/map_diffusion
-#       - text: Presentation
-#         icon: file-pdf
-#         href: pages/publications/srai/srai_presentation.pdf
+      - text: Dataset 
+        icon: database
+        href: https://huggingface.co/datasets/kraina/text2tile
+      - text: Model 
+        icon: layers
+        href: https://huggingface.co/kraina/map_diffusion
 ---
 
 
@@ -59,3 +62,5 @@ series = {GEOAI '21}
   setModalContent(bibtex);
 </script>
 ``` -->
+
+We've made the dataset, model and code freely available. Enjoy!

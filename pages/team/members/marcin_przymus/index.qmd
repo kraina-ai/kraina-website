@@ -1,0 +1,38 @@
+---
+title: "Marcin Przymus"
+subtitle: AI Engineer, Map Diffusion creator
+description: "Spatial Data Scientist and an ML Engineer passionate about the geospatial domain and an author of highway2vec. Background in Computer and Data Science from the Wrocław University of Science and Technology and a proud member of the KRAINA Lab tackling geospatial problems."
+image: avatar.jpg
+toc: false
+about:
+    template: jolla  # https://quarto.org/docs/websites/website-about.html
+    image: avatar.jpg
+    id: intro-heading
+    links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/Calychas
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/kacper-lesniara
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/lesniara
+    - icon: envelope
+      text: Email
+      href: mailto:klesniara@kraina.ai
+
+---
+:::{#intro-heading}
+
+## Education
+
+Wroclaw University of Science and Technology | Wrocław, Poland MSc, Data Science | February 2020 - February 2022
+
+Wroclaw University of Science and Technology | Wrocław, Poland BSc, Computer Science | October 2016 - January 2020
+
+## Experience
+
+[GetInData](https://getindata.com/) | Machine Learning Engineer | November 2021 - Present
+
+:::
