@@ -1,7 +1,8 @@
 ---
 title: "Marcin Przymus"
-subtitle: AI Engineer, Map Diffusion creator
-description: "Spatial Data Scientist and an ML Engineer passionate about the geospatial domain and an author of highway2vec. Background in Computer and Data Science from the Wrocław University of Science and Technology and a proud member of the KRAINA Lab tackling geospatial problems."
+subtitle: AI Researcher, Machine Learning Engineer
+
+description: "Spatial Data Scientist and an ML Engineer passionate about the geospatial domain and an author of Map Diffusion. Background in Computer and Data Science from the Wrocław University of Science and Technology and a proud member of the KRAINA Lab tackling geospatial problems."
 image: avatar.jpg
 toc: false
 about:
@@ -11,28 +12,25 @@ about:
     links:
     - icon: github
       text: GitHub
-      href: https://github.com/Calychas
+      href: https://github.com/mprzymus
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/kacper-lesniara
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com/lesniara
+      href: https://www.linkedin.com/in/marcin-przymus-54255a273/
     - icon: envelope
       text: Email
-      href: mailto:klesniara@kraina.ai
+      href: mailto:mprzymus@kraina.ai
 
 ---
 :::{#intro-heading}
 
 ## Education
 
-Wroclaw University of Science and Technology | Wrocław, Poland MSc, Data Science | February 2020 - February 2022
+Wroclaw University of Science and Technology | Wrocław, Poland MSc, Artificial Intelligence | February 2021 - September 2023
 
-Wroclaw University of Science and Technology | Wrocław, Poland BSc, Computer Science | October 2016 - January 2020
+Wroclaw University of Science and Technology | Wrocław, Poland BSc, Computer Science | October 2018 - January 2021
 
 ## Experience
 
-[GetInData](https://getindata.com/) | Machine Learning Engineer | November 2021 - Present
+[bards.ai](https://bards.ai/) | Machine Learning Engineer | July 2023 - Present
 
 :::
