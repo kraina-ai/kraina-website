@@ -8,10 +8,10 @@
 
 <meta name="author" content="Marcin Przymus">
 <meta name="author" content="Piotr Szymański">
-<meta name="dcterms.date" content="2023-08-14">
+<meta name="dcterms.date" content="2023-11-13">
 <meta name="description" content="Map Diffusion is a novel text promptable map generation model, leveraging recent advancements in generative models. Promptable map generation has broad applications, democratizing access to geographic data, enhancing decision-making, improving communication, and enabling customization. Map Diffusion generates maps based on textual descriptions, allowing users to describe a region, and the model generates a corresponding map. We conduct a comprehensive review of related work, highlighting the unique contributions of our model. We also provide insights into dataset creation, model architecture, training procedures, and experimental results. This research marks a significant step in harnessing generative models for map generation, opening doors for future exploration in this field.">
 
-<title>Kraina AI - Map Diffusion Text Promptable Map Generation Model</title>
+<title>Kraina AI - Map Diffusion - Text Promptable Map Generation Diffusion Model</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,13 +92,13 @@ cookieconsent.run({
   
 
 
-<meta property="og:title" content="Kraina AI - Map Diffusion Text Promptable Map Generation Model">
+<meta property="og:title" content="Kraina AI - Map Diffusion - Text Promptable Map Generation Diffusion Model">
 <meta property="og:description" content="Map Diffusion is a novel text promptable map generation model, leveraging recent advancements in generative models. Promptable map generation has broad applications, democratizing access to geographic data, enhancing decision-making, improving communication, and enabling customization. Map Diffusion generates maps based on textual descriptions, allowing users to describe a region, and the model generates a corresponding map. We conduct a comprehensive review of related work, highlighting the unique contributions of our model. We also provide insights into dataset creation, model architecture, training procedures, and experimental results. This research marks a significant step in harnessing generative models for map generation, opening doors for future exploration in this field.">
 <meta property="og:image" content="https://kraina.ai/assets/kraina-logo-bg.png">
 <meta property="og:site-name" content="Kraina AI">
 <meta property="og:image:height" content="1102">
 <meta property="og:image:width" content="1102">
-<meta name="twitter:title" content="Kraina AI - Map Diffusion Text Promptable Map Generation Model">
+<meta name="twitter:title" content="Kraina AI - Map Diffusion - Text Promptable Map Generation Diffusion Model">
 <meta name="twitter:description" content="Map Diffusion is a novel text promptable map generation model, leveraging recent advancements in generative models. Promptable map generation has broad applications, democratizing access to geographic data, enhancing decision-making, improving communication, and enabling customization. Map Diffusion generates maps based on textual descriptions, allowing users to describe a region, and the model generates a corresponding map. We conduct a comprehensive review of related work, highlighting the unique contributions of our model. We also provide insights into dataset creation, model architecture, training procedures, and experimental results. This research marks a significant step in harnessing generative models for map generation, opening doors for future exploration in this field.">
 <meta name="twitter:image" content="https://kraina.ai/assets/kraina-logo-bg.png">
 <meta name="twitter:image-height" content="1102">
@@ -169,9 +169,11 @@ cookieconsent.run({
 <div class="quarto-about-jolla">
  <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Map Diffusion Text Promptable Map Generation Model</h1>
+<h1 class="title">Map Diffusion - Text Promptable Map Generation Diffusion Model</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">diffusion models</div>
+    <div class="quarto-category">OpenStreetMap</div>
+    <div class="quarto-category">geospatial</div>
+    <div class="quarto-category">diffusion</div>
     <div class="quarto-category">AI</div>
     <div class="quarto-category">map generation</div>
   </div>
@@ -192,11 +194,33 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 14, 2023</p>
+      <p class="date">November 13, 2023</p>
     </div>
   </div>
   </div>
 </header><main class="content" id="quarto-document-content">
+<!-- {{< include ../_citation_modal.qmd >}}
+<script>
+const bibtex = `@inproceedings{10.1145/3486635.3491076,
+author = {Wo\\'{z}niak, Szymon and Szyma\\'{n}ski, Piotr},
+title = {Hex2vec: Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags},
+year = {2021},
+isbn = {9781450391207},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3486635.3491076},
+doi = {10.1145/3486635.3491076},
+abstract = {Representation learning of spatial and geographic data is a rapidly developing field which allows for similarity detection between areas and high-quality inference using deep neural networks. Past approaches however concentrated on embedding raster imagery (maps, street or satellite photos), mobility data or road networks. In this paper we propose the first approach to learning vector representations of OpenStreetMap regions with respect to urban functions and land-use in a micro-region grid. We identify a subset of OSM tags related to major characteristics of land-use, building and urban region functions, types of water, green or other natural areas. Through manual verification of tagging quality, we selected 36 cities were for training region representations. Uber's H3 index was used to divide the cities into hexagons, and OSM tags were aggregated for each hexagon. We propose the hex2vec method based on the Skip-gram model with negative sampling. The resulting vector representations showcase semantic structures of the map characteristics, similar to ones found in vector-based language models. We also present insights from region similarity detection in six Polish cities and propose a region typology obtained through agglomerative clustering.},
+booktitle = {Proceedings of the 4th ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery},
+pages = {61–71},
+numpages = {11},
+keywords = {urban function and land-use embeddings, embedding, clustering, OpenStreetMap embeddings, spatial representation learning},
+location = {Beijing, China},
+series = {GEOAI '21}
+}`;
+  setModalContent(bibtex);
+</script>
+``` -->
 <p>We’ve made the dataset, model and code freely available. Enjoy!</p>
 
 
@@ -204,10 +228,10 @@ cookieconsent.run({
   <hr class="about-sep">
    <div class="about-links">
   <a href="/pages/publications/map-diffusion/map_generation_ai_acm.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-image"></i>
+    <i class="bi bi-file-pdf"></i>
      <span class="about-link-text">Paper</span>
   </a>
-  <a href="https://github.com/kraina-ai/srai" class="about-link" rel="" target="">
+  <a href="https://github.com/kraina-ai/map_diffusion" class="about-link" rel="" target="">
     <i class="bi bi-code"></i>
      <span class="about-link-text">Code</span>
   </a>
