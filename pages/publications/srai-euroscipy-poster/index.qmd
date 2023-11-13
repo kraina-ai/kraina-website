@@ -38,7 +38,7 @@ about:
         icon: mortarboard
         href: https://github.com/kraina-ai/srai-tutorial
       - text: Recording
-        icon: video
+        icon: link
         href: https://www.youtube.com/watch?v=JlyPh_AdQ8E
 ---
 

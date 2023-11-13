@@ -14,6 +14,7 @@ project:
     - pages/publications/srai/srai_presentation.pdf
     - pages/publications/utilizing-osm-data-in-geospatial-representation-learning/OSMScience_2023.pdf
     - pages/publications/map-diffusion/map_generation_ai_acm.pdf
+    - pages/publications/mapping-the-future/slides.pdf
 
 website:
   title: "Kraina AI"

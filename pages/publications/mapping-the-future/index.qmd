@@ -18,12 +18,12 @@ about:
     template: jolla
     links:
       - text: Slides
-        icon: image
+        icon: file-pdf
         href: /pages/publications/mapping-the-future/slides.pdf
 #      - text: DOI
 #        icon: link
 #        href: https://doi.org/10.1145/3486640.3491392
       - text: Recording
-        icon: video
+        icon: link
         href: https://youtu.be/W097SCPrpI0?si=jHxQCCeX4QdVx0M_&t=1592
 ---
