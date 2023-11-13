@@ -14,74 +14,60 @@
     "text": "We’ll be presenting our tutorial on the workshop day, November 2nd. You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Update: hex2vec has been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
   },
   {
-    "objectID": "pages/news/sigspatial2022/index.html",
-    "href": "pages/news/sigspatial2022/index.html",
-    "title": "Paper accepted at GeoAI @ SigSpatial 2022!",
-    "section": "",
-    "text": "The conference takes place Tuesday November 1 - Friday November 4, 2022, in Seattle, Washington. We’ll be presenting our tutorial on the workshop day, Tuesday, November 1st at 11:00 AM (USA/Seattle). You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Update: highway2vec has been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
-  },
-  {
-    "objectID": "pages/news/geosearch2021/index.html",
-    "href": "pages/news/geosearch2021/index.html",
-    "title": "Paper accepted at GeoSearch @ SigSpatial 2021!",
-    "section": "",
-    "text": "We’ll be presenting our tutorial on the workshop day, November 2nd. You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Update: gtfs2vec has been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
-  },
-  {
-    "objectID": "pages/news/index.html",
-    "href": "pages/news/index.html",
-    "title": "News",
-    "section": "",
-    "text": "SRAI: Towards Standardization of Geospatial AI\n\n\nPaper presented at the GeoAI @ SIGSPATIAL 2023!\n\n\nWe’re delighted to announce that our submission to the GeoAI workshop at SIGSPATIAL 2023 has been accepted! We’ll be presenting a paper describing our open-source library for geospatial data processing and represenation learning.\n\n\n\n\n\n\nNov 13, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nMap Diffusion – Text Promptable Map Generation Diffusion Model\n\n\nPaper presented at the UrbanAI @ SIGSPATIAL 2023!\n\n\nWe’re delighted to announce that our submission to the UrbanAI workshop at SIGSPATIAL 2023 has been accepted! We’ll be presenting a paper describing our open-source library for geospatial data processing and represenation learning.\n\n\n\n\n\n\nNov 13, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nUtilising OSM data in geospatial representation learning\n\n\nLightning talk presented at the OSMScience @ State of the Map 2023!\n\n\nWe’re delighted to announce that our abstract has been accepted! We’ll be an offline lightning talk at the conference. You can find more information in our publications page.\n\n\n\n\n\n\nNov 12, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nGeospatial Machine Learning Tutorial at ML in PL 2023\n\n\nIntroduction to Geospatial Machine Learning\n\n\nMembers of Kraina AI will be presenting a comprehensive tutorial on geospatial machine learning at the ML in PL Conference 2023 in Warsaw, Poland.\n\n\n\n\n\n\nOct 29, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nSRAI Tutorial Accepted at EuroSciPy 2023!\n\n\nIntroduction to Geospatial Machine Learning with SRAI\n\n\nWe’re delighted to announce that our submission to EuroSciPy 2023 has been accepted! We’ll be presenting a tutorial on geospatial machine learning with SRAI and a poster about the SRAI project.\n\n\n\n\n\n\nJun 15, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nOur PhD scholarship proposal has been accepted for financing by the Unite! project!\n\n\nUsing Large Language Models in the Context of Understanding and Generating Geospatial Language and Data\n\n\nWe’re delighted to announce that the Unite! meta university project will be financing our proposal for a PhD position on the verge of NLP and geospatial data with a focus on large language models and content generation.\n\n\n\n\n\n\nMay 16, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoAI @ SigSpatial 2022!\n\n\nhighway2vec: representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nWe’re delighted to announce that our submission to GeoAI@SigSpatial 2022 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to their road network characteristics.\n\n\n\n\n\n\nOct 2, 2022\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at ARIC @ SigSpatial 2021!\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning Using OpenStreetMap Data\n\n\nWe’re delighted to announce that our submission to the 4th ACM SIGSPATIAL Workshop on Advances on Resilient and Intelligent Cities (ARIC) has been accepted! We’ll be presenting a paper on effective geographic transfer learning using OpenStreetMap region features for bike station location predictions.\n\n\n\n\n\n\nNov 1, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at ARIC @ SigSpatial 2021!\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning Using OpenStreetMap Data\n\n\nWe’re delighted to announce that our submission to the 4th ACM SIGSPATIAL Workshop on Advances on Resilient and Intelligent Cities (ARIC) has been accepted! We’ll be presenting a paper on effective geographic transfer learning using OpenStreetMap region features for bike station location predictions.\n\n\n\n\n\n\nNov 1, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoSearch @ SigSpatial 2021!\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nWe’re delighted to announce that our submission to GeoSearch @ SigSpatial 2021 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to public transport quality offering.\n\n\n\n\n\n\nOct 12, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoAI @ SigSpatial 2021!\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nWe’re delighted to announce that our submission to SigSpatial 2021 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to their urban and POI characteristics.\n\n\n\n\n\n\nOct 6, 2021\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "pages/news/urbanai2023/index.html",
-    "href": "pages/news/urbanai2023/index.html",
-    "title": "Map Diffusion – Text Promptable Map Generation Diffusion Model",
-    "section": "",
-    "text": "We’ll be presenting our paper on the workshop day, November 13th. You can find more information in our publications page. We hope to see you there!"
-  },
-  {
-    "objectID": "pages/news/iwcts2021/index.html",
-    "href": "pages/news/iwcts2021/index.html",
+    "objectID": "pages/news/aric2021/index.html",
+    "href": "pages/news/aric2021/index.html",
     "title": "Paper accepted at ARIC @ SigSpatial 2021!",
     "section": "",
     "text": "We’ll be presenting on the workshop day, November 2nd at 10:00 AM local time. You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Feel free to see the demo of our solution.\nUpdate: transfer learning approaches have been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
   },
   {
-    "objectID": "pages/publications/hex2vec/index.html",
-    "href": "pages/publications/hex2vec/index.html",
-    "title": "hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags",
+    "objectID": "pages/news/mlinpl2023/index.html",
+    "href": "pages/news/mlinpl2023/index.html",
+    "title": "Geospatial Machine Learning Tutorial at ML in PL 2023",
     "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+    "text": "The tutorial, titled “Introduction to Geospatial Machine Learning,” is scheduled for Sunday, 29th October, from 09:00 - 13:00. Participants will gain insights into the geospatial domain using Python libraries and learn the applications of open-source geospatial data. A significant portion will highlight the features of the srai (Spatial Representation for Artificial Intelligence) library developed by our team, along with other libraries like GeoPandas, Shapely, osmnx, and scikit-learn. We’re enthusiastic about providing hands-on learning, and as such, tutorial materials will be shared in the form of Jupyter notebooks.\nPlease check:\n\nthe conference’s main website\nthe tutorial materials - GitHub\nthe registration page"
   },
   {
-    "objectID": "pages/publications/gtfs2vec/index.html",
-    "href": "pages/publications/gtfs2vec/index.html",
-    "title": "gtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions",
+    "objectID": "pages/news/unite2023/index.html",
+    "href": "pages/news/unite2023/index.html",
+    "title": "Our PhD scholarship proposal has been accepted for financing by the Unite! project!",
     "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+    "text": "The scholarship will be released jointly by the University of Lisbon and Wrocław University of Science and Technology, by advisors: Bruno Martins (UL) and Piotr Szymański (WrocławTech). More information can be found on the university website."
   },
   {
-    "objectID": "pages/publications/bus-delays/index.html",
-    "href": "pages/publications/bus-delays/index.html",
-    "title": "Spatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław",
+    "objectID": "pages/news/euroscipy2023/index.html",
+    "href": "pages/news/euroscipy2023/index.html",
+    "title": "SRAI Tutorial Accepted at EuroSciPy 2023!",
     "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+    "text": "The conference takes place from Monday, August 14, to Friday, August 18, in Basel, Switzerland. We’ll be presenting our tutorial on the first day, Monday, August 14 at 10:30 AM (Europe/Berlin). You can find more information on the conference’s main website and the schedule page. We hope to see you there!\n\nTutorial materials - GitHub\nPoster - PDF"
   },
   {
-    "objectID": "pages/publications/highway2vec/index.html",
-    "href": "pages/publications/highway2vec/index.html",
-    "title": "highway2vec - representing OpenStreetMap microregions with respect to their road network characteristics",
+    "objectID": "pages/contact/index.html",
+    "href": "pages/contact/index.html",
+    "title": "Contact us",
     "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+    "text": "If you would like to contact us, please use the following email: contact@kraina.ai\nYou can also use the form below. We will get back to you as soon as possible.\n\n \n\nYour Name*\n  \n\n\nE-mail address*\n\n\n\nMessage subject*\n  \n\n\nMessage*"
   },
   {
-    "objectID": "pages/publications/air-quality-campus-network/index.html",
-    "href": "pages/publications/air-quality-campus-network/index.html",
-    "title": "Assessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area",
+    "objectID": "pages/publications/map-diffusion/index.html",
+    "href": "pages/publications/map-diffusion/index.html",
+    "title": "Map Diffusion - Text Promptable Map Generation Diffusion Model",
     "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+    "text": "We’ve made the dataset, model and code freely available. Enjoy!"
+  },
+  {
+    "objectID": "pages/publications/srai-euroscipy-poster/index.html",
+    "href": "pages/publications/srai-euroscipy-poster/index.html",
+    "title": "Streamlining Geospatial Machine Learning with SRAI (+ tutorial video & code)",
+    "section": "",
+    "text": "We’ve made the recording and tutorial code freely available. Enjoy!"
+  },
+  {
+    "objectID": "pages/publications/index.html",
+    "href": "pages/publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Authors\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthors\n\n\nCategories\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nMap Diffusion - Text Promptable Map Generation Diffusion Model\n\n\nMarcin Przymus, Piotr Szymański\n\n\nOpenStreetMap,geospatial,diffusion,AI,map generation\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nSRAI: Towards Standardization of Geospatial AI\n\n\nPiotr Gramacki, Kacper Leśniara, Kamil Raczycki, Szymon Woźniak, Marcin Przymus, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,data processing,geospatial,urban data,library,standardization,pipeline,way of work\n\n\n\n\n\n\n\nNov 12, 2023\n\n\nUtilising OSM data in geospatial representation learning\n\n\nPiotr Gramacki, Kacper Leśniara, Kamil Raczycki, Szymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,data processing,geospatial,urban data,library,bike station system\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nStreamlining Geospatial Machine Learning with SRAI (+ tutorial video & code)\n\n\nSzymon Woźniak, Kamil Raczycki, Kacper Leśniara, Piotr Gramacki, Piotr Szymański\n\n\nrepresentation learning,software,library,recording\n\n\n\n\n\n\n\n\nMay 4, 2023\n\n\nMapping the Future: Generating Vector Map Layers using ChatGPT and Stable Diffusion for Map Imagery\n\n\nPiotr Szymański\n\n\ndiffusion models,AI,map generation\n\n\n\n\n\n\n\nNov 14, 2022\n\n\nhighway2vec - representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nKacper Leśniara, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,road network,clustering\n\n\n\n\n\n\n\nNov 18, 2021\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data\n\n\nKamil Raczycki, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,Bicycle-sharing system,Bicycle station\n\n\n\n\n\n\n\n\nNov 8, 2021\n\n\ngtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions\n\n\nPiotr Gramacki, Szymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,public transport,timetables\n\n\n\n\n\n\n\nNov 8, 2021\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nSzymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,urban function,land use,clustering\n\n\n\n\n\n\n\nJun 20, 2020\n\n\nAssessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area\n\n\nMarek Badura, Izabela Sówka, Piotr Szymański, Piotr Batog\n\n\nair quality,particulate matter,PM2.5 stratification\n\n\n\n\n\n\n\nNov 14, 2018\n\n\nSpatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław\n\n\nPiotr Szymański, Michał Żołnieruk, Piotr Oleszczyk, Igor Gisterek, Tomasz Kajdanowicz\n\n\nurban mobility,urban network,public transport,gps,vehicle location,clustering\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "pages/team/index.html",
@@ -231,60 +217,81 @@
     "text": "Cite\n\n\n  \n    \n      \n        Export citation"
   },
   {
-    "objectID": "pages/publications/index.html",
-    "href": "pages/publications/index.html",
-    "title": "Publications",
+    "objectID": "pages/publications/air-quality-campus-network/index.html",
+    "href": "pages/publications/air-quality-campus-network/index.html",
+    "title": "Assessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Authors\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthors\n\n\nCategories\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nMap Diffusion - Text Promptable Map Generation Diffusion Model\n\n\nMarcin Przymus, Piotr Szymański\n\n\nOpenStreetMap,geospatial,diffusion,AI,map generation\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nSRAI: Towards Standardization of Geospatial AI\n\n\nPiotr Gramacki, Kacper Leśniara, Kamil Raczycki, Szymon Woźniak, Marcin Przymus, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,data processing,geospatial,urban data,library,standardization,pipeline,way of work\n\n\n\n\n\n\n\nNov 12, 2023\n\n\nUtilising OSM data in geospatial representation learning\n\n\nPiotr Gramacki, Kacper Leśniara, Kamil Raczycki, Szymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,data processing,geospatial,urban data,library,bike station system\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nStreamlining Geospatial Machine Learning with SRAI (+ tutorial video & code)\n\n\nSzymon Woźniak, Kamil Raczycki, Kacper Leśniara, Piotr Gramacki, Piotr Szymański\n\n\nrepresentation learning,software,library,recording\n\n\n\n\n\n\n\nNov 14, 2022\n\n\nhighway2vec - representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nKacper Leśniara, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,road network,clustering\n\n\n\n\n\n\n\nNov 18, 2021\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data\n\n\nKamil Raczycki, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,Bicycle-sharing system,Bicycle station\n\n\n\n\n\n\n\n\nNov 8, 2021\n\n\ngtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions\n\n\nPiotr Gramacki, Szymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,public transport,timetables\n\n\n\n\n\n\n\nNov 8, 2021\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nSzymon Woźniak, Piotr Szymański\n\n\nrepresentation learning,OpenStreetMap,urban function,land use,clustering\n\n\n\n\n\n\n\nJun 20, 2020\n\n\nAssessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area\n\n\nMarek Badura, Izabela Sówka, Piotr Szymański, Piotr Batog\n\n\nair quality,particulate matter,PM2.5 stratification\n\n\n\n\n\n\n\nNov 14, 2018\n\n\nSpatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław\n\n\nPiotr Szymański, Michał Żołnieruk, Piotr Oleszczyk, Igor Gisterek, Tomasz Kajdanowicz\n\n\nurban mobility,urban network,public transport,gps,vehicle location,clustering\n\n\n\n\n\n\nNo matching items"
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
   },
   {
-    "objectID": "pages/publications/srai-euroscipy-poster/index.html",
-    "href": "pages/publications/srai-euroscipy-poster/index.html",
-    "title": "Streamlining Geospatial Machine Learning with SRAI (+ tutorial video & code)",
+    "objectID": "pages/publications/highway2vec/index.html",
+    "href": "pages/publications/highway2vec/index.html",
+    "title": "highway2vec - representing OpenStreetMap microregions with respect to their road network characteristics",
     "section": "",
-    "text": "We’ve made the recording and tutorial code freely available. Enjoy!"
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
   },
   {
-    "objectID": "pages/publications/map-diffusion/index.html",
-    "href": "pages/publications/map-diffusion/index.html",
-    "title": "Map Diffusion - Text Promptable Map Generation Diffusion Model",
+    "objectID": "pages/publications/bus-delays/index.html",
+    "href": "pages/publications/bus-delays/index.html",
+    "title": "Spatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław",
     "section": "",
-    "text": "We’ve made the dataset, model and code freely available. Enjoy!"
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
   },
   {
-    "objectID": "pages/contact/index.html",
-    "href": "pages/contact/index.html",
-    "title": "Contact us",
+    "objectID": "pages/publications/gtfs2vec/index.html",
+    "href": "pages/publications/gtfs2vec/index.html",
+    "title": "gtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions",
     "section": "",
-    "text": "If you would like to contact us, please use the following email: contact@kraina.ai\nYou can also use the form below. We will get back to you as soon as possible.\n\n \n\nYour Name*\n  \n\n\nE-mail address*\n\n\n\nMessage subject*\n  \n\n\nMessage*"
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
   },
   {
-    "objectID": "pages/news/euroscipy2023/index.html",
-    "href": "pages/news/euroscipy2023/index.html",
-    "title": "SRAI Tutorial Accepted at EuroSciPy 2023!",
+    "objectID": "pages/publications/hex2vec/index.html",
+    "href": "pages/publications/hex2vec/index.html",
+    "title": "hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags",
     "section": "",
-    "text": "The conference takes place from Monday, August 14, to Friday, August 18, in Basel, Switzerland. We’ll be presenting our tutorial on the first day, Monday, August 14 at 10:30 AM (Europe/Berlin). You can find more information on the conference’s main website and the schedule page. We hope to see you there!\n\nTutorial materials - GitHub\nPoster - PDF"
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
   },
   {
-    "objectID": "pages/news/unite2023/index.html",
-    "href": "pages/news/unite2023/index.html",
-    "title": "Our PhD scholarship proposal has been accepted for financing by the Unite! project!",
-    "section": "",
-    "text": "The scholarship will be released jointly by the University of Lisbon and Wrocław University of Science and Technology, by advisors: Bruno Martins (UL) and Piotr Szymański (WrocławTech). More information can be found on the university website."
-  },
-  {
-    "objectID": "pages/news/mlinpl2023/index.html",
-    "href": "pages/news/mlinpl2023/index.html",
-    "title": "Geospatial Machine Learning Tutorial at ML in PL 2023",
-    "section": "",
-    "text": "The tutorial, titled “Introduction to Geospatial Machine Learning,” is scheduled for Sunday, 29th October, from 09:00 - 13:00. Participants will gain insights into the geospatial domain using Python libraries and learn the applications of open-source geospatial data. A significant portion will highlight the features of the srai (Spatial Representation for Artificial Intelligence) library developed by our team, along with other libraries like GeoPandas, Shapely, osmnx, and scikit-learn. We’re enthusiastic about providing hands-on learning, and as such, tutorial materials will be shared in the form of Jupyter notebooks.\nPlease check:\n\nthe conference’s main website\nthe tutorial materials - GitHub\nthe registration page"
-  },
-  {
-    "objectID": "pages/news/aric2021/index.html",
-    "href": "pages/news/aric2021/index.html",
+    "objectID": "pages/news/iwcts2021/index.html",
+    "href": "pages/news/iwcts2021/index.html",
     "title": "Paper accepted at ARIC @ SigSpatial 2021!",
     "section": "",
     "text": "We’ll be presenting on the workshop day, November 2nd at 10:00 AM local time. You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Feel free to see the demo of our solution.\nUpdate: transfer learning approaches have been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
+  },
+  {
+    "objectID": "pages/news/urbanai2023/index.html",
+    "href": "pages/news/urbanai2023/index.html",
+    "title": "Map Diffusion – Text Promptable Map Generation Diffusion Model",
+    "section": "",
+    "text": "We’ll be presenting our paper on the workshop day, November 13th. You can find more information in our publications page. We hope to see you there!"
+  },
+  {
+    "objectID": "pages/news/index.html",
+    "href": "pages/news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "SRAI: Towards Standardization of Geospatial AI\n\n\nPaper presented at the GeoAI @ SIGSPATIAL 2023!\n\n\nWe’re delighted to announce that our submission to the GeoAI workshop at SIGSPATIAL 2023 has been accepted! We’ll be presenting a paper describing our open-source library for geospatial data processing and represenation learning.\n\n\n\n\n\n\nNov 13, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nMap Diffusion – Text Promptable Map Generation Diffusion Model\n\n\nPaper presented at the UrbanAI @ SIGSPATIAL 2023!\n\n\nWe’re delighted to announce that our submission to the UrbanAI workshop at SIGSPATIAL 2023 has been accepted! We’ll be presenting a paper describing our open-source library for geospatial data processing and represenation learning.\n\n\n\n\n\n\nNov 13, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nUtilising OSM data in geospatial representation learning\n\n\nLightning talk presented at the OSMScience @ State of the Map 2023!\n\n\nWe’re delighted to announce that our abstract has been accepted! We’ll be an offline lightning talk at the conference. You can find more information in our publications page.\n\n\n\n\n\n\nNov 12, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nGeospatial Machine Learning Tutorial at ML in PL 2023\n\n\nIntroduction to Geospatial Machine Learning\n\n\nMembers of Kraina AI will be presenting a comprehensive tutorial on geospatial machine learning at the ML in PL Conference 2023 in Warsaw, Poland.\n\n\n\n\n\n\nOct 29, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nSRAI Tutorial Accepted at EuroSciPy 2023!\n\n\nIntroduction to Geospatial Machine Learning with SRAI\n\n\nWe’re delighted to announce that our submission to EuroSciPy 2023 has been accepted! We’ll be presenting a tutorial on geospatial machine learning with SRAI and a poster about the SRAI project.\n\n\n\n\n\n\nJun 15, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nOur PhD scholarship proposal has been accepted for financing by the Unite! project!\n\n\nUsing Large Language Models in the Context of Understanding and Generating Geospatial Language and Data\n\n\nWe’re delighted to announce that the Unite! meta university project will be financing our proposal for a PhD position on the verge of NLP and geospatial data with a focus on large language models and content generation.\n\n\n\n\n\n\nMay 16, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nOur talk was accepted to Spatial Data Science Symposium’s workshop on Geography According to ChatGPT\n\n\nMapping the Future: Generating Vector Map Layers using ChatGPT and Stable Diffusion for Map Imagery\n\n\nKraina AI’s team leader will be presenting a vision talk on large models and map generation at the SDSS workshop.\n\n\n\n\n\n\nApr 17, 2023\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoAI @ SigSpatial 2022!\n\n\nhighway2vec: representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nWe’re delighted to announce that our submission to GeoAI@SigSpatial 2022 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to their road network characteristics.\n\n\n\n\n\n\nOct 2, 2022\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at ARIC @ SigSpatial 2021!\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning Using OpenStreetMap Data\n\n\nWe’re delighted to announce that our submission to the 4th ACM SIGSPATIAL Workshop on Advances on Resilient and Intelligent Cities (ARIC) has been accepted! We’ll be presenting a paper on effective geographic transfer learning using OpenStreetMap region features for bike station location predictions.\n\n\n\n\n\n\nNov 1, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at ARIC @ SigSpatial 2021!\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning Using OpenStreetMap Data\n\n\nWe’re delighted to announce that our submission to the 4th ACM SIGSPATIAL Workshop on Advances on Resilient and Intelligent Cities (ARIC) has been accepted! We’ll be presenting a paper on effective geographic transfer learning using OpenStreetMap region features for bike station location predictions.\n\n\n\n\n\n\nNov 1, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoSearch @ SigSpatial 2021!\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nWe’re delighted to announce that our submission to GeoSearch @ SigSpatial 2021 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to public transport quality offering.\n\n\n\n\n\n\nOct 12, 2021\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPaper accepted at GeoAI @ SigSpatial 2021!\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nWe’re delighted to announce that our submission to SigSpatial 2021 has been accepted! We’ll be presenting a paper on OpenStreetMap region representation learning with respect to their urban and POI characteristics.\n\n\n\n\n\n\nOct 6, 2021\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/news/geosearch2021/index.html",
+    "href": "pages/news/geosearch2021/index.html",
+    "title": "Paper accepted at GeoSearch @ SigSpatial 2021!",
+    "section": "",
+    "text": "We’ll be presenting our tutorial on the workshop day, November 2nd. You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Update: gtfs2vec has been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
+  },
+  {
+    "objectID": "pages/news/sigspatial2022/index.html",
+    "href": "pages/news/sigspatial2022/index.html",
+    "title": "Paper accepted at GeoAI @ SigSpatial 2022!",
+    "section": "",
+    "text": "The conference takes place Tuesday November 1 - Friday November 4, 2022, in Seattle, Washington. We’ll be presenting our tutorial on the workshop day, Tuesday, November 1st at 11:00 AM (USA/Seattle). You can find our paper at the arxiv website and the conference proceedings. We hope to see you there! Update: highway2vec has been implemented in our Spatial Representations for Artificial Intelligence library - SRAI."
+  },
+  {
+    "objectID": "pages/news/sdss2023-gpt/index.html",
+    "href": "pages/news/sdss2023-gpt/index.html",
+    "title": "Our talk was accepted to Spatial Data Science Symposium’s workshop on Geography According to ChatGPT",
+    "section": "",
+    "text": "Please check:\n\nthe workshop’s YT playlist\nour presentation page"
   },
   {
     "objectID": "pages/news/geoai2023/index.html",

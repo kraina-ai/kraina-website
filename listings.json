@@ -1,18 +1,18 @@
 [
   {
-    "listing": "/pages/news/index.html",
+    "listing": "/pages/publications/index.html",
     "items": [
-      "/pages/news/geoai2023/index.html",
-      "/pages/news/urbanai2023/index.html",
-      "/pages/news/osmscience2023/index.html",
-      "/pages/news/mlinpl2023/index.html",
-      "/pages/news/euroscipy2023/index.html",
-      "/pages/news/unite2023/index.html",
-      "/pages/news/sigspatial2022/index.html",
-      "/pages/news/aric2021/index.html",
-      "/pages/news/iwcts2021/index.html",
-      "/pages/news/geosearch2021/index.html",
-      "/pages/news/geoai2021/index.html"
+      "/pages/publications/map-diffusion/index.html",
+      "/pages/publications/srai/index.html",
+      "/pages/publications/utilizing-osm-data-in-geospatial-representation-learning/index.html",
+      "/pages/publications/srai-euroscipy-poster/index.html",
+      "/pages/publications/mapping-the-future/index.html",
+      "/pages/publications/highway2vec/index.html",
+      "/pages/publications/bike-stations/index.html",
+      "/pages/publications/gtfs2vec/index.html",
+      "/pages/publications/hex2vec/index.html",
+      "/pages/publications/air-quality-campus-network/index.html",
+      "/pages/publications/bus-delays/index.html"
     ]
   },
   {
@@ -27,18 +27,20 @@
     ]
   },
   {
-    "listing": "/pages/publications/index.html",
+    "listing": "/pages/news/index.html",
     "items": [
-      "/pages/publications/map-diffusion/index.html",
-      "/pages/publications/srai/index.html",
-      "/pages/publications/utilizing-osm-data-in-geospatial-representation-learning/index.html",
-      "/pages/publications/srai-euroscipy-poster/index.html",
-      "/pages/publications/highway2vec/index.html",
-      "/pages/publications/bike-stations/index.html",
-      "/pages/publications/gtfs2vec/index.html",
-      "/pages/publications/hex2vec/index.html",
-      "/pages/publications/air-quality-campus-network/index.html",
-      "/pages/publications/bus-delays/index.html"
+      "/pages/news/geoai2023/index.html",
+      "/pages/news/urbanai2023/index.html",
+      "/pages/news/osmscience2023/index.html",
+      "/pages/news/mlinpl2023/index.html",
+      "/pages/news/euroscipy2023/index.html",
+      "/pages/news/unite2023/index.html",
+      "/pages/news/sdss2023-gpt/index.html",
+      "/pages/news/sigspatial2022/index.html",
+      "/pages/news/aric2021/index.html",
+      "/pages/news/iwcts2021/index.html",
+      "/pages/news/geosearch2021/index.html",
+      "/pages/news/geoai2021/index.html"
     ]
   }
 ]
