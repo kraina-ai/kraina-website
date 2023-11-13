@@ -1,7 +1,7 @@
 ---
 image: /assets/kraina-logo-bg.png
 title: Kraina
-subtitle: Geospatial & Mobility Research Group at WUST
+subtitle: Geospatial & Mobility Research Group at WrocławTech
 title-block-banner: assets/banner-o.png
 # title-block-banner-color: grey
 format:
