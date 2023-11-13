@@ -21,7 +21,7 @@ about:
     template: jolla
     links:
       - text: Paper
-        icon: image
+        icon: file-pdf
         href: /pages/publications/map-diffusion/map_generation_ai_acm.pdf
 #      - text: DOI
 #        icon: link
