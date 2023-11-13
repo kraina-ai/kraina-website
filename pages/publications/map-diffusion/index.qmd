@@ -33,9 +33,6 @@ about:
       - text: Model 
         icon: layers
         href: https://huggingface.co/kraina/map_diffusion
-      - text: Recording
-        icon: video
-        href: https://www.youtube.com/watch?v=JlyPh_AdQ8E
 ---
 
 We've made the dataset, model and code freely available. Enjoy!
