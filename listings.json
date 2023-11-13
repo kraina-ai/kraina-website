@@ -1,5 +1,21 @@
 [
   {
+    "listing": "/pages/news/index.html",
+    "items": [
+      "/pages/news/geoai2023/index.html",
+      "/pages/news/urbanai2023/index.html",
+      "/pages/news/osmscience2023/index.html",
+      "/pages/news/mlinpl2023/index.html",
+      "/pages/news/euroscipy2023/index.html",
+      "/pages/news/unite2023/index.html",
+      "/pages/news/sigspatial2022/index.html",
+      "/pages/news/aric2021/index.html",
+      "/pages/news/iwcts2021/index.html",
+      "/pages/news/geosearch2021/index.html",
+      "/pages/news/geoai2021/index.html"
+    ]
+  },
+  {
     "listing": "/pages/team/index.html",
     "items": [
       "/pages/team/members/piotr_szymanski/index.html",
@@ -23,22 +39,6 @@
       "/pages/publications/hex2vec/index.html",
       "/pages/publications/air-quality-campus-network/index.html",
       "/pages/publications/bus-delays/index.html"
-    ]
-  },
-  {
-    "listing": "/pages/news/index.html",
-    "items": [
-      "/pages/news/geoai2023_map-diffusion/index.html",
-      "/pages/news/geoai2023_srai/index.html",
-      "/pages/news/osmscience2023/index.html",
-      "/pages/news/mlinpl2023/index.html",
-      "/pages/news/euroscipy2023/index.html",
-      "/pages/news/unite2023/index.html",
-      "/pages/news/sigspatial2022/index.html",
-      "/pages/news/aric2021/index.html",
-      "/pages/news/iwcts2021/index.html",
-      "/pages/news/geosearch2021/index.html",
-      "/pages/news/geoai2021/index.html"
     ]
   }
 ]
