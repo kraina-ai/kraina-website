@@ -10,6 +10,7 @@ listing:
     categories: True
     fields: [title, subtitle, author, description, date, image, reading-time]
     image-placeholder: placeholder.svg
+    page-size: 10
     sort:
         - "date desc"
 ---
