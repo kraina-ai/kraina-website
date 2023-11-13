@@ -34,6 +34,13 @@ Project Spatial Representations for Artificial Intelligence (srai) aims to provi
 
 See [SRAI](https://github.com/kraina-ai/srai) for more information.
 
+### Map Diffusion - Text Promptable Map Generation
+
+[![](/assets/map_generation.png){width=600}](http://kraina.ai/pages/publications/map-diffusion/)
+
+Map Diffusion is a novel text promptable map generation model, leveraging recent advancements in generative models. Promptable map generation has broad applications, democratizing access to geographic data, enhancing decision-making, improving communication, and enabling customization. Map Diffusion generates maps based on textual descriptions, allowing users to describe a region, and the model generates a corresponding map.
+
+See [the model](https://huggingface.co/kraina/map_diffusion) for more information or visit [the publication](/pages/publications/map-diffusion/index.qmd).
 
 ### Bicycle Sharing System - Station Location Recommendation
 
@@ -43,12 +50,3 @@ Based on data collected from 34 European cities, a method for automatically gene
 
 See [the website](https://kraina-ai.github.io/Transfer-learning-approach-to-bicycle-sharing-systems-station-location-planning-using-OpenStreetMap/) for more information or visit [the publication](/pages/publications/bike-stations/index.qmd).
 
-### Map Diffusion - Text Promptable Map Generation
-
-[![](/assets/map_generation.png){width=600}](http://kraina.ai/pages/publications/map-diffusion/)
-
-Map Diffusion is a novel text promptable map generation model, leveraging recent advancements in generative models. Promptable map generation has broad applications, democratizing access to geographic data, enhancing decision-making, improving communication, and enabling customization. Map Diffusion generates maps based on textual descriptions, allowing users to describe a region, and the model generates a corresponding map.
-
-See [the model](https://huggingface.co/kraina/map_diffusion) for more information or visit [the publication](/pages/publications/map-diffusion/index.qmd).
-
-</div>
