@@ -6,4 +6,3 @@ geopandas
 matplotlib
 mapclassify
 keplergl
-srai[all]

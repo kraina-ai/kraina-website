@@ -15,11 +15,13 @@ Kraina is a geospatial research group under Wrocław University of Science and T
 
 ### Installing
 
-To install the dependencies:
+* To install Quarto visit [here](https://quarto.org/docs/get-started/)
 
-```sh
-pip install -r requirements.txt
-```
+* To install the dependencies:
+
+    ```sh
+    pip install -r requirements.txt
+    ```
 
 ### Rendering
 

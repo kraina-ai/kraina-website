@@ -11,6 +11,9 @@ project:
   resources:
     - CNAME
     - pages/publications/srai-euroscipy-poster/poster.pdf
+    - pages/publications/srai/srai_presentation.pdf
+    - pages/publications/utilizing-osm-data-in-geospatial-representation-learning/OSMScience_2023.pdf
+    - pages/publications/map-diffusion/map_generation_ai_acm.pdf
 
 website:
   title: "Kraina AI"

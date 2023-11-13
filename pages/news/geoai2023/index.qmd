@@ -1,7 +1,7 @@
 ---
-title: "Paper accepted for the GeoAI @ SIGSPATIAL 2023!"
-subtitle: "SRAI: Towards Standardization of Geospatial AI"
-date: 2023-10-07
+title: "SRAI: Towards Standardization of Geospatial AI"
+subtitle: "Paper presented at the GeoAI @ SIGSPATIAL 2023!"
+date: 2023-11-13
 categories:
     - presentation
     - conference
@@ -11,4 +11,6 @@ description: "We're delighted to announce that our submission to the GeoAI works
 ---
 
 
-We'll be presenting our tutorial on the workshop day, November 13th. You can find the preprint version of our paper in the [arxiv repository](https://arxiv.org/abs/2310.13098). We hope to see you there!
+We'll be presenting our paper on the workshop day, November 13th. You can find more information in our [publications](../../publications/srai/) page. We hope to see you there!
+
+
