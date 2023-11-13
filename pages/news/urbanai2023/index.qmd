@@ -1,0 +1,16 @@
+---
+title: "Map Diffusion – Text Promptable Map Generation Diffusion Model"
+subtitle: "Paper presented at the UrbanAI @ SIGSPATIAL 2023!"
+date: 2023-11-13
+categories:
+    - presentation
+    - conference
+image: image.png
+
+description: "We're delighted to announce that our submission to the UrbanAI workshop at SIGSPATIAL 2023 has been accepted! We'll be presenting a paper describing our open-source library for geospatial data processing and represenation learning."
+---
+
+
+We'll be presenting our paper on the workshop day, November 13th. You can find more information in our [publications](../../publications/map-diffusion/) page. We hope to see you there!
+
+

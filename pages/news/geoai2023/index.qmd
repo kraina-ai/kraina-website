@@ -1,5 +1,5 @@
 ---
-title: "Map Diffusion – Text Promptable Map Generation Diffusion Model"
+title: "SRAI: Towards Standardization of Geospatial AI"
 subtitle: "Paper presented at the GeoAI @ SIGSPATIAL 2023!"
 date: 2023-11-13
 categories:
@@ -11,6 +11,6 @@ description: "We're delighted to announce that our submission to the GeoAI works
 ---
 
 
-We'll be presenting our tutorial on the workshop day, November 13th. You can find more information in our [publications](../../publications/srai/) page. We hope to see you there!
+We'll be presenting our paper on the workshop day, November 13th. You can find more information in our [publications](../../publications/srai/) page. We hope to see you there!
 
 
