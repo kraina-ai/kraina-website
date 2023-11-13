@@ -1,0 +1,11 @@
+---
+title: "Utilising OSM data in geospatial representation learning"
+subtitle: "Lightning talk presented at the OSMScience @ State of the Map 2023!"
+date: 2023-11-12
+categories:
+    - presentation
+    - conference
+image: image.png
+
+description: "We're delighted to announce that our abstract has been accepted! We'll be an offline lightning talk at the conference. You can find more information in our [publications](../../publications/utilizing-osm-data-in-geospatial-representation-learning/) page."
+---

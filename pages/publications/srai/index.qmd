@@ -1,0 +1,69 @@
+---
+twitter-card:
+  image: /assets/kraina-logo-bg.png
+open-graph:
+  image: /assets/kraina-logo-bg.png
+
+title: "SRAI: Towards Standardization of Geospatial AI"
+author:
+  - Piotr Gramacki
+  - Kacper Leśniara
+  - Kamil Raczycki
+  - Szymon Woźniak
+  - Marcin Przymus
+  - Piotr Szymański
+date: 2023-11-13
+categories:
+  - representation learning
+  - OpenStreetMap
+  - data processing
+  - geospatial 
+  - urban data
+  - library
+  - standardization
+  - pipeline
+  - way of work
+description: Spatial Representations for Artificial Intelligence (srai) is a Python library for working with geospatial data. The library can download geospatial data, split a given area into micro-regions using multiple algorithms and train an embedding model using various architectures. It includes baseline models as well as more complex methods from published works. Those capabilities make it possible to use srai in a complete pipeline for geospatial task solving. The proposed library is the first step to standardize the geospatial AI domain toolset. It is fully open-source and published under Apache 2.0 licence.
+
+about:
+    template: jolla
+    links:
+      - text: Article
+        icon: file-pdf
+        href: https://arxiv.org/pdf/2310.13098.pdf
+      - text: DOI
+        icon: link
+        href: https://doi.org/10.48550/arXiv.2310.13098
+      - text: Code
+        icon: code
+        href: https://github.com/kraina-ai/srai
+      - text: Presentation
+        icon: file-pdf
+        href: pages/publications/srai/srai_presentation.pdf
+---
+
+
+<!-- {{< include ../_citation_modal.qmd >}}
+
+```{=html}
+<script>
+const bibtex = `@inproceedings{10.1145/3486635.3491076,
+author = {Wo\\'{z}niak, Szymon and Szyma\\'{n}ski, Piotr},
+title = {Hex2vec: Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags},
+year = {2021},
+isbn = {9781450391207},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3486635.3491076},
+doi = {10.1145/3486635.3491076},
+abstract = {Representation learning of spatial and geographic data is a rapidly developing field which allows for similarity detection between areas and high-quality inference using deep neural networks. Past approaches however concentrated on embedding raster imagery (maps, street or satellite photos), mobility data or road networks. In this paper we propose the first approach to learning vector representations of OpenStreetMap regions with respect to urban functions and land-use in a micro-region grid. We identify a subset of OSM tags related to major characteristics of land-use, building and urban region functions, types of water, green or other natural areas. Through manual verification of tagging quality, we selected 36 cities were for training region representations. Uber's H3 index was used to divide the cities into hexagons, and OSM tags were aggregated for each hexagon. We propose the hex2vec method based on the Skip-gram model with negative sampling. The resulting vector representations showcase semantic structures of the map characteristics, similar to ones found in vector-based language models. We also present insights from region similarity detection in six Polish cities and propose a region typology obtained through agglomerative clustering.},
+booktitle = {Proceedings of the 4th ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery},
+pages = {61–71},
+numpages = {11},
+keywords = {urban function and land-use embeddings, embedding, clustering, OpenStreetMap embeddings, spatial representation learning},
+location = {Beijing, China},
+series = {GEOAI '21}
+}`;
+  setModalContent(bibtex);
+</script>
+``` -->
