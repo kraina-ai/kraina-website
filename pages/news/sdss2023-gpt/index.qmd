@@ -1,0 +1,17 @@
+---
+title: "Our talk was accepted to Spatial Data Science Symposium's workshop on Geography According to ChatGPT"
+subtitle: "Mapping the Future: Generating Vector Map Layers using ChatGPT and Stable Diffusion for Map Imagery"
+date: 2023-04-17
+categories:
+    - presentation
+    - conference
+image: image.png
+
+description: "Kraina AI's team leader will be presenting a vision talk on large models and map generation at the SDSS workshop."
+---
+
+Please check:
+
+* the workshop's [YT playlist](https://www.youtube.com/playlist?list=PLLPRl7FLqNFRwp90ore-DvzcwpvPk_-pI)
+
+* our [presentation page](/pages/publications/mapping-the-future/index.qmd)

@@ -8,7 +8,7 @@ title: "Map Diffusion Text Promptable Map Generation Model"
 author:
     - Marcin Przymus
     - Piotr Szymański
-date: 2023-08-14
+date: 2023-11-13
 categories:
     - diffusion models
     - AI 
