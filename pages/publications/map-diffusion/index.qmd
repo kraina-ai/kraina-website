@@ -1,0 +1,41 @@
+---
+twitter-card:
+  image: /assets/kraina-logo-bg.png
+open-graph:
+  image: /assets/kraina-logo-bg.png
+
+title: "Map Diffusion Text Promptable Map Generation Model"
+author:
+    - Marcin Przymus
+    - Piotr Szymański
+date: 2023-08-14
+categories:
+    - diffusion models
+    - AI 
+    - map generation
+description: "Map Diffusion is a novel text promptable map generation model, leveraging recent advancements in generative models. Promptable map generation has broad applications, democratizing access to geographic data, enhancing decision-making, improving communication, and enabling customization. Map Diffusion generates maps based on textual descriptions, allowing users to describe a region, and the model generates a corresponding map. We conduct a comprehensive review of related work, highlighting the unique contributions of our model. We also provide insights into dataset creation, model architecture, training procedures, and experimental results. This research marks a significant step in harnessing generative models for map generation, opening doors for future exploration in this field."
+
+about:
+    template: jolla
+    links:
+      - text: Paper
+        icon: image
+        href: /pages/publications/map-diffusion/map_generation_ai_acm.pdf
+#      - text: DOI
+#        icon: link
+#        href: https://doi.org/10.1145/3486640.3491392
+      - text: Code
+        icon: code
+        href: https://github.com/kraina-ai/srai
+      - text: Dataset 
+        icon: database
+        href: https://huggingface.co/datasets/kraina/text2tile
+      - text: Model 
+        icon: layers
+        href: https://huggingface.co/kraina/map_diffusion
+      - text: Recording
+        icon: video
+        href: https://www.youtube.com/watch?v=JlyPh_AdQ8E
+---
+
+We've made the dataset, model and code freely available. Enjoy!

@@ -4,7 +4,7 @@ twitter-card:
 open-graph:
   image: /assets/kraina-logo-bg.png
 
-title: "Streamlining Geospatial Machine Learning with SRAI"
+title: "Streamlining Geospatial Machine Learning with SRAI (+ tutorial video & code)"
 author:
     - Szymon Woźniak
     - Kamil Raczycki
@@ -16,6 +16,7 @@ categories:
     - representation learning
     - software
     - library
+    - recording
 description: "Spatial Representations for Artificial Intelligence (srai) is a Python library for working with geospatial data. The library can download geospatial data, split a given area
 into micro-regions using multiple algorithms and train an embedding model using various architectures. It includes baseline models as well as more complex methods from published works. 
 Those capabilities make it possible to use srai in a complete pipeline for geospatial task solving. We hope our library will take the first steps to standardize the geospatial AI domain. 
@@ -34,8 +35,11 @@ about:
         icon: code
         href: https://github.com/kraina-ai/srai
       - text: Tutorial
-        icon: book
+        icon: mortarboard
         href: https://github.com/kraina-ai/srai-tutorial
+      - text: Recording
+        icon: video
+        href: https://www.youtube.com/watch?v=JlyPh_AdQ8E
 ---
 
-We'll be presenting in person - see you there!
+We've made the recording and tutorial code freely available. Enjoy!
