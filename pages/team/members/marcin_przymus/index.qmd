@@ -1,6 +1,6 @@
 ---
-title: "Kacper Leśniara"
-subtitle: Machine Learning Engineer, SRAI co-creator
+title: "Marcin Przymus"
+subtitle: AI Engineer, Map Diffusion creator
 description: "Spatial Data Scientist and an ML Engineer passionate about the geospatial domain and an author of highway2vec. Background in Computer and Data Science from the Wrocław University of Science and Technology and a proud member of the KRAINA Lab tackling geospatial problems."
 image: avatar.jpg
 toc: false
