@@ -15,9 +15,23 @@ listing:
       sort:
         - "order"
         - "title asc"
+    - id: cooperators-listing
+      type: grid
+      contents: "cooperators/**/*.qmd"
+      image-placeholder: placeholder.svg
+      fields: [image, title, subtitle, description]
+      grid-item-align: center
+      sort:
+        - "order"
+        - "title asc"
 ---
 
-## Members
+## Group Members
+
+:::{#team-listing}
+:::
+
+## Cooperating Scientists
 
 :::{#team-listing}
 :::
