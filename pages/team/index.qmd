@@ -33,5 +33,5 @@ listing:
 
 ## Cooperating Scientists
 
-:::{#team-listing}
+:::{#cooperators-listing}
 :::
