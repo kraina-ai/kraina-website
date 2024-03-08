@@ -25,3 +25,4 @@ about:
         - text: Poster
           icon: file-pdf
           href: /pages/publications/ellis-winter-school-foundation-models/poster.pdf
+---
