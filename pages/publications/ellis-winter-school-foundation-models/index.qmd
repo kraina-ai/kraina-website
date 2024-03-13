@@ -25,7 +25,7 @@ about:
           href: https://amsterdam-fomo.github.io/
         - text: Poster
           icon: file-pdf
-          href: /pages/publications/ellis-amsterdam-2024/poster.pdf
+          href: pages/publications/ellis-winter-school-foundation-models/poster.pdf
         - text: SRAI library
           icon: github
           href: https://github.com/kraina-ai/srai
