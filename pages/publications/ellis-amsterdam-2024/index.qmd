@@ -14,7 +14,7 @@ categories:
     - geospatial
     - representation learning
     - foundation model
-description: "A poster presentation about the srai library, geospatial representation learning and vision for geospatial foundation model based on OpenStreetMap data. Presented during ELLIS Winter School on Foundation Models in Amsterdam 2023"
+description: "A poster presentation about the srai library, geospatial representation learning and vision for geospatial foundation model based on OpenStreetMap data. Presented during ELLIS Winter School on Foundation Models in Amsterdam 2024"
 
 about:
     template: jolla
