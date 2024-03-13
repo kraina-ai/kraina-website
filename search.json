@@ -133,6 +133,13 @@
     "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Authors\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthors\n\n\nCategories\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nTowards geospatial foundation model using OpenStreetMap data\n\n\nPiotr Gramacki, Piotr Szymański\n\n\nOpenStreetMap, geospatial, representation learning, foundation model\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nMap Diffusion - Text Promptable Map Generation Diffusion Model\n\n\nMarcin Przymus, Piotr Szymański\n\n\nOpenStreetMap, geospatial, diffusion, AI, map generation\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nSRAI: Towards Standardization of Geospatial AI\n\n\nPiotr Gramacki, Kacper Leśniara, Kamil Raczycki, Szymon Woźniak, Marcin Przymus, Piotr Szymański\n\n\nrepresentation learning, OpenStreetMap, data processing, geospatial, urban data, library, standardization, pipeline, way of work\n\n\n\n\n\n\n\nNov 12, 2023\n\n\nUtilising OSM data in geospatial representation learning\n\n\nPiotr Gramacki, Kacper Leśniara, Kamil Raczycki, Szymon Woźniak, Piotr Szymański\n\n\nrepresentation learning, OpenStreetMap, data processing, geospatial, urban data, library, bike station system\n\n\n\n\n\n\n\nAug 14, 2023\n\n\nStreamlining Geospatial Machine Learning with SRAI (+ tutorial video & code)\n\n\nSzymon Woźniak, Kamil Raczycki, Kacper Leśniara, Piotr Gramacki, Piotr Szymański\n\n\nrepresentation learning, software, library, recording\n\n\n\n\n\n\n\nMay 4, 2023\n\n\nMapping the Future: Generating Vector Map Layers using ChatGPT and Stable Diffusion for Map Imagery\n\n\nPiotr Szymański\n\n\ndiffusion models, AI, map generation\n\n\n\n\n\n\n\nNov 14, 2022\n\n\nhighway2vec - representing OpenStreetMap microregions with respect to their road network characteristics\n\n\nKacper Leśniara, Piotr Szymański\n\n\nrepresentation learning, OpenStreetMap, road network, clustering\n\n\n\n\n\n\n\nNov 18, 2021\n\n\nTransfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data\n\n\nKamil Raczycki, Piotr Szymański\n\n\nrepresentation learning, OpenStreetMap, Bicycle-sharing system, Bicycle station\n\n\n\n\n\n\n\nNov 8, 2021\n\n\ngtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions\n\n\nPiotr Gramacki, Szymon Woźniak, Piotr Szymański\n\n\nrepresentation learning, public transport, timetables\n\n\n\n\n\n\n\nNov 8, 2021\n\n\nhex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags\n\n\nSzymon Woźniak, Piotr Szymański\n\n\nrepresentation learning, OpenStreetMap, urban function, land use, clustering\n\n\n\n\n\n\n\nJun 20, 2020\n\n\nAssessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area\n\n\nMarek Badura, Izabela Sówka, Piotr Szymański, Piotr Batog\n\n\nair quality, particulate matter, PM2.5 stratification\n\n\n\n\n\n\n\nNov 14, 2018\n\n\nSpatio-Temporal Profiling of Public Transport Delays Based on Large-Scale Vehicle Positioning Data From GPS in Wrocław\n\n\nPiotr Szymański, Michał Żołnieruk, Piotr Oleszczyk, Igor Gisterek, Tomasz Kajdanowicz\n\n\nurban mobility, urban network, public transport, gps, vehicle location, clustering\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "pages/publications/air-quality-campus-network/index.html",
+    "href": "pages/publications/air-quality-campus-network/index.html",
+    "title": "Assessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area",
+    "section": "",
+    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
+  },
+  {
     "objectID": "pages/publications/bike-stations/index.html",
     "href": "pages/publications/bike-stations/index.html",
     "title": "Transfer Learning Approach to Bicycle-sharing Systems’ Station Location Planning using OpenStreetMap Data",
@@ -185,13 +192,6 @@
     "objectID": "pages/publications/hex2vec/index.html",
     "href": "pages/publications/hex2vec/index.html",
     "title": "hex2vec - Context-Aware Embedding H3 Hexagons with OpenStreetMap Tags",
-    "section": "",
-    "text": "Cite\n\n\n  \n    \n      \n        Export citation"
-  },
-  {
-    "objectID": "pages/publications/air-quality-campus-network/index.html",
-    "href": "pages/publications/air-quality-campus-network/index.html",
-    "title": "Assessing the usefulness of dense sensor network for PM2.5 monitoring on an academic campus area",
     "section": "",
     "text": "Cite\n\n\n  \n    \n      \n        Export citation"
   },
