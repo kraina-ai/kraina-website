@@ -17,6 +17,18 @@
     ]
   },
   {
+    "listing": "/pages/team/index.html",
+    "items": [
+      "/pages/team/members/piotr_szymanski/index.html",
+      "/pages/team/members/kacper_lesniara/index.html",
+      "/pages/team/members/kamil_raczycki/index.html",
+      "/pages/team/members/marcin_przymus/index.html",
+      "/pages/team/members/piotr_gramacki/index.html",
+      "/pages/team/members/szymon_wozniak/index.html",
+      "/pages/team/cooperators/bruno_martins/index.html"
+    ]
+  },
+  {
     "listing": "/pages/publications/index.html",
     "items": [
       "/pages/publications/ellis-winter-school-foundation-models/index.html",
@@ -31,18 +43,6 @@
       "/pages/publications/hex2vec/index.html",
       "/pages/publications/air-quality-campus-network/index.html",
       "/pages/publications/bus-delays/index.html"
-    ]
-  },
-  {
-    "listing": "/pages/team/index.html",
-    "items": [
-      "/pages/team/members/piotr_szymanski/index.html",
-      "/pages/team/members/kacper_lesniara/index.html",
-      "/pages/team/members/kamil_raczycki/index.html",
-      "/pages/team/members/marcin_przymus/index.html",
-      "/pages/team/members/piotr_gramacki/index.html",
-      "/pages/team/members/szymon_wozniak/index.html",
-      "/pages/team/cooperators/bruno_martins/index.html"
     ]
   }
 ]
