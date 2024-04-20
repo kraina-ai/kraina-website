@@ -16,6 +16,7 @@ project:
     - pages/publications/map-diffusion/map_generation_ai_acm.pdf
     - pages/publications/mapping-the-future/slides.pdf
     - pages/publications/ellis-winter-school-foundation-models/poster.pdf
+    - pages/publications/placeholder.svg
 
 website:
   title: "Kraina AI"
