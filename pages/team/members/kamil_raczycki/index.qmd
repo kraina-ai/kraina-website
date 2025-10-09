@@ -1,6 +1,6 @@
 ---
 title: "Kamil Raczycki"
-subtitle: Location Intelligence Spatial Data Scientist, AI Researcher
+subtitle: Data Scientist
 # TODO: Intro description @RaczeQ
 description: ""
 image: avatar.jpg
