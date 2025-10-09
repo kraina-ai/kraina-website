@@ -1,0 +1,60 @@
+---
+title: "Julia Moska"
+subtitle: NLP Engineer & Researcher
+# TODO: Intro description @juliamoska
+# description: " AI & NLP researcher @ WUST "
+image: avatar.jpg
+toc: false
+about:
+    template: jolla  # https://quarto.org/docs/websites/website-about.html
+    image: avatar.jpg
+    id: intro-heading
+    links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/mskaa3
+    - icon: linkedin
+      text: LinkedIn
+      href: https://pl.linkedin.com/in/julia-moska
+    # - icon: twitter
+    #  text: twitter
+    #  href: 
+    - icon: scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=6GCbRM8AAAAJ&hl=en
+    - icon: envelope
+      text: Email
+      href: mailto:julia.moska@pwr.edu.pl
+    # - icon: facebook
+    #   text: Facebook
+    #   href: https://fb.com/<ID>
+---
+:::{#intro-heading}
+
+
+<!-- TODO: Description  @piotrgramacki -->
+NLP Engineer and Researcher at WUST. Primarily focused on LLM-based multi-agent systems and LLM alignment, with additional research interests in GeoAI. Co-creator of the OBSR benchmark in the SRAI library.
+
+## Education
+
+Wroclaw University of Science and Technology | PhD, Artifficial Intelligence | October 2024 - Present
+
+Wroclaw University of Science and Technology | BSc, Applied Mathematics | October 2021 - Present
+
+Wroclaw University of Science and Technology | MSc, Artifficial Intelligence | February 2023 - July 2024
+
+Wroclaw University of Science and Technology | BSc, Applied Computer Science | October 2019 - January 2023
+
+## Experience
+
+
+[CLARIN-PL](https://clarin-pl.eu) | NLP Engineer & Researcher | October 2022 - Present
+
+HIVE | NLP Engineer | January 2025 - December 2025
+
+[PLLuM](https://pllum.org.pl) | NLP Engineer | January 2024 - December 2024
+
+:::
+<!-- 
+---
+Aliqua esse id consequat dolor non est incididunt laborum excepteur. Amet sint deserunt reprehenderit id exercitation et id irure voluptate culpa officia proident nostrud amet. Sint officia laborum eiusmod ea mollit ut incididunt mollit nulla. Dolor aute ipsum velit officia incididunt ex. -->
