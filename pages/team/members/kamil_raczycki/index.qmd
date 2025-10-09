@@ -16,15 +16,12 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/raczyckikamil
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com/k_raczycki
     - icon: envelope
       text: Email
       href: mailto:kraczycki@kraina.ai
-    # - icon: scholar
-    #   text: Google Scholar
-    #   href: https://scholar.google.com/citations?hl=pl&user=<ID>
+    - icon: scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?hl=pl&user=XD6dyk4AAAAJ
     # - icon: facebook
     #   text: Facebook
     #   href: https://fb.com/<ID>
@@ -33,7 +30,7 @@ about:
 
 
 <!-- TODO: Description @RaczeQ -->
-
+Senior Data Scientist, specialising in the geospatial analysis. His work focuses on application of geospatial embeddings in machine learning domain for location intelligence tasks. He is acitvely working on open-source libraries supporting data science and engineering for geospatial data. He also had multiple appearances as a speaker at various conferences.
 
 
 ## Education
@@ -46,9 +43,11 @@ BSc, Computer Science | 2015 - 2019
 
 ## Experience
 
-Allegro | Location Intelligence Software Engineer | May 2022 - Present
+Dataplace.ai | Senior Data Scientist | Apr 2025 - Present
 
-Yoniee | Spatial Data Scientist | January 2022 - Present
+Allegro | Software Engineer & Data Scientist | May 2022 - Mar 2025
+
+Yoniee | Spatial Data Scientist | January 2022 - Dec 2023
 
 :::
 <!-- 
