@@ -1,0 +1,60 @@
+---
+twitter-card:
+  image: /assets/kraina-logo-bg.png
+open-graph:
+  image: /assets/kraina-logo-bg.png
+
+title: "OBSR: Open Benchmark for Spatial Representations"
+author:
+  - Julia Moska
+  - Oleksii Furman
+  - Kacper Kozaczko
+  - Szymon Leszkiewicz
+  - Jakub Polczyk
+  - Piotr Gramacki
+  - Piotr Szymański
+date: 2025-11-03
+categories:
+  - representation learning
+  - benchmark
+  - datasets
+  - OpenStreetMap
+  - data processing
+  - geospatial 
+  - urban data
+  - standardization
+  - pipeline
+
+description: This paper introduces a novel benchmark designed to assess the performance, accuracy, and efficiency of geospatial embedders. Our benchmark is modality-agnostic and comprises 7 distinct datasets from diverse cities across three continents, ensuring generalizability and mitigating demographic biases. It allows for the evaluation of GeoAI embedders on various phenomena that exhibit underlying geographic processes. Furthermore, we establish a simple and intuitive task-oriented model baselines, providing a crucial reference point for comparing more complex solutions. All related code is available in SRAI library.
+
+about:
+    template: jolla
+    links:
+      - text: Article
+        icon: file-pdf
+        href: https://arxiv.org/abs/2510.05879
+      - text: DOI
+        icon: link
+        href: https://doi.org/10.1145/3748636.3762783
+      - text: Code
+        icon: code
+        href: https://github.com/kraina-ai/srai
+---
+
+
+<!-- {{< include ../_citation_modal.qmd >}}
+
+```{=html}
+<script>
+const bibtex = `@misc{moska2025obsropenbenchmarkspatial,
+      title={OBSR: Open Benchmark for Spatial Representations}, 
+      author={Julia Moska and Oleksii Furman and Kacper Kozaczko and Szymon Leszkiewicz and Jakub Polczyk and Piotr Gramacki and Piotr Szymański},
+      year={2025},
+      eprint={2510.05879},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2510.05879}, 
+}`;
+  setModalContent(bibtex);
+</script>
+``` -->
